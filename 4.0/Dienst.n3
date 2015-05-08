@@ -1,0 +1,190 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Dienst a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Dienst.rdf> , <http://standaarden.overheid.nl/owms/terms/Dienst.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Dienst.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Dienst.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Dienst rdfs:label "Dienst"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Dienst"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:Dienst .
+
+overheid:Rijksdienst_voor_het_Cultureel_Erfgoed a overheid:Dienst ;
+	skos:prefLabel "Rijksdienst voor het Cultureel Erfgoed"@nl .
+
+overheid:Rijksinstituut_voor_Volksgezondheid_en_Milieu a overheid:Dienst ;
+	skos:prefLabel "Rijksinstituut voor Volksgezondheid en Milieu"@nl .
+
+overheid:Agentschap_NL a overheid:Dienst ;
+	skos:prefLabel "Agentschap NL"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:pianoo a overheid:Dienst ;
+	skos:prefLabel "PIANOo"@nl .
+
+overheid:Logius a overheid:Dienst ;
+	skos:prefLabel "Logius"@nl .
+
+overheid:Koninklijk_Nederlands_Meteorologisch_Instituut a overheid:Dienst ;
+	skos:prefLabel "Koninklijk Nederlands Meteorologisch Instituut"@nl .
+
+overheid:Rijkswaterstaat a overheid:Dienst ;
+	skos:prefLabel "Rijkswaterstaat"@nl .
+
+overheid:P-Direkt a overheid:Dienst ;
+	skos:prefLabel "P-Direkt"@nl .
+
+overheid:EVD a overheid:Dienst ;
+	skos:prefLabel "EVD"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+overheid:Domeinen_Roerende_Zaken a overheid:Dienst ;
+	skos:prefLabel "Domeinen Roerende Zaken"@nl .
+
+overheid:Centrale_Archief_Selectiedienst a overheid:Dienst ;
+	skos:prefLabel "Centrale Archief Selectiedienst"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Nederlandse_Emissieautoriteit a overheid:Dienst ;
+	skos:prefLabel "Nederlandse Emissieautoriteit"@nl .
+
+overheid:Justitiele_Uitvoeringsdienst_Toetsing_Integriteit_Screening a overheid:Dienst ;
+	skos:prefLabel "Justitiële Uitvoeringsdienst Toetsing, Integriteit, Screening"@nl .
+
+overheid:Immigratie-_en_Naturalisatiedienst a overheid:Dienst ;
+	skos:prefLabel "Immigratie- en Naturalisatiedienst"@nl .
+
+overheid:Defensie_Telematica_Organisatie a overheid:Dienst ;
+	skos:prefLabel "Defensie Telematica Organisatie"@nl .
+
+overheid:Octrooicentrum_Nederland a overheid:Dienst ;
+	skos:prefLabel "Octrooicentrum Nederland"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+overheid:Dienst_Publiek_en_Communicatie a overheid:Dienst ;
+	skos:prefLabel "Dienst Publiek en Communicatie"@nl .
+
+overheid:Dienst_Uitvoering_Onderwijs a overheid:Dienst ;
+	skos:prefLabel "Dienst Uitvoering Onderwijs"@nl .
+
+overheid:RVO a overheid:Dienst ;
+	skos:prefLabel "Rijksdienst voor Ondernemend Nederland"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:Nederlands_Vaccin_Instituut a overheid:Dienst ;
+	skos:prefLabel "Nederlands Vaccin Instituut"@nl .
+
+overheid:Centrale_Financien_Instelling a overheid:Dienst ;
+	skos:prefLabel "Centrale Financiën Instelling"@nl .
+
+overheid:Dienst_ICT_Uitvoering a overheid:Dienst ;
+	skos:prefLabel "Dienst ICT Uitvoering"@nl .
+
+overheid:Centraal_Informatiepunt_Beroepen_Gezondheidszorg a overheid:Dienst ;
+	skos:prefLabel "Centraal Informatiepunt Beroepen Gezondheidszorg"@nl .
+
+overheid:Nationaal_Archief a overheid:Dienst ;
+	skos:prefLabel "Nationaal Archief"@nl .
+
+overheid:Agentschap_College_ter_Beoordeling_van_Geneesmiddelen a overheid:Dienst ;
+	skos:prefLabel "Agentschap College ter Beoordeling van Geneesmiddelen"@nl .
+
+overheid:Agentschap_CBI a overheid:Dienst ;
+	skos:prefLabel "Agentschap CBI"@nl .
+
+overheid:Dienst_Justitiele_Inrichtingen a overheid:Dienst ;
+	skos:prefLabel "Dienst Justitiële Inrichtingen"@nl .
+
+overheid:Basisadministratie_Persoonsgegevens_en_Reisdocumenten a overheid:Dienst ;
+	skos:prefLabel "Basisadministratie Persoonsgegevens en Reisdocumenten"@nl .
+
+overheid:Korps_landelijke_politiediensten a overheid:Dienst ;
+	skos:prefLabel "Korps landelijke politiediensten"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Centraal_Justitieel_Incassobureau a overheid:Dienst ;
+	skos:prefLabel "Centraal Justitieel Incassobureau"@nl .
+
+overheid:rvig a overheid:Dienst ;
+	skos:prefLabel "Rijksdienst voor Identiteitsgegevens"@nl .
+
+overheid:SenterNovem a overheid:Dienst ;
+	skos:prefLabel "SenterNovem"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+overheid:Gemeenschappelijk_Dienstencentrum_ICT a overheid:Dienst ;
+	skos:prefLabel "Gemeenschappelijk Dienstencentrum ICT"@nl .
+
+overheid:Agentschap_SZW a overheid:Dienst ;
+	skos:prefLabel "Agentschap SZW"@nl .
+
+overheid:Belastingdienst a overheid:Dienst ;
+	skos:prefLabel "Belastingdienst"@nl .
+
+overheid:Werkmaatschappij a overheid:Dienst ;
+	skos:prefLabel "Werkmaatschappij"@nl .
+
+overheid:Dienst_Landelijk_Gebied a overheid:Dienst ;
+	skos:prefLabel "Dienst Landelijk Gebied"@nl .
+
+overheid:Plantenziektenkundige_Dienst a overheid:Dienst ;
+	skos:prefLabel "Plantenziektenkundige Dienst"@nl ;
+	overheid:endDate "2012-02-18"^^xsd:date .
+
+overheid:nso a overheid:Dienst ;
+	skos:prefLabel "Netherlands Space Office"@en ;
+	overheid:startDate "2009-01-01"^^xsd:string .
+
+overheid:Rijksvastgoed-_en_Ontwikkelingsbedrijf a overheid:Dienst ;
+	skos:prefLabel "Rijksvastgoed- en Ontwikkelingsbedrijf"@nl .
+
+overheid:Openbaar_Ministerie a overheid:Dienst ;
+	skos:prefLabel "Openbaar Ministerie"@nl .
+
+overheid:Nederlands_Forensisch_Instituut a overheid:Dienst ;
+	skos:prefLabel "Nederlands Forensisch Instituut"@nl .
+
+overheid:Politie a overheid:Dienst ;
+	skos:prefLabel "Politie"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Dienst_Vastgoed_Defensie a overheid:Dienst ;
+	skos:prefLabel "Dienst Vastgoed Defensie"@nl .
+
+overheid:Dienst_Regelingen a overheid:Dienst ;
+	skos:prefLabel "Dienst Regelingen"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:Rijksgebouwendienst a overheid:Dienst ;
+	skos:prefLabel "Rijksgebouwendienst"@nl .
+
+overheid:Landelijke_Faciliteit_Rampenbestrijding a overheid:Dienst ;
+	skos:prefLabel "Landelijke Faciliteit Rampenbestrijding"@nl .
+
+overheid:Paresto a overheid:Dienst ;
+	skos:prefLabel "Paresto"@nl .

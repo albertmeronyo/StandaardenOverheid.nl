@@ -1,0 +1,365 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:TaxonomieBeleidsagenda a overheid:Thesaurus ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/TaxonomieBeleidsagenda.rdf> , <http://standaarden.overheid.nl/owms/terms/TaxonomieBeleidsagenda.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/TaxonomieBeleidsagenda.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/TaxonomieBeleidsagenda.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:TaxonomieBeleidsagenda rdfs:label "Taxonomie Beleidsagenda"@nl , "Activiteitenindex"@nl ;
+	dcterms:identifier "TaxonomieBeleidsagenda" ;
+	skos:altLabel "Activiteitenindex"@nl ;
+	skos:hasTopConcept <http://standaarden.overheid.nl/owms/terms/Werk_(thema)> , <http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)> , overheid:Financien , overheid:Cultuur_en_recreatie , overheid:Bestuur , overheid:Internationaal , overheid:Natuur_en_milieu , overheid:Sociale_zekerheid , <http://standaarden.overheid.nl/owms/terms/Recht_(thema)> , overheid:Zorg_en_gezondheid , overheid:Migratie_en_integratie , overheid:Openbare_orde_en_veiligheid , <http://standaarden.overheid.nl/owms/terms/Huisvesting_(thema)> , overheid:Ruimte_en_infrastructuur , overheid:Economie , overheid:Onderwijs_en_wetenschap , <http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)> ;
+	skos:prefLabel "Taxonomie Beleidsagenda"@nl ;
+	a rdfs:Resource , skos:ConceptScheme .
+
+overheid:Belasting skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Belasting"@nl .
+
+overheid:Economie skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Economie"@nl .
+
+overheid:Media skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Media"@nl .
+
+overheid:Burgerlijk_recht skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Burgerlijk recht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Terrorisme_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Terrorisme"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Immigratie_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Immigratie"@nl .
+
+overheid:Begroting skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Begroting"@nl .
+
+overheid:Onderzoek_en_wetenschap skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Onderzoek en wetenschap"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Recht_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Recht"@nl .
+
+overheid:Reizen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Reizen"@nl .
+
+overheid:Natuur-_en_landschapsbeheer skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Natuur- en landschapsbeheer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Landbouw"@nl .
+
+overheid:Criminaliteit skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Criminaliteit"@nl .
+
+overheid:Waterschappen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Waterschappen"@nl .
+
+overheid:Stoffen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Stoffen"@nl .
+
+overheid:Werkgelegenheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Werkgelegenheid"@nl .
+
+overheid:Levensloop skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Levensloop"@nl .
+
+overheid:Bouwen_en_verbouwen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Bouwen en verbouwen"@nl .
+
+overheid:Tijdelijk_verblijf skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Tijdelijk verblijf"@nl .
+
+overheid:Gezin_en_kinderen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Gezin en kinderen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Jongeren_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Jongeren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Industrie_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Industrie"@nl .
+
+overheid:Strafrecht skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Strafrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voortgezet_onderwijs_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Voortgezet onderwijs"@nl .
+
+overheid:Ondernemen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ondernemen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gezondheidsrisico's> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Gezondheidsrisico's"@nl .
+
+overheid:Overige_vormen_van_onderwijs skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Overige vormen van onderwijs"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nederlanderschap_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Nederlanderschap"@nl .
+
+overheid:Onderwijs_en_wetenschap skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Onderwijs en wetenschap"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ontslag_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ontslag"@nl .
+
+overheid:Nabestaanden skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Nabestaanden"@nl .
+
+overheid:Markttoezicht skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Markttoezicht"@nl .
+
+overheid:Voeding skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Voeding"@nl .
+
+overheid:Bestuur skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Bestuur"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Weg_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Weg"@nl .
+
+overheid:Militaire_missies skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Militaire missies"@nl .
+
+overheid:Financien skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Financiën"@nl .
+
+overheid:Ethiek skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ethiek"@nl .
+
+overheid:Staatsrecht skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Staatsrecht"@nl .
+
+overheid:Europese_zaken skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Europese zaken"@nl .
+
+overheid:De_Nederlandse_Antillen_en_Aruba skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "De Nederlandse Antillen en Aruba"@nl .
+
+overheid:Organisatie_en_beleid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Organisatie en beleid"@nl .
+
+overheid:Verzekeringen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Verzekeringen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Basisonderwijs_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Basisonderwijs"@nl .
+
+overheid:Migratie_en_integratie skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Migratie en integratie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Werk_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Werk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Beroepsonderwijs_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Beroepsonderwijs"@nl .
+
+overheid:Rechtspraak skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Rechtspraak"@nl .
+
+overheid:Internationaal skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Internationaal"@nl .
+
+overheid:Bezwaar_en_klachten skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Bezwaar en klachten"@nl .
+
+overheid:Luchtvaart skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Luchtvaart"@nl .
+
+overheid:Provincies skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Provincies"@nl .
+
+overheid:Energie skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Energie"@nl .
+
+overheid:Staatsveiligheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Staatsveiligheid"@nl .
+
+overheid:Financieel_toezicht skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Financieel toezicht"@nl .
+
+overheid:Gemeenten skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Gemeenten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Transport_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Transport"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Geluid_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Geluid_(thema)"@nl .
+
+overheid:Planten skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Planten"@nl .
+
+overheid:Lucht skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Lucht"@nl .
+
+overheid:Handel skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Handel"@nl .
+
+overheid:Bodem skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Bodem"@nl .
+
+overheid:Ruimte_en_infrastructuur skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ruimte en infrastructuur"@nl .
+
+overheid:Netwerken skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Netwerken"@nl .
+
+overheid:Overige_economische_sectoren skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Overige economische sectoren"@nl .
+
+overheid:ICT skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "ICT"@nl .
+
+overheid:Werkloosheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Werkloosheid"@nl .
+
+overheid:Rijksoverheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Rijksoverheid"@nl .
+
+overheid:Ouderen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ouderen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Koninklijk_Huis_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Koninklijk Huis"@nl .
+
+overheid:Geneesmiddelen_en_medische_hulpmiddelen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Geneesmiddelen en medische hulpmiddelen"@nl .
+
+overheid:Bouwnijverheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Bouwnijverheid"@nl .
+
+overheid:Politie_brandweer_en_hulpdiensten skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Politie, brandweer en hulpdiensten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hoger_onderwijs_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Hoger onderwijs"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Water_(verkeer-thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Water"@nl .
+
+overheid:Ziekte_en_arbeidsongeschiktheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ziekte en arbeidsongeschiktheid"@nl .
+
+overheid:Bestuursrecht skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Bestuursrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dieren_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Dieren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Cultuur_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Cultuur"@nl .
+
+overheid:Religie skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Religie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Integratie_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Integratie"@nl .
+
+overheid:Voedselkwaliteit skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Voedselkwaliteit"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Verkeer_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Verkeer"@nl .
+
+overheid:Parlement skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Parlement"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Internationale_samenwerking_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Internationale samenwerking"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Afval_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Afval"@nl .
+
+overheid:Spoor skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Spoor"@nl .
+
+overheid:Sociale_zekerheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Sociale zekerheid"@nl .
+
+overheid:Waterkeringen_en_waterbeheer skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Waterkeringen en waterbeheer"@nl .
+
+overheid:Toerisme skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Toerisme"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Recreatie_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Recreatie"@nl .
+
+overheid:Ontwikkelingssamenwerking skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ontwikkelingssamenwerking"@nl .
+
+overheid:Arbeidsvoorwaarden skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Arbeidsvoorwaarden"@nl .
+
+overheid:Openbare_orde_en_veiligheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Openbare orde en veiligheid"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Huisvesting_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Huisvesting"@nl .
+
+overheid:Rampen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Rampen"@nl .
+
+overheid:Ziekten_en_behandelingen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ziekten en behandelingen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sport_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Sport"@nl .
+
+overheid:Cultuur_en_recreatie skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Cultuur en recreatie"@nl .
+
+overheid:Zorg_en_gezondheid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Zorg en gezondheid"@nl .
+
+overheid:Inkomensbeleid skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Inkomensbeleid"@nl .
+
+overheid:Huren_en_verhuren skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Huren en verhuren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Defensie_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Defensie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Emigratie_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Emigratie"@nl .
+
+overheid:Natuur_en_milieu skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Natuur en milieu"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Jongeren_(gezondheid-thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Jongeren"@nl .
+
+overheid:Kopen_en_verkopen skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Kopen en verkopen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Arbeidsomstandigheden_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Arbeidsomstandigheden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kunst_(thema)> skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "kunst"@nl .
+
+overheid:Ruimtelijke_ordening skos:inScheme overheid:TaxonomieBeleidsagenda ;
+	skos:prefLabel "Ruimtelijke ordening"@nl .

@@ -1,0 +1,114 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Informatietype a overheid:CV ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Informatietype.rdf> , <http://standaarden.overheid.nl/owms/terms/Informatietype.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Informatietype.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Informatietype.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Informatietype rdfs:label "Informatietype"@nl ;
+	dcterms:identifier "Informatietype" ;
+	skos:prefLabel "Informatietype"@nl ;
+	a rdfs:Resource , skos:ConceptScheme .
+
+overheid:databank skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "databank"@nl .
+
+overheid:vergunning skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "vergunning"@nl .
+
+overheid:wob-verzoek skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "wob-verzoek"@nl .
+
+overheid:contact skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "contact"@nl .
+
+overheid:productbeschrijving skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "productbeschrijving"@nl .
+
+overheid:richtlijn skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "richtlijn"@nl .
+
+overheid:beleidsinformatie skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "beleidsinformatie"@nl .
+
+overheid:bekendmaking skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "bekendmaking"@nl .
+
+overheid:vergaderinformatie skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "vergaderinformatie"@nl .
+
+overheid:folder skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "folder"@nl .
+
+overheid:overzichtspagina skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "overzichtspagina"@nl .
+
+overheid:officiële_publicatie skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "officiële publicatie"@nl .
+
+overheid:jaarplan skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "jaarplan"@nl .
+
+overheid:statistieken skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "statistieken"@nl .
+
+overheid:convenant skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "convenant"@nl .
+
+overheid:webpagina skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "webpagina"@nl .
+
+overheid:jaarverslag skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "jaarverslag"@nl .
+
+overheid:nieuwsbericht skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "nieuwsbericht"@nl .
+
+overheid:kamerstuk skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "kamerstuk"@nl .
+
+overheid:beleidsnota skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "beleidsnota"@nl .
+
+overheid:vragen skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "vragen"@nl .
+
+overheid:persbericht skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "persbericht"@nl .
+
+overheid:regeling skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "regeling"@nl .
+
+overheid:column skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "column"@nl .
+
+overheid:rapport skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "rapport"@nl .
+
+overheid:toespraak skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "toespraak"@nl .
+
+overheid:formulier skos:inScheme overheid:Informatietype ;
+	skos:prefLabel "formulier"@nl .

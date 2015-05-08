@@ -1,0 +1,52 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:HoogCollegeVanStaat a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/HoogCollegeVanStaat.rdf> , <http://standaarden.overheid.nl/owms/terms/HoogCollegeVanStaat.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/HoogCollegeVanStaat.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/HoogCollegeVanStaat.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:HoogCollegeVanStaat rdfs:label "Hoog college van staat"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Hoog college van staat"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:HoogCollegeVanStaat .
+
+overheid:Nationale_ombudsman a overheid:HoogCollegeVanStaat ;
+	skos:prefLabel "Nationale ombudsman"@nl .
+
+overheid:Algemene_Rekenkamer a overheid:HoogCollegeVanStaat ;
+	skos:prefLabel "Algemene Rekenkamer"@nl .
+
+overheid:Hoge_Raad_van_Adel a overheid:HoogCollegeVanStaat ;
+	skos:prefLabel "Hoge Raad van Adel"@nl .
+
+overheid:Raad_van_State a overheid:HoogCollegeVanStaat ;
+	skos:prefLabel "Raad van State"@nl .
+
+overheid:Kabinet_der_Koningin a overheid:HoogCollegeVanStaat ;
+	skos:prefLabel "Kabinet der Koningin"@nl .
+
+overheid:Kanselarij_der_Nederlandse_Orden a overheid:HoogCollegeVanStaat ;
+	skos:prefLabel "Kanselarij der Nederlandse Orden"@nl .

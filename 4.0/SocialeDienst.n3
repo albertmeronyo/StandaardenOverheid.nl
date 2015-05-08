@@ -1,0 +1,132 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:SocialeDienst a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/SocialeDienst.rdf> , <http://standaarden.overheid.nl/owms/terms/SocialeDienst.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/SocialeDienst.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/SocialeDienst.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:SocialeDienst rdfs:label "Sociale Dienst"@nl ;
+	rdfs:subClassOf overheid:RegionaalSamenwerkingsorgaan ;
+	skos:note "Bron: Lijst met Sociale Diensten van Divosa" ;
+	skos:prefLabel "Sociale Dienst"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Overheidsorganisatie , overheid:Organisatie , rdfs:Resource , overheid:SocialeDienst , overheid:Agent , dcterms:Agent , owl:Thing .
+
+overheid:ISD_BOL a overheid:SocialeDienst ;
+	skos:prefLabel "ISD BOL"@nl .
+
+overheid:Regionale_Sociale_Dienst_en_Kredietbank_Alblasserwaard_Vijfheerenlanden a overheid:SocialeDienst ;
+	skos:prefLabel "Regionale Sociale Dienst en Kredietbank Alblasserwaard/Vijfheerenlanden"@nl ;
+	overheid:startDate "2002-01-01"^^xsd:date .
+
+overheid:ISD_Assen a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Assen"@nl .
+
+overheid:Sociale_Dienst_Baarn_Bunschoten_Soest a overheid:SocialeDienst ;
+	skos:prefLabel "Sociale Dienst Baarn, Bunschoten, Soest"@nl .
+
+overheid:Optimisd a overheid:SocialeDienst ;
+	skos:prefLabel "Optimisd"@nl .
+
+overheid:RSD_Pentasz_Mergelland a overheid:SocialeDienst ;
+	skos:prefLabel "RSD Pentasz Mergelland"@nl .
+
+overheid:ISD_Noordenkwartier a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Noordenkwartier"@nl .
+
+overheid:Sociale_Dienst_Walcheren a overheid:SocialeDienst ;
+	skos:prefLabel "Sociale Dienst Walcheren"@nl .
+
+overheid:Dienst_Sociale_Zaken_en_Werkgelegenheid_Noardwest_Fryslan a overheid:SocialeDienst ;
+	skos:prefLabel "Dienst Sociale Zaken en Werkgelegenheid Noardwest Fryslân"@nl ;
+	overheid:startDate "1999-01-01"^^xsd:date .
+
+overheid:ISD_Midden-Langstraat a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Midden-Langstraat"@nl .
+
+overheid:ISD_Steenwijkerland a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Steenwijkerland"@nl .
+
+overheid:ISD_Kop_van_Noord-Holland a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Kop van Noord-Holland"@nl .
+
+overheid:Sociale_Dienst_Bommelerwaard a overheid:SocialeDienst ;
+	skos:prefLabel "Sociale Dienst Bommelerwaard"@nl .
+
+overheid:RSD_Hoekse_Waard a overheid:SocialeDienst ;
+	skos:prefLabel "RSD Hoekse Waard"@nl .
+
+overheid:Sociale_Dienst_Veluwerand a overheid:SocialeDienst ;
+	skos:prefLabel "Sociale Dienst Veluwerand"@nl .
+
+overheid:Intergemeentelijke_Sociale_Dienst_Zuidwest-Fryslan a overheid:SocialeDienst ;
+	skos:prefLabel "Intergemeentelijke Sociale Dienst Zuidwest-Fryslân"@nl .
+
+overheid:ISD_Bollenstreek a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Bollenstreek"@nl .
+
+overheid:ISD_Voorne-Putten-Rozenburg a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Voorne-Putten-Rozenburg"@nl .
+
+overheid:ISD_Drechtsteden a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Drechtsteden"@nl .
+
+overheid:Loket_Altena_voor_werk_inkomen_en_zorg a overheid:SocialeDienst ;
+	skos:prefLabel "Loket Altena voor werk, inkomen en zorg"@nl .
+
+overheid:ISD_De_Kempen a overheid:SocialeDienst ;
+	skos:prefLabel "ISD De Kempen"@nl .
+
+overheid:wphvwb a overheid:SocialeDienst ;
+	skos:prefLabel "Werkplein Hart van West-Brabant"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+overheid:Intergemeentelijk_Samenwerkingsverband_Werk_en_Inkomen a overheid:SocialeDienst ;
+	skos:prefLabel "Intergemeentelijk Samenwerkingsverband Werk en Inkomen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/ISD_Huizen,_Eemnes_&_Blaricum> a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Huizen, Eemnes & Blaricum"@nl .
+
+overheid:ISD_Kompas a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Kompas"@nl .
+
+overheid:ISD_CGM a overheid:SocialeDienst ;
+	skos:prefLabel "ISD CGM"@nl .
+
+overheid:Het_Plein a overheid:SocialeDienst ;
+	skos:prefLabel "Het Plein"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date .
+
+overheid:RSD_Kromme_Rijn_Heuvelrug a overheid:SocialeDienst ;
+	skos:prefLabel "RSD Kromme Rijn Heuvelrug"@nl .
+
+overheid:Sociale_Dienst_Oost-Achterhoek a overheid:SocialeDienst ;
+	skos:prefLabel "Sociale Dienst Oost-Achterhoek"@nl .
+
+overheid:ISD_Noordoost a overheid:SocialeDienst ;
+	skos:prefLabel "ISD Noordoost"@nl .
+
+overheid:ISD_De_Rijnstreek a overheid:SocialeDienst ;
+	skos:prefLabel "ISD De Rijnstreek"@nl .

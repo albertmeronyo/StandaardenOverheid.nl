@@ -1,0 +1,142 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Politiekorps a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Politiekorps.rdf> , <http://standaarden.overheid.nl/owms/terms/Politiekorps.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Politiekorps.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Politiekorps.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Politiekorps rdfs:label "Politiekorps"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Politiekorps"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:Politiekorps .
+
+overheid:Regiokorps_Politie_IJsselland a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie IJsselland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Rotterdam-Rijnmond a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Rotterdam-Rijnmond"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Brabant-Zuid-Oost a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Brabant-Zuid-Oost"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Zaanstreek-Waterland a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Zaanstreek-Waterland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Limburg-Noord a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Limburg-Noord"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Limburg-Zuid a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Limburg-Zuid"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Gooi_en_Vechtstreek a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Gooi en Vechtstreek"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Noord-_en_Oost-Gelderland a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Noord- en Oost-Gelderland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Groningen a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Groningen"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Midden-_en_West-Brabant a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Midden- en West-Brabant"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Haaglanden a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Haaglanden"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Kennemerland a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Kennemerland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Twente a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Twente"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Fryslan a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Fryslân"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Drenthe a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Drenthe"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Korps_landelijke_politiediensten a overheid:Politiekorps ;
+	skos:prefLabel "Korps landelijke politiediensten"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Amsterdam-Amstelland a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Amsterdam-Amstelland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Brabant-Noord a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Brabant-Noord"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Zeeland a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Zeeland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Hollands_Midden a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Hollands Midden"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Utrecht a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Utrecht"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Gelderland-Zuid a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Gelderland-Zuid"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Zuid-Holland-Zuid a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Zuid-Holland-Zuid"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Gelderland-Midden a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Gelderland-Midden"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Regiokorps_Politie_Flevoland a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Flevoland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Politie a overheid:Politiekorps ;
+	skos:prefLabel "Politie"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Regiokorps_Politie_Noord-Holland-Noord a overheid:Politiekorps ;
+	skos:prefLabel "Regiokorps Politie Noord-Holland-Noord"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .

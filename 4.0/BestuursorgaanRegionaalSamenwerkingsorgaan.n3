@@ -1,0 +1,45 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:BestuursorgaanRegionaalSamenwerkingsorgaan a overheid:CV ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/BestuursorgaanRegionaalSamenwerkingsorgaan.rdf> , <http://standaarden.overheid.nl/owms/terms/BestuursorgaanRegionaalSamenwerkingsorgaan.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/BestuursorgaanRegionaalSamenwerkingsorgaan.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/BestuursorgaanRegionaalSamenwerkingsorgaan.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:BestuursorgaanRegionaalSamenwerkingsorgaan rdfs:label "Bestuursorgaan Regionaal Samenwerkingsorgaan"@nl ;
+	dcterms:identifier "BestuursorgaanRegionaalSamenwerkingsorgaan" ;
+	skos:prefLabel "Bestuursorgaan Regionaal Samenwerkingsorgaan"@nl ;
+	a rdfs:Resource , skos:ConceptScheme .
+
+overheid:algemeen_bestuur skos:inScheme overheid:BestuursorgaanRegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "algemeen bestuur"@nl .
+
+overheid:dagelijks_bestuur skos:inScheme overheid:BestuursorgaanRegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "dagelijks bestuur"@nl .
+
+overheid:gemandateerde_functionaris skos:inScheme overheid:BestuursorgaanRegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "gemandateerde functionaris"@nl .
+
+overheid:gedelegeerde_functionaris skos:inScheme overheid:BestuursorgaanRegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "gedelegeerde functionaris"@nl .

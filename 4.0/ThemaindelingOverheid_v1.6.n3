@@ -1,0 +1,449 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+<http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> a overheid:Thesaurus ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6.rdf> , <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+<http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> rdfs:label "Thema-indeling Overheid v1.6"@nl ;
+	dcterms:identifier "ThemaindelingOverheid_v1.6" ;
+	skos:altLabel "Thema-indeling Overheid v1.6"@nl ;
+	skos:hasTopConcept overheid:Familie_jeugd_en_gezin , overheid:Uittreksels_en_registers , overheid:Consumentenzaken , overheid:Wonen_en_leefomgeving , overheid:Ondernemen , overheid:Cultuur_sport_en_vrije_tijd , overheid:Werk_en_loopbaan , overheid:Belastingen_uitkeringen_en_toeslagen , overheid:Buitenland_werken_wonen_en_reizen , overheid:Overheid_en_democratie , overheid:Rechtspraak_en_veiligheid , overheid:Zorg_en_gezondheid , overheid:Immigratie_inburgering_en_integratie , <http://standaarden.overheid.nl/owms/terms/Onderwijs_(thema)> , overheid:Natuur_en_milieu , overheid:Verkeer_voertuigen_en_wegen ;
+	skos:prefLabel "Thema-indeling Overheid v1.6"@nl ;
+	a rdfs:Resource , skos:ConceptScheme .
+
+overheid:Geboorte_en_adoptie skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Geboorte en adoptie"@nl .
+
+overheid:Integratie_en_naturalisatie skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Integratie en naturalisatie"@nl .
+
+overheid:Soorten_recht skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Soorten recht"@nl .
+
+overheid:Familie_jeugd_en_gezin skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Familie, jeugd en gezin"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Immigratie_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Immigratie"@nl .
+
+overheid:Rechtspraak_en_veiligheid skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Rechtspraak en veiligheid"@nl .
+
+overheid:Feestdagen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Feestdagen"@nl .
+
+overheid:Naamskeuze_naamgebruik_en_naamswijziging skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Naamskeuze, naamgebruik en naamswijziging"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Landbouw_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Landbouw"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Openbaar_vervoer_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Openbaar vervoer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Jeugd_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Jeugd"@nl .
+
+overheid:Bouwen_en_verbouwen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Bouwen en verbouwen"@nl .
+
+overheid:Gezag_en_voogdij skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Gezag en voogdij"@nl .
+
+overheid:Energie_en_waterleiding skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Energie en waterleiding"@nl .
+
+overheid:Werk_en_loopbaan skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Werk en loopbaan"@nl .
+
+overheid:Weer_aan_het_werk skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Weer aan het werk"@nl .
+
+overheid:Immigratie_inburgering_en_integratie skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Immigratie, inburgering en integratie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Inzage_register_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Inzage register"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Pensioenen_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Pensioenen"@nl .
+
+overheid:Reizen_en_gezondheid skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Reizen en gezondheid"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Inschrijving_register_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Inschrijving register"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Parkeren_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Parkeren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Verkeersregels_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verkeersregels"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voortgezet_onderwijs_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Voortgezet onderwijs"@nl .
+
+overheid:Paspoort_identiteitskaart_en_visum skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Paspoort, identiteitskaart en visum"@nl .
+
+overheid:Ondernemen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Ondernemen"@nl .
+
+overheid:Werken_met_een_handicap skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Werken met een handicap"@nl .
+
+overheid:Huisvesting_en_veiligheid_school skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Huisvesting en veiligheid school"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kinderopvang_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Kinderopvang"@nl .
+
+overheid:Woning_huren_en_verhuren skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Woning huren en verhuren"@nl .
+
+overheid:Wonen_en_vergunningen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Wonen en vergunningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Persoonlijke_ontwikkeling_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Persoonlijke ontwikkeling"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Verlofregelingen_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verlofregelingen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ontslag_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Ontslag"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Infrastructuur_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Infrastructuur"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schoolvakanties_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Schoolvakanties"@nl .
+
+overheid:Overheid_en_democratie skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Overheid en democratie"@nl .
+
+overheid:Radio_en_televisie skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Radio en televisie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Identificatie_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Identificatie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Inburgering_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Inburgering"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Organisatie_van_de_overheid_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Organisatie van de overheid"@nl .
+
+overheid:Hulp_en_verzorging skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Hulp en verzorging"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bodemvervuiling_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Bodemvervuiling"@nl .
+
+overheid:Bijstandsuitkeringen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Bijstandsuitkeringen"@nl .
+
+overheid:Uittreksels_en_verklaringen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Uittreksels en verklaringen"@nl .
+
+overheid:Financien skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Financiën"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Evenementen_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Evenementen"@nl .
+
+overheid:Financiele_dienstverlening_en_krediet skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Financiële dienstverlening en krediet"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Uitkering_bij_werkloosheid_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Uitkeringen bij werkloosheid"@nl .
+
+overheid:Beroepsonderwijs_en_volwasseneneducatie_bve skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Beroepsonderwijs en volwasseneneducatie (bve)"@nl .
+
+overheid:Verslaving skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verslaving"@nl .
+
+overheid:Gezinshereniging skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Gezinshereniging"@nl .
+
+overheid:Belastingen_uitkeringen_en_toeslagen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Belastingen, uitkeringen en toeslagen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gelijke_behandeling_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Gelijke behandeling"@nl .
+
+overheid:Werk_vinden skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Werk vinden"@nl .
+
+overheid:Buitenland_werken_wonen_en_reizen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Buitenland: werken, wonen en reizen"@nl .
+
+overheid:Verkiezingen_en_politieke_partijen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verkiezingen en politieke partijen"@nl .
+
+overheid:Arbeidsovereenkomst_en_cao skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Arbeidsovereenkomst en cao"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/AOW_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "AOW"@nl .
+
+overheid:Verblijf_werk_en_studie_in_het_buitenland skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verblijf, werk en studie in het buitenland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Veiligheid_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Veiligheid"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Verkeersveiligheid_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verkeersveiligheid"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Basisonderwijs_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Basisonderwijs"@nl .
+
+overheid:Afval_en_recycling skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Afval en recycling"@nl .
+
+overheid:Leerplicht_en_voortijdig_schoolverlaten skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Leerplicht en voortijdig schoolverlaten"@nl .
+
+overheid:Bezwaar_en_beroep_overheid skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Bezwaar en beroep overheid"@nl .
+
+overheid:Verkeer_voertuigen_en_wegen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verkeer, voertuigen en wegen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dierenwelzijn_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Dierenwelzijn"@nl .
+
+overheid:Nederland_verlaten skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Nederland verlaten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Inkomensaanvulling_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Inkomensaanvulling"@nl .
+
+overheid:Organisatie_van_de_rechtspraak skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Organisatie van de rechtspraak"@nl .
+
+overheid:Speciaal_onderwijs_en_leerproblemen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Speciaal onderwijs en leerproblemen"@nl .
+
+overheid:Vakantie_en_feestdagen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Vakantie en feestdagen"@nl .
+
+overheid:Ziekte_en_preventie skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Ziekte en preventie"@nl .
+
+overheid:Melding_openbare_ruimte skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Melding openbare ruimte"@nl .
+
+overheid:Legalisatie_buitenlandse_documenten skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Legalisatie buitenlandse documenten"@nl .
+
+overheid:Bedrijf_starten skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Bedrijf starten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Medezeggenschap_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Medezeggenschap"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Natuurbeheer_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Natuurbeheer"@nl .
+
+overheid:Producten_en_diensten_kopen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Producten en diensten kopen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Klimaatverandering_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Klimaatverandering"@nl .
+
+overheid:Cultuur_sport_en_vrije_tijd skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Cultuur, sport en vrije tijd"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Water_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Water"@nl .
+
+overheid:Huisvuil_en_grofvuil skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Huisvuil en grofvuil"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Scheiden_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Scheiden"@nl .
+
+overheid:Rechtsvormen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Rechtsvormen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Diploma's_en_certificaten> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Diploma's en certificaten"@nl .
+
+overheid:Uittreksels_en_registers skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Uittreksels en registers"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wijkverbetering_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Wijkverbetering"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Toeslagen_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Toeslagen"@nl .
+
+overheid:Kosten_zorg_en_zorgverzekering skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Kosten zorg en zorgverzekering"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Koninklijk_Huis_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Koninklijk Huis"@nl .
+
+overheid:Curatele_bewind_en_mentorschap skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Curatele, bewind en mentorschap"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voertuigen_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Voertuigen"@nl .
+
+overheid:Politie_brandweer_en_hulpdiensten skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Politie, brandweer en hulpdiensten"@nl .
+
+overheid:Verblijf_werk_en_studie_in_Nederland skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verblijf, werk en studie in Nederland"@nl .
+
+overheid:Jongeren_en_werk skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Jongeren en werk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Onderwijs_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Onderwijs"@nl .
+
+overheid:Kwaliteit_zorg_en_patientenrecht skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Kwaliteit zorg en patiëntenrecht"@nl .
+
+overheid:Samenwonen_huwelijk_en_geregistreerd_partnerschap skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Samenwonen, huwelijk en geregistreerd partnerschap"@nl .
+
+overheid:Kwaliteit_en_klachten_onderwijs skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Kwaliteit en klachten onderwijs"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Cultuur_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Cultuur"@nl .
+
+overheid:Geweld_overlast_en_mishandeling skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Geweld, overlast en mishandeling"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Privacy_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Privacy"@nl .
+
+overheid:Voedselkwaliteit skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Voedselkwaliteit"@nl .
+
+overheid:Rampen_en_epidemieen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Rampen en epidemieën"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Internationale_samenwerking_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Internationale samenwerking"@nl .
+
+overheid:Wonen_en_leefomgeving skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Wonen en leefomgeving"@nl .
+
+overheid:Onderwijs_en_samenleving skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Onderwijs en samenleving"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Milieubeleid_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Milieubeleid"@nl .
+
+overheid:Loopbaan_en_scholing skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Loopbaan en scholing"@nl .
+
+overheid:Woning_kopen_en_verkopen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Woning kopen en verkopen"@nl .
+
+overheid:Overlijden_en_erfenis skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Overlijden en erfenis"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Recreatie_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Recreatie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Openbare_voorzieningen_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Openbare voorzieningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Verenigingen_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Verenigingen"@nl .
+
+overheid:Hoger_beroepsonderwijs_hbo_en_wetenschappelijk_onderwijs_wo skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Hoger beroepsonderwijs (hbo) en wetenschappelijk onderwijs (wo)"@nl .
+
+overheid:Tegemoetkoming_kosten_onderwijs skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Tegemoetkoming kosten onderwijs"@nl .
+
+overheid:Sport_en_beweging skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Sport en beweging"@nl .
+
+overheid:Rechten_en_klachten_consument skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Rechten en klachten consument"@nl .
+
+overheid:Post_internet_en_telefonie skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Post, internet en telefonie"@nl .
+
+overheid:Asielaanvraag skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Asielaanvraag"@nl .
+
+overheid:Consumentenzaken skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Consumentenzaken"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kosten_onderwijs_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Kosten onderwijs"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vrijwilligerswerk_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Vrijwilligerswerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rijbewijs_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Rijbewijs"@nl .
+
+overheid:Zorg_en_gezondheid skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Zorg en gezondheid"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Uitkeringen_voor_zelfstandigen_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Uitkeringen voor zelfstandigen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vakopleidingen_cursussen_en_diploma's> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Vakopleidingen, cursussen en diploma's"@nl .
+
+overheid:Gezond_en_veilig_wonen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Gezond en veilig wonen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Defensie_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Defensie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Emigratie_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Emigratie"@nl .
+
+overheid:Natuur_en_milieu skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Natuur en milieu"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Arbeidsomstandigheden_(thema)> skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Arbeidsomstandigheden"@nl .
+
+overheid:Belastingen_en_heffingen skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Belastingen en heffingen"@nl .
+
+overheid:Medische_techniek_en_ethiek skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Medische techniek en ethiek"@nl .
+
+overheid:Uitkering_bij_arbeidsongeschiktheid_of_ziekte skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Uitkeringen bij arbeidsongeschiktheid of ziekte"@nl .
+
+overheid:Ondernemingsplan skos:inScheme <http://standaarden.overheid.nl/owms/terms/ThemaindelingOverheid_v1.6> ;
+	skos:prefLabel "Ondernemingsplan"@nl .

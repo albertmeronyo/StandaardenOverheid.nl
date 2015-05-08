@@ -1,0 +1,45 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:AnderOpenbaarLichaam a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/AnderOpenbaarLichaam.rdf> , <http://standaarden.overheid.nl/owms/terms/AnderOpenbaarLichaam.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/AnderOpenbaarLichaam.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/AnderOpenbaarLichaam.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:AnderOpenbaarLichaam rdfs:label "Ander Openbaar Lichaam"@nl ;
+	rdfs:subClassOf overheid:OpenbaarLichaam ;
+	dcterms:date "2010-10-10"^^xsd:date ;
+	overheid:startDate "2010-10-10"^^xsd:date ;
+	skos:prefLabel "Ander Openbaar Lichaam"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Overheidsorganisatie , overheid:Organisatie , rdfs:Resource , overheid:AnderOpenbaarLichaam , overheid:Agent , dcterms:Agent , owl:Thing .
+
+overheid:Saba a overheid:AnderOpenbaarLichaam ;
+	skos:prefLabel "Saba"@nl .
+
+overheid:Bonaire a overheid:AnderOpenbaarLichaam ;
+	skos:prefLabel "Bonaire"@nl .
+
+overheid:Sint_Eustatius a overheid:AnderOpenbaarLichaam ;
+	skos:prefLabel "Sint Eustatius"@nl .

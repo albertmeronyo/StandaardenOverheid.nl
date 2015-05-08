@@ -1,0 +1,174 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Deelgemeente a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Deelgemeente.rdf> , <http://standaarden.overheid.nl/owms/terms/Deelgemeente.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Deelgemeente.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Deelgemeente.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Deelgemeente rdfs:label "Deelgemeente"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Deelgemeente"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:Deelgemeente .
+
+overheid:Amsterdam_-_Oost-Watergraafsmeer a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Oost/Watergraafsmeer"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Bos_en_Lommer a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Bos en Lommer"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Zuid a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Zuid"@nl ;
+	overheid:startDate "2010-05-01"^^xsd:date ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Oud_Zuid a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Oud Zuid"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Hoek_van_Holland a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Hoek van Holland"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Overschie a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Overschie"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Zuideramstel a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Zuideramstel"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Prins_Alexander a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Prins Alexander"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Centrum a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Centrum"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Charlois a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Charlois"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Nieuw-West a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Nieuw-West"@nl ;
+	overheid:startDate "2010-05-01"^^xsd:date ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Westpoort a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Westpoort"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Oud-West a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Oud-West"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Oost a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Oost"@nl ;
+	overheid:startDate "2010-05-01"^^xsd:date ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_West a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - West"@nl ;
+	overheid:startDate "2010-05-01"^^xsd:date ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Hillegersberg-Schiebroek a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Hillegersberg-Schiebroek"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Hoogvliet a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Hoogvliet"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Noord a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Noord"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Slotervaart a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Slotervaart"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Osdorp a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Osdorp"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Westerpark a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Westerpark"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Feijenoord a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Feijenoord"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Delfshaven a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Delfshaven"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Pernis a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Pernis"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Geuzenveld-Slotermeer a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Geuzenveld-Slotermeer"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Centrum a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Centrum"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_IJsselmonde a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - IJsselmonde"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_De_Baarsjes a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - De Baarsjes"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Noord a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Noord"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Zeeburg a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Zeeburg"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Amsterdam_-_Zuidoost a overheid:Deelgemeente ;
+	skos:prefLabel "Amsterdam - Zuidoost"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Centrumraad a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Centrumraad"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Rozenburg a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Rozenburg"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .
+
+overheid:Rotterdam_-_Kralingen-Crooswijk a overheid:Deelgemeente ;
+	skos:prefLabel "Rotterdam - Kralingen-Crooswijk"@nl ;
+	overheid:endDate "2014-03-19"^^xsd:date .

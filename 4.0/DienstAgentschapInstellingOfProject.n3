@@ -1,0 +1,166 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:DienstAgentschapInstellingOfProject a skos:ConceptScheme ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/DienstAgentschapInstellingOfProject.rdf> , <http://standaarden.overheid.nl/owms/terms/DienstAgentschapInstellingOfProject.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/DienstAgentschapInstellingOfProject.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/DienstAgentschapInstellingOfProject.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:DienstAgentschapInstellingOfProject a overheid:AgentScheme ;
+	rdfs:label "DienstAgentschapInstellingOfProject"@nl ;
+	dcterms:identifier "DienstAgentschapInstellingOfProject" ;
+	skos:prefLabel "DienstAgentschapInstellingOfProject"@nl ;
+	a rdfs:Resource , owl:Thing .
+
+overheid:Centrum_Arbeidsverhoudingen skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Centrum Arbeidsverhoudingen"@nl .
+
+overheid:Rijksdienst_voor_het_Cultureel_Erfgoed skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Rijksdienst voor het Cultureel Erfgoed"@nl .
+
+overheid:E-Overheid_voor_Burgers skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "E-Overheid voor Burgers"@nl .
+
+overheid:Douane skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Douane"@nl .
+
+overheid:Rijksvoorlichtingsdienst skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Rijksvoorlichtingsdienst"@nl .
+
+overheid:CP-ICT skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "CP-ICT"@nl .
+
+overheid:Algemeen_Burgerlijk_Pensioenfonds skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Algemeen Burgerlijk Pensioenfonds"@nl .
+
+overheid:Dutch_State_Treasury_Agency skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Dutch State Treasury Agency"@nl .
+
+overheid:Centraal_Planbureau skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Centraal Planbureau"@nl .
+
+overheid:Algemene_Inlichtingen_en_Veiligheidsdienst skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Algemene Inlichtingen en Veiligheidsdienst"@nl .
+
+overheid:Overheid_heeft_Antwoord skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Overheid heeft Antwoord"@nl .
+
+overheid:Tuchtcolleges_voor_de_Gezondheidszorg_cluster skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Tuchtcolleges voor de Gezondheidszorg (cluster)"@nl .
+
+overheid:Centraal_Justitieel_Incassobureau skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Centraal Justitieel Incassobureau"@nl .
+
+overheid:Nationaal_Coordinator_Terrorismebestrijding skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Nationaal Coördinator Terrorismebestrijding"@nl .
+
+overheid:Postbus_51 skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Postbus 51"@nl .
+
+overheid:Inspectieraad skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Inspectieraad"@nl .
+
+overheid:Inspraakpunt skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Inspraakpunt"@nl .
+
+overheid:Belastingdienst skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Belastingdienst"@nl .
+
+overheid:Raad_voor_de_Scheepvaart skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Raad voor de Scheepvaart"@nl .
+
+overheid:NEN skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "NEN"@nl .
+
+overheid:Openbaar_Ministerie skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Openbaar Ministerie"@nl .
+
+overheid:Nederlandse_Taalunie skos:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Nederlandse Taalunie"@nl .
+
+overheid:Centrum_Arbeidsverhoudingen overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Centrum Arbeidsverhoudingen"@nl .
+
+overheid:Rijksdienst_voor_het_Cultureel_Erfgoed overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Rijksdienst voor het Cultureel Erfgoed"@nl .
+
+overheid:E-Overheid_voor_Burgers overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "E-Overheid voor Burgers"@nl .
+
+overheid:Douane overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Douane"@nl .
+
+overheid:Rijksvoorlichtingsdienst overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Rijksvoorlichtingsdienst"@nl .
+
+overheid:CP-ICT overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "CP-ICT"@nl .
+
+overheid:Algemeen_Burgerlijk_Pensioenfonds overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Algemeen Burgerlijk Pensioenfonds"@nl .
+
+overheid:Dutch_State_Treasury_Agency overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Dutch State Treasury Agency"@nl .
+
+overheid:Centraal_Planbureau overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Centraal Planbureau"@nl .
+
+overheid:Algemene_Inlichtingen_en_Veiligheidsdienst overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Algemene Inlichtingen en Veiligheidsdienst"@nl .
+
+overheid:Overheid_heeft_Antwoord overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Overheid heeft Antwoord"@nl .
+
+overheid:Tuchtcolleges_voor_de_Gezondheidszorg_cluster overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Tuchtcolleges voor de Gezondheidszorg (cluster)"@nl .
+
+overheid:Centraal_Justitieel_Incassobureau overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Centraal Justitieel Incassobureau"@nl .
+
+overheid:Nationaal_Coordinator_Terrorismebestrijding overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Nationaal Coördinator Terrorismebestrijding"@nl .
+
+overheid:Postbus_51 overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Postbus 51"@nl .
+
+overheid:Inspectieraad overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Inspectieraad"@nl .
+
+overheid:Inspraakpunt overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Inspraakpunt"@nl .
+
+overheid:Belastingdienst overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Belastingdienst"@nl .
+
+overheid:Raad_voor_de_Scheepvaart overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Raad voor de Scheepvaart"@nl .
+
+overheid:NEN overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "NEN"@nl .
+
+overheid:Openbaar_Ministerie overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Openbaar Ministerie"@nl .
+
+overheid:Nederlandse_Taalunie overheid:inScheme overheid:DienstAgentschapInstellingOfProject ;
+	skos:prefLabel "Nederlandse Taalunie"@nl .

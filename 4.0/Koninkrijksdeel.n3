@@ -1,0 +1,50 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Koninkrijksdeel a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Koninkrijksdeel.rdf> , <http://standaarden.overheid.nl/owms/terms/Koninkrijksdeel.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Koninkrijksdeel.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Koninkrijksdeel.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Koninkrijksdeel rdfs:label "Koninkrijksdeel"@nl ;
+	rdfs:subClassOf overheid:Locatie ;
+	skos:prefLabel "Koninkrijksdeel"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf dcterms:Location , owl:Thing , rdfs:Resource , overheid:Koninkrijksdeel .
+
+overheid:Curacao a overheid:Koninkrijksdeel ;
+	skos:prefLabel "Curaçao"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sint_Maarten_(Nederlandse_Antillen)> a overheid:Koninkrijksdeel ;
+	skos:prefLabel "Sint Maarten"@nl .
+
+overheid:Nederland a overheid:Koninkrijksdeel ;
+	skos:prefLabel "Nederland"@nl .
+
+overheid:Nederlandse_Antillen a overheid:Koninkrijksdeel ;
+	skos:prefLabel "Nederlandse Antillen"@nl ;
+	overheid:endDate "2010-10-10"^^xsd:date .
+
+overheid:Aruba a overheid:Koninkrijksdeel ;
+	skos:prefLabel "Aruba"@nl .

@@ -1,0 +1,71 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Plusregio a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Plusregio.rdf> , <http://standaarden.overheid.nl/owms/terms/Plusregio.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Plusregio.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Plusregio.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Plusregio rdfs:label "Plusregio"@nl ;
+	rdfs:subClassOf overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Plusregio"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Overheidsorganisatie , overheid:Organisatie , rdfs:Resource , overheid:Plusregio , overheid:Agent , dcterms:Agent , owl:Thing .
+
+overheid:Samenwerkingsverband_Regio_Eindhoven a overheid:Plusregio ;
+	skos:prefLabel "Samenwerkingsverband Regio Eindhoven"@nl ;
+	overheid:startDate "1993-05-12"^^xsd:date .
+
+overheid:metregein a overheid:Plusregio ;
+	skos:prefLabel "Metropoolregio Eindhoven"@nl ;
+	overheid:startDate "1993-05-12"^^xsd:date .
+
+overheid:Stadsgewest_Haaglanden a overheid:Plusregio ;
+	skos:prefLabel "Stadsgewest Haaglanden"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:metregrdh a overheid:Plusregio ;
+	skos:prefLabel "Metropoolregio Rotterdam Den Haag"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:Parkstad_Limburg a overheid:Plusregio ;
+	skos:prefLabel "Parkstad Limburg"@nl .
+
+overheid:Stadsregio_Arnhem_Nijmegen a overheid:Plusregio ;
+	skos:prefLabel "Stadsregio Arnhem Nijmegen"@nl .
+
+overheid:Regio_Twente a overheid:Plusregio ;
+	skos:prefLabel "Regio Twente"@nl ;
+	overheid:startDate "1995-04-01"^^xsd:date .
+
+overheid:Stadsregio_Amsterdam a overheid:Plusregio ;
+	skos:prefLabel "Stadsregio Amsterdam"@nl ;
+	overheid:startDate "1992-05-01"^^xsd:date .
+
+overheid:Stadsregio_Rotterdam a overheid:Plusregio ;
+	skos:prefLabel "Stadsregio Rotterdam"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:Bestuur_Regio_Utrecht a overheid:Plusregio ;
+	skos:prefLabel "Bestuur Regio Utrecht"@nl .

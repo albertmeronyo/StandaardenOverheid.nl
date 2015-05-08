@@ -1,0 +1,615 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:ZelfstandigBestuursorgaan a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/ZelfstandigBestuursorgaan.rdf> , <http://standaarden.overheid.nl/owms/terms/ZelfstandigBestuursorgaan.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/ZelfstandigBestuursorgaan.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/ZelfstandigBestuursorgaan.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:ZelfstandigBestuursorgaan rdfs:label "Zelfstandig bestuursorgaan"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Zelfstandig bestuursorgaan"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , rdfs:Resource , overheid:ZelfstandigBestuursorgaan , owl:Thing .
+
+overheid:Raad_voor_het_Kwekersrecht a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Raad voor het Kwekersrecht"@nl .
+
+overheid:Stichting_Bureau_Architectenregister a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Bureau Architectenregister"@nl .
+
+overheid:cbp a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College bescherming persoonsgegevens"@nl .
+
+overheid:HISWA_Vereniging a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "HISWA Vereniging"@nl .
+
+overheid:Stichting_Airport_Coordination_Netherlands a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Airport Coordination Netherlands"@nl .
+
+overheid:sfp a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stimuleringsfonds voor de Pers"@nl ;
+	overheid:startDate "2007-07-01"^^xsd:date ;
+	overheid:endDate "2014-06-30"^^xsd:date .
+
+overheid:Stichting_Fonds_voor_de_Scheppende_Toonkunst a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds voor de Scheppende Toonkunst"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rijkshavenbeheerders_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Rijkshavenbeheerders (Cluster)"@nl .
+
+overheid:sfj a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stimuleringsfonds voor de journalistiek"@nl ;
+	overheid:startDate "2014-07-01"^^xsd:date .
+
+overheid:Stichting_Fonds_Watersnood a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds Watersnood"@nl .
+
+overheid:Vereniging_van_Landelijke_Organen_Beroepsonderwijs a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Vereniging van Landelijke Organen Beroepsonderwijs"@nl .
+
+overheid:Stichting_Nidos a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Nidos"@nl .
+
+overheid:College_van_Toezicht_Auteursrechten_en_naburige_rechten a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College van Toezicht Auteursrechten en naburige rechten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Examenscommissies_in_het_onderwijs_ingesteld_door_de_minister_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Examenscommissies in het onderwijs ingesteld door de minister (Cluster)"@nl .
+
+overheid:Autoriteit_Consument_en_Markt a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Autoriteit Consument en Markt"@nl ;
+	overheid:startDate "2013-04-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Huurcommissies_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Huurcommissies (Cluster)"@nl .
+
+overheid:Landelijke_en_Regionale_Examencommissies_verkeersinformatie_en_verkeersaanwijzingen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Landelijke en Regionale Examencommissies verkeersinformatie en verkeersaanwijzingen"@nl .
+
+overheid:College_ter_Beoordeling_van_Geneesmiddelen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College ter Beoordeling van Geneesmiddelen"@nl .
+
+overheid:Stichting_Ontwikkelings-_en_Saneringsfonds_voor_de_Visserij a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Ontwikkelings- en Saneringsfonds voor de Visserij"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Nederlands-Vlaamse_Accreditatie_Organisatie_voor_het__hoger_onderwijs a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlands-Vlaamse Accreditatie Organisatie voor het  hoger onderwijs"@nl .
+
+overheid:Stichting_Stimuleringsfonds_Openbare_Gezondheidszorg a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Stimuleringsfonds Openbare Gezondheidszorg"@nl .
+
+overheid:Stichting_Examens_Vakbekwaamheid_Honden-_en_kattenbesluit a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Examens Vakbekwaamheid Honden- en kattenbesluit"@nl .
+
+overheid:Service_Centrum_Grond a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Service Centrum Grond"@nl .
+
+overheid:Nederlandse_Organisatie_voor_Wetenschappelijk_Onderzoek a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlandse Organisatie voor Wetenschappelijk Onderzoek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Erkende_particuliere_onderzoeksbureaus_als_bedoeld_in_Schepenbesluit_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Erkende particuliere onderzoeksbureaus als bedoeld in Schepenbesluit (Cluster)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rijkshavenmeesters_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Rijkshavenmeesters (Cluster)"@nl .
+
+overheid:Stichting_Rechtsherstel_Sinti_en_Roma a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Rechtsherstel Sinti en Roma"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Raden_voor_Rechtsbijstand_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Raden voor Rechtsbijstand (Cluster)"@nl .
+
+overheid:Stichting_Uitvoering_Omslagregelingen_WTZ a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Uitvoering Omslagregelingen WTZ"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Centrale_organisatie_Werk_en_Inkomen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Centrale organisatie Werk en Inkomen"@nl .
+
+overheid:Stichting_Participatiefonds_voor_het_Onderwijs a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Participatiefonds voor het Onderwijs"@nl .
+
+overheid:Waarderingskamer a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Waarderingskamer"@nl .
+
+overheid:Zorg_Onderzoek_Nederland_Medische_Wetenschappen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Zorg Onderzoek Nederland/ Medische Wetenschappen"@nl .
+
+overheid:Examencommissie_voor_amateurradiozendexamens a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Examencommissie voor amateurradiozendexamens"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Grondkamers_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Grondkamers (Cluster)"@nl .
+
+overheid:Mondriaan_Fonds a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Mondriaan Fonds"@nl ;
+	overheid:startDate "2012-01-01"^^xsd:date .
+
+overheid:Koninklijke_Nederlandse_Akademie_van_Wetenschappen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Koninklijke Nederlandse Akademie van Wetenschappen"@nl .
+
+overheid:College_voor_Zorgverzekeringen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College voor Zorgverzekeringen"@nl .
+
+overheid:Voedselvoorzienings_In-_en_Verkoopbureau a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Voedselvoorzienings In- en Verkoopbureau"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:College_van_Toezicht_op_de_kansspelen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College van Toezicht op de kansspelen"@nl .
+
+overheid:Stichting_Inschrijving_Eigen_Vervoer a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Inschrijving Eigen Vervoer"@nl .
+
+overheid:Commissie_voor_de_Zeevisvaartexamens a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie voor de Zeevisvaartexamens"@nl .
+
+overheid:Onderlinge_Waarborg_Maatschappij_MAAV a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Onderlinge Waarborg Maatschappij \"MAAV\""@nl .
+
+overheid:College_gerechtelijk_deskundigen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College gerechtelijk deskundigen"@nl .
+
+overheid:Stichting_Nederlandse_Algemene_Keuringsdienst_voor_Zaaizaad_en_Pootgoed_Landbouwgewassen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Nederlandse Algemene Keuringsdienst voor Zaaizaad en Pootgoed Landbouwgewassen"@nl .
+
+overheid:Landelijk_Bureau_Inning_Onderhoudsbijdragen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Landelijk Bureau Inning Onderhoudsbijdragen"@nl .
+
+overheid:College_Tarieven_Gezondheidszorg a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College Tarieven Gezondheidszorg"@nl .
+
+overheid:Stichting_VAM a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting VAM"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/De_i.h.k.v._Metrologiewet_art._11_en_12_aangewezen_instanties_en_erkende_keurders_(cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "De i.h.k.v. Metrologiewet art. 11 en 12 aangewezen instanties en erkende keurders_(cluster)"@nl .
+
+overheid:Faunafonds a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Faunafonds"@nl .
+
+overheid:Staatsbosbeheer a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Staatsbosbeheer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Keuringsinstanties_pleziervaartuigen_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Keuringsinstanties pleziervaartuigen (Cluster)"@nl .
+
+overheid:Raad_voor_het_Korps_Landelijke_Politiediensten a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Raad voor het Korps Landelijke Politiediensten"@nl .
+
+overheid:Uitvoeringsinstituut_Werknemersverzekeringen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Uitvoeringsinstituut Werknemersverzekeringen"@nl .
+
+overheid:Stichting_Fonds_voor_Podiumprogrammering_en_marketing a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds voor Podiumprogrammering en marketing"@nl .
+
+overheid:Edelmetaal_Waarborg_Nederland a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Edelmetaal Waarborg Nederland"@nl .
+
+overheid:Sociale_Verzekeringsbank a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Sociale Verzekeringsbank"@nl .
+
+overheid:Commissie_voor_de_Examens_van_scheepswerktuigkundigen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie voor de Examens van scheepswerktuigkundigen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Keuringsinstanties_uitrusting_zeeschepen_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Keuringsinstanties uitrusting zeeschepen (Cluster)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stichting_Nederlands_Fonds_voor_Podiumkunsten+> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Nederlands Fonds voor Podiumkunsten+"@nl .
+
+overheid:Commissie_van_beheer_van_de_Dienst_geneeskundige_Verzorging_Politie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie van beheer van de Dienst geneeskundige Verzorging Politie"@nl .
+
+overheid:Landelijk_Selectie-_en_Opleidingsinstituut_Politie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Landelijk Selectie- en Opleidingsinstituut Politie"@nl .
+
+overheid:Commissariaat_voor_de_Media a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissariaat voor de Media"@nl .
+
+overheid:rfmcie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "referendumcommissie"@nl .
+
+overheid:College_voor_de_Toelating_van_Bestrijdingsmiddelen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College voor de Toelating van Bestrijdingsmiddelen"@nl ;
+	overheid:endDate "2007-02-16"^^xsd:date .
+
+overheid:Stichting_Fonds_vrijwillig_vervroegd_uittreden_overheidspersoneel a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds vrijwillig vervroegd uittreden overheidspersoneel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kamers_van_Koophandel_en_Fabrieken_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Kamers van Koophandel en Fabrieken (Cluster)"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:Bureau_Beheer_Landbouwgronden a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Bureau Beheer Landbouwgronden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Regionale_verwijzingscommissies_voortgezet_onderwijs_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Regionale verwijzingscommissies voortgezet onderwijs (Cluster)"@nl .
+
+overheid:Stichting_Nederlandse_Algemene_Keuringsdienst_Tuinbouw a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Nederlandse Algemene Keuringsdienst Tuinbouw"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Keuringsinstanties_VWS_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Keuringsinstanties VWS (Cluster)"@nl .
+
+overheid:Stichting_Vervangingsfonds_en_Bedrijfsgezondheidszorg_voor_het_Onderwijs a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Vervangingsfonds en Bedrijfsgezondheidszorg voor het Onderwijs"@nl .
+
+overheid:Bedrijfsfonds_voor_de_Pers a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Bedrijfsfonds voor de Pers"@nl ;
+	overheid:endDate "2007-06-30"^^xsd:date .
+
+overheid:Centraal_orgaan_Opvang_Asielzoekers a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Centraal orgaan Opvang Asielzoekers"@nl .
+
+overheid:Stichting_Waarborgfonds_Motorverkeer a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Waarborgfonds Motorverkeer"@nl .
+
+overheid:Mondriaan_Stichting a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Mondriaan Stichting"@nl ;
+	overheid:endDate "2011-12-31"^^xsd:date .
+
+overheid:Koninklijke_Bibliotheek a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Koninklijke Bibliotheek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stichting_Stimuleringsfonds_Nederlandse_Culturele_Mediaproducties_(Mediafonds)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Stimuleringsfonds Nederlandse Culturele Mediaproducties (Mediafonds)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Keuringsinstanties_als_bedoeld_in_artikel_10.3_Telecommunicatiewet_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Keuringsinstanties als bedoeld in artikel 10.3 Telecommunicatiewet (Cluster)"@nl .
+
+overheid:Raad_voor_plantenrassen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Raad voor plantenrassen"@nl ;
+	overheid:startDate "2006-01-01"^^xsd:date .
+
+overheid:Stichting_Centraal_Bureau_Rijvaardigheidsbewijzen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Centraal Bureau Rijvaardigheidsbewijzen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ziekenfondsen_(tevens_uitvoeringsorganen_AWBZ)_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Ziekenfondsen (tevens uitvoeringsorganen AWBZ) (Cluster)"@nl .
+
+overheid:CTGB a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College voor de toelating van gewasbeschermingsmiddelen en biociden"@nl ;
+	overheid:startDate "2007-02-17"^^xsd:date .
+
+overheid:Stichting_Ontwikkelings-_en_Saneringsfonds_voor_de_Landbouw a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Ontwikkelings- en Saneringsfonds voor de Landbouw"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Centrale_Commissie_voor_Mensgebonden_Onderzoek a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Centrale Commissie voor Mensgebonden Onderzoek"@nl .
+
+overheid:Stichting_Stimuleringsfonds_voor_Architectuur a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Stimuleringsfonds voor Architectuur"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stichting_Controlebureau_voor_Pluimvee,_Eieren_en_Eiproducten> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Controlebureau voor Pluimvee, Eieren en Eiproducten"@nl .
+
+overheid:Stichting_Nederlands_Literair_Produktie-_en_Vertalingenfonds a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Nederlands Literair Produktie- en Vertalingenfonds"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Stichting_Fonds_voor_de_Letteren a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds voor de Letteren"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Commissies_voor_de_samenstelling_van_de_verplichte_rassenlijsten_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissies voor de samenstelling van de verplichte rassenlijsten (Cluster)"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Commissie_Eindtermen_Accountantsopleiding a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie Eindtermen Accountantsopleiding"@nl .
+
+overheid:Stichting_Erkenningsregeling_voor_de_uitoefening_van_het_koeltechnisch_installatiebedrijf a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Erkenningsregeling voor de uitoefening van het koeltechnisch installatiebedrijf"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Commissies_voor_de_Gebiedsaanwijzing_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissies voor de Gebiedsaanwijzing (Cluster)"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Reconstructiecommissie_Midden-Delfland a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Reconstructiecommissie Midden-Delfland"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Commissie_Schadefonds_Geweldsmisdrijven a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie Schadefonds Geweldsmisdrijven"@nl .
+
+overheid:Landelijke_geschillencommissie_weer_samen_naar_school a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Landelijke geschillencommissie weer samen naar school"@nl .
+
+overheid:zin a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Zorginstituut Nederland"@nl .
+
+overheid:Stichting_Bloembollenkeuringsdienst a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Bloembollenkeuringsdienst"@nl .
+
+overheid:Pensioen-_en_Uitkeringsraad a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Pensioen- en Uitkeringsraad"@nl .
+
+overheid:De_Nederlandsche_Bank a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "De Nederlandsche Bank"@nl .
+
+overheid:Nationale_Commissie_voor_Internationale_Samenwerking_en_Duurzame_Ontwikkeling a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nationale Commissie voor Internationale Samenwerking en Duurzame Ontwikkeling"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/RDW_(Dienst_Wegverkeer)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "RDW (Dienst Wegverkeer)"@nl .
+
+overheid:College_Bouw_Ziekenhuisvoorzieningen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College Bouw Ziekenhuisvoorzieningen"@nl .
+
+overheid:TenneT a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "TenneT"@nl .
+
+overheid:Vereveningsinstantie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Vereveningsinstantie"@nl .
+
+overheid:Nederlandse_Organisatie_voor_toegepast-natuurwetenschappelijk_onderzoek_TNO a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlandse Organisatie voor toegepast-natuurwetenschappelijk onderzoek TNO"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Openbare_academische_ziekenhuizen_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Openbare academische ziekenhuizen (Cluster)"@nl .
+
+overheid:Centrale_Landinrichtingscommissie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Centrale Landinrichtingscommissie"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Stichting_Borgstellingsfonds_voor_de_Landbouw a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Borgstellingsfonds voor de Landbouw"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Kamer_van_Koophandel a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Kamer van Koophandel"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Gerechtsdeurwaarders_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Gerechtsdeurwaarders (Cluster)"@nl .
+
+overheid:College_bescherming_persoonsgegevens a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College Bescherming persoonsgegevens"@nl .
+
+overheid:Stichting_Centraal_Orgaan_voor_Kwaliteitsaangelegenheden_in_de_Zuivel a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Centraal Orgaan voor Kwaliteitsaangelegenheden in de Zuivel"@nl .
+
+overheid:Examencommissie_Certificaatloodsen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Examencommissie Certificaatloodsen"@nl .
+
+overheid:Nederlands_Instituut_voor_Brandweer_en_Rampenbestrijding a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlands Instituut voor Brandweer en Rampenbestrijding"@nl .
+
+overheid:Verispect_BV a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Verispect BV"@nl .
+
+overheid:Stichting_Joods_Humanitair_Fonds a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Joods Humanitair Fonds"@nl .
+
+overheid:Nederlandse_Transplantatie_Stichting a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlandse Transplantatie Stichting"@nl .
+
+overheid:Examencommissie_voor_de_Orde_van_octrooigemachtigden a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Examencommissie voor de Orde van octrooigemachtigden"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Stichting_Het_Gebaar a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Het Gebaar"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Stichting_Nederlands_Fonds_voor_de_Film a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Nederlands Fonds voor de Film"@nl .
+
+overheid:Kiesraad a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Kiesraad"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Landelijke-_en_Regionale_Examencommissies_verkeersinformatie_en_verkeersaanwijzingen_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Landelijke- en Regionale Examencommissies verkeersinformatie en verkeersaanwijzingen (Cluster)"@nl .
+
+overheid:Railned_BV a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Railned BV"@nl .
+
+overheid:Commissie_Stuurliedenexamens a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie Stuurliedenexamens"@nl .
+
+overheid:Bureau_Financieel_Toezicht a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Bureau Financieel Toezicht"@nl .
+
+overheid:College_voor_Examens a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College_voor_Examens"@nl .
+
+overheid:Stichting_Nationale_en_Internationale_Wegvervoer_Organisatie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Nationale en Internationale Wegvervoer Organisatie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Waarborg_Platina,_Goud_en_Zilver_NV> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Waarborg Platina, Goud en Zilver NV"@nl .
+
+overheid:Stichting_Fonds_voor_Amateurkunst_en_Podiumkunsten a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds voor Amateurkunst en Podiumkunsten"@nl .
+
+overheid:Examencommissie_voor_maritieme_radiocommunicatie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Examencommissie voor maritieme radiocommunicatie"@nl .
+
+overheid:Stichting_Fonds_voor_Cultuurparticipatie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds voor Cultuurparticipatie"@nl .
+
+overheid:Railverkeersleiding_BV a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Railverkeersleiding BV"@nl .
+
+overheid:Nederlands_Bureau_der_Motorrijtuigverzekeraars a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlands Bureau der Motorrijtuigverzekeraars"@nl .
+
+overheid:Luchtverkeersleiding_Nederland a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Luchtverkeersleiding Nederland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Keuringsinstanties_bouwproducten_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Keuringsinstanties bouwproducten (Cluster)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Registratiecommissies_en_opleidingscolleges_KNMG,_KNMP_en_NMT_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Registratiecommissies en opleidingscolleges KNMG, KNMP en NMT (Cluster)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stichting_Fonds_Beeldende_Kunsten,_Vormgeving_en_Bouwkunst> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds Beeldende Kunsten, Vormgeving en Bouwkunst"@nl .
+
+overheid:Commissie_Algemene_Oorlogsongevallenregeling_Indonesie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie Algemene Oorlogsongevallenregeling Indonesië"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Keuringsinstanties_V_&_W_overig_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Keuringsinstanties V & W overig (Cluster)"@nl .
+
+overheid:Stichting_Examenbureau_Beroepsvervoer a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Examenbureau Beroepsvervoer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Commissie_van_Beroep_als_bedoeld_in_art._3_Wet_rijonderricht_motorrijtuigen_1993> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie van Beroep als bedoeld in art. 3 Wet rijonderricht motorrijtuigen 1993"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Uitvoeringsorganen_AWBZ_(particuliere_ziektekostenverzekeraars_en_publiekrechtelijke_verzekeraars)_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Uitvoeringsorganen AWBZ (particuliere ziektekostenverzekeraars en publiekrechtelijke verzekeraars) (Cluster)"@nl .
+
+overheid:Nederlands_Meetinstituut_BV a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlands Meetinstituut BV"@nl .
+
+overheid:Centraal_Fonds_voor_de_Volkshuisvesting a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Centraal Fonds voor de Volkshuisvesting"@nl .
+
+overheid:Onafhankelijke_Post-_en_Telecommunicatie_Autoriteit a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Onafhankelijke Post- en Telecommunicatie Autoriteit"@nl ;
+	overheid:endDate "2013-03-31"^^xsd:date .
+
+overheid:Stichting_Fonds_Patienten_Gehandicapten_en_Ouderen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Fonds Patiënten Gehandicapten en Ouderen"@nl .
+
+overheid:Nederlandse_Publieke_Omroep a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlandse Publieke Omroep"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date .
+
+overheid:Nederlandse_Omroep_Stichting a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlandse Omroep Stichting"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+overheid:Stimuleringsfonds_Nederlandse_Culturele_Omroepproducties a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stimuleringsfonds Nederlandse Culturele Omroepproducties"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Certificerende_-_en_keuringsinstanties_arbeidsomstandigheden_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Certificerende - en keuringsinstanties arbeidsomstandigheden (Cluster)"@nl .
+
+overheid:College_van_Toezicht_op_de_Zorgverzekeringen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College van Toezicht op de Zorgverzekeringen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bedrijfstak-_en_beroepspensioenfondsen_(cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Bedrijfstak- en beroepspensioenfondsen"@nl .
+
+overheid:Stichting_SKAL a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting SKAL"@nl .
+
+overheid:Waarborg_Holland_BV a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Waarborg Holland BV"@nl .
+
+overheid:Nederlands_Bureau_Brandweerexamens a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlands Bureau Brandweerexamens"@nl .
+
+overheid:Stichting_Donorgegevens_Kunstmatige_Bevruchting a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Donorgegevens Kunstmatige Bevruchting"@nl .
+
+overheid:Stichting_Maror-gelden_Overheid a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Maror-gelden Overheid"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Keuringsinstanties_geluidshinder_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Keuringsinstanties geluidshinder (Cluster)"@nl .
+
+overheid:Stichting_Administratie_Indonesische_Pensioenen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Administratie Indonesische Pensioenen"@nl .
+
+overheid:Stichting_Ziektekostenverzekering_Krijgsmacht a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Ziektekostenverzekering Krijgsmacht"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Nederlandse_Mededingingsautoriteit a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Nederlandse Mededingingsautoriteit"@nl ;
+	overheid:endDate "2013-03-31"^^xsd:date .
+
+overheid:Dienst_voor_het_kadaster_en_de_openbare_registers a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Dienst voor het kadaster en de openbare registers"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Medisch-_ethische_toetsingscommissies_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Medisch- ethische toetsingscommissies (Cluster)"@nl .
+
+overheid:Landelijke_Commissie_Toezicht_Indicatiestelling_Speciaal_Onderwijs a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Landelijke Commissie Toezicht Indicatiestelling Speciaal Onderwijs"@nl .
+
+overheid:Autoriteit_Financiele_Markten a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Autoriteit Financiële Markten"@nl .
+
+overheid:Informatie_Beheer_Groep a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Informatie Beheer Groep"@nl .
+
+overheid:Stichting_Reclassering_Nederland a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Reclassering Nederland"@nl .
+
+overheid:College_Sanering_Ziekenhuisvoorzieningen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "College Sanering Ziekenhuisvoorzieningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Erkenninghouders_Algemene_Periodieke_Keuring_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Erkenninghouders Algemene Periodieke Keuring (Cluster)"@nl .
+
+overheid:Raad_voor_Accreditatie a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Raad voor Accreditatie"@nl .
+
+overheid:Herinrichtingcommissie_Oost-Groningen_en_de_Gronings-Drentse_Veenkolonien a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Herinrichtingcommissie Oost-Groningen en de Gronings-Drentse Veenkoloniën"@nl ;
+	overheid:endDate "2011-01-01"^^xsd:date .
+
+overheid:Centraal_Bureau_voor_de_Statistiek a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Centraal Bureau voor de Statistiek"@nl .
+
+overheid:Stichting_Nederlands_Letterenfonds a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Nederlands Letterenfonds"@nl .
+
+overheid:Kamer_voor_de_Binnenvisserij a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Kamer voor de Binnenvisserij"@nl .
+
+overheid:Stichting__Koninklijk_Onderwijsfonds_voor_de_Scheepvaart a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting  Koninklijk Onderwijsfonds voor de Scheepvaart"@nl .
+
+overheid:Commissie_Gelijke_Behandeling a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Commissie Gelijke Behandeling"@nl .
+
+overheid:Onderzoeksraad_voor_veiligheid a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Onderzoeksraad voor veiligheid"@nl .
+
+overheid:Stichting_Waarborgfonds_Eigen_Woningen a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Waarborgfonds Eigen Woningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/IJkbevoegden_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "IJkbevoegden (Cluster)"@nl .
+
+overheid:Organisatie_ter_Verbetering_van_de_Binnenvisserij a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Organisatie ter Verbetering van de Binnenvisserij"@nl .
+
+overheid:Stichting_Kwaliteitscontrolebureau_voor_Groenten_en_Fruit a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Stichting Kwaliteitscontrolebureau voor Groenten en Fruit"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Notarissen_(Cluster)> a overheid:ZelfstandigBestuursorgaan ;
+	skos:prefLabel "Notarissen (Cluster)"@nl .

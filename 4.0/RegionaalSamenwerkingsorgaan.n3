@@ -1,0 +1,906 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:RegionaalSamenwerkingsorgaan a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/RegionaalSamenwerkingsorgaan.rdf> , <http://standaarden.overheid.nl/owms/terms/RegionaalSamenwerkingsorgaan.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/RegionaalSamenwerkingsorgaan.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/RegionaalSamenwerkingsorgaan.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:RegionaalSamenwerkingsorgaan rdfs:label "Regionaal samenwerkingsorgaan"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Regionaal samenwerkingsorgaan"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:RegionaalSamenwerkingsorgaan .
+
+overheid:Euregio_Enschede-Gronau a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Euregio Enschede/Gronau"@nl .
+
+overheid:gembelktw a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeentelijk Belastingkantoor Twente"@nl ;
+	overheid:startDate "2009-01-01"^^xsd:date .
+
+overheid:Samenwerkingsverband_Noord-Nederland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Samenwerkingsverband Noord-Nederland"@nl .
+
+overheid:Regio_Achterhoek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Achterhoek"@nl .
+
+overheid:Werkorganisatie_Duivenvoorde a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Werkorganisatie Duivenvoorde"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Regio_Rivierenland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Rivierenland"@nl .
+
+overheid:Werkorganisatie_CGM a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Werkorganisatie gemeenten Cuijk, Grave, Mill en St. Hubert"@nl ;
+	overheid:startDate "2013-10-01"^^xsd:date .
+
+overheid:WVK-groep a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "WVK-groep"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+overheid:Knooppunt_Arnhem-Nijmegen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Knooppunt Arnhem-Nijmegen"@nl .
+
+overheid:wenil a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Werk & Inkomen Lekstroom"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Stichtse_Groenlanden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Stichtse Groenlanden"@nl .
+
+overheid:Regioraad_Noord_Groningen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regioraad Noord Groningen"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+overheid:BrabantStad a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "BrabantStad"@nl .
+
+overheid:werksaam a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "WerkSaam Westfriesland"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+overheid:wadfnd a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Waddenfonds"@nl ;
+	overheid:startDate "2012-06-09"^^xsd:date .
+
+overheid:GRWIL a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeenschappelijke Regeling Werk & Inkomen Lekstroom"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:DGJZHZ a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Dienst Gezondheid & Jeugd Zuid-Holland Zuid"@nl .
+
+overheid:Vuilverbrandingsinstallatie_Alkmaar_en_Omstreken a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Vuilverbrandingsinstallatie Alkmaar en Omstreken"@nl .
+
+overheid:sedorg a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "SED organisatie"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+overheid:Rijnstreekberaad a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Rijnstreekberaad"@nl ;
+	overheid:endDate "2010-03-31"^^xsd:date .
+
+overheid:hetsc a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Hét Service Centrum"@nl .
+
+overheid:Regio_Randstad a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Randstad"@nl ;
+	overheid:endDate "2007-12-31"^^xsd:date .
+
+overheid:Waterpact_van_Twente a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Waterpact van Twente"@nl ;
+	overheid:endDate "2005-01-01"^^xsd:date .
+
+overheid:Noaberkracht_Dinkelland_Tubbergen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Noaberkracht Dinkelland Tubbergen"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Regionale_Milieudienst_West-Brabant a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale Milieudienst West-Brabant"@nl .
+
+overheid:Sociale_werkvoorziening_Fryslan a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Sociale werkvoorziening Fryslân"@nl .
+
+overheid:Servicebureau_Gemeenten a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Servicebureau|Gemeenten"@nl .
+
+overheid:Regio_Gooi_en_Vechtstreek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Gooi en Vechtstreek"@nl ;
+	overheid:startDate "2013-07-01"^^xsd:date .
+
+overheid:Regio_Zuid-Holland_Zuid a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Zuid-Holland Zuid"@nl .
+
+overheid:SamenwerkingKempengemeenten a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeenschappelijke Regeling Samenwerking Kempengemeenten"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date .
+
+overheid:ROM_Rijnmond a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ROM Rijnmond"@nl .
+
+overheid:wsh a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Het Waterschapshuis"@nl ;
+	overheid:startDate "2013-12-01"^^xsd:string .
+
+overheid:Gemeenschappelijke_Regeling_UW_Samenwerking a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeenschappelijke Regeling UW Samenwerking"@nl .
+
+overheid:Gewest_Gooi_en_Vechtstreek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gewest Gooi en Vechtstreek"@nl ;
+	overheid:endDate "2013-06-30"^^xsd:date .
+
+overheid:Stedendriehoek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Stedendriehoek"@nl .
+
+overheid:Belastingsamenwerking_Rivierenland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Belastingsamenwerking Rivierenland"@nl ;
+	overheid:startDate "2008-01-01"^^xsd:date .
+
+overheid:ravbmwn a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale Ambulancevoorziening Brabant Midden-West-Noord"@nl ;
+	overheid:startDate "2005-07-01"^^xsd:date .
+
+overheid:BsGW a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Belastingsamenwerking Gemeenten en Waterschappen"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+overheid:Hulpverlening_Gelderland-Midden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Hulpverlening Gelderland-Midden"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:Meerschap_Paterswolde a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Meerschap Paterswolde"@nl .
+
+overheid:Eems-Dollard_Regio a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Eems-Dollard Regio"@nl .
+
+overheid:FriesArchiefNet a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "FriesArchiefNet"@nl .
+
+overheid:Intergemeentelijk_Samenwerkingsverband_Noordwest_Veluwe a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Intergemeentelijk Samenwerkingsverband Noordwest Veluwe"@nl ;
+	overheid:endDate "2005-01-01"^^xsd:date .
+
+overheid:sohw a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Samenwerkingsorgaan Hoeksche Waard"@nl ;
+	overheid:startDate "2010-05-01"^^xsd:date .
+
+overheid:Sociaal_Economische_Samenwerking_West-Brabant a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Sociaal Economische Samenwerking West-Brabant"@nl .
+
+overheid:BEL_Combinatie a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "BEL Combinatie"@nl .
+
+overheid:Amstelland-_en_Meerlanden_Overleg a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Amstelland- en Meerlanden Overleg"@nl .
+
+overheid:Regionale_Samenwerking_Amsterdam a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale Samenwerking Amsterdam"@nl .
+
+overheid:svwad a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "De Waddeneilanden"@nl .
+
+overheid:RDWI_KRH a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale Dienst Werk en Inkomen Kromme Rijn Heuvelrug"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Centraal_Afvalverwijderingsbedrijf_Westfriesland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Centraal Afvalverwijderingsbedrijf Westfriesland"@nl .
+
+overheid:ndw a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Nationale Databank Wegverkeersgegevens"@nl ;
+	overheid:startDate "2009-07-06"^^xsd:date .
+
+overheid:uwsam a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "UW Samenwerking"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Volkskredietbank_Noord-Oost_Groningen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Volkskredietbank Noord-Oost Groningen"@nl .
+
+overheid:Vereniging_brede_overleggroep_kleine_dorpen_in_Drenthe a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Vereniging brede overleggroep kleine dorpen in Drenthe"@nl .
+
+overheid:LetE a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "LétÉ"@nl .
+
+overheid:Slibverwerking_2009 a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Openbaar Lichaam Slibverwerking"@nl .
+
+overheid:Intergemeentelijk_Samenwerkingsorgaan_Waterland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Intergemeentelijk Samenwerkingsorgaan Waterland"@nl .
+
+overheid:Regio_Eindhoven a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Eindhoven"@nl .
+
+overheid:Holland_Rijnland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Holland Rijnland"@nl ;
+	overheid:startDate "2010-04-01"^^xsd:date .
+
+overheid:Regionale_Belasting_Groep a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale Belasting Groep"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date .
+
+overheid:Regionaal_Orgaan_Amsterdam a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionaal Orgaan Amsterdam"@nl ;
+	overheid:endDate "2006-10-31"^^xsd:date .
+
+overheid:IJssel-Vecht a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "IJssel-Vecht"@nl ;
+	overheid:endDate "2008-12-31"^^xsd:date .
+
+overheid:Regio_Noord-Veluwe a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Noord-Veluwe"@nl .
+
+overheid:frmwrk a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Ferm Werk"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:Intergemeentelijk_Samenwerkingsorgaan_Midden-Holland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Intergemeentelijk Samenwerkingsorgaan Midden-Holland"@nl .
+
+overheid:Euregio_Rijn-Waal a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Euregio Rijn-Waal"@nl .
+
+overheid:Vereniging_van_Drentse_gemeenten a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Vereniging van Drentse gemeenten"@nl .
+
+overheid:De_Waard a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "De Waard"@nl .
+
+overheid:De_Drechtsteden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "De Drechtsteden"@nl .
+
+overheid:PAUW-bedrijven a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "PAUW-bedrijven"@nl .
+
+overheid:Euregio_Maas-Rijn a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Euregio Maas-Rijn"@nl .
+
+overheid:cocen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Cocensus"@nl ;
+	overheid:startDate "2007-01-01"^^xsd:date .
+
+overheid:Dienst_Werkbedrijf_voor_gesubsidieerde_arbeid_activering_en_trajecten_Midden-Langstraat a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Dienst Werkbedrijf voor gesubsidieerde arbeid, activering en trajecten Midden-Langstraat"@nl ;
+	overheid:startDate "2011-04-08"^^xsd:date .
+
+overheid:Servicepunt71 a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Servicepunt71"@nl .
+
+overheid:Regio_Westelijke_Mijnstreek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Westelijke Mijnstreek"@nl .
+
+overheid:BAR-organisatie a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "BAR-organisatie"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:De_Kampanjie a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "De Kompanjie"@nl ;
+	overheid:startDate "2010-12-01"^^xsd:date .
+
+overheid:Stuurgroep_Waddenprovincies a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Stuurgroep Waddenprovincies"@nl .
+
+overheid:Recreatieschap_Drenthe a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Recreatieschap Drenthe"@nl .
+
+overheid:Servicebureau_De_Friese_Wouden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Servicebureau De Friese Wouden"@nl .
+
+overheid:Intergemeentelijk_Samenwerkingsverband_Goeree-Overflakkee a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Intergemeentelijk Samenwerkingsverband Goeree-Overflakkee"@nl .
+
+overheid:rmn a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Recreatie Midden-Nederland"@nl .
+
+overheid:Commissie_Hoeksche_Waard a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Commissie Hoeksche Waard"@nl .
+
+overheid:Regionaal_Orgaan_voor_de_Verkeersveiligheid_in_Noord-Holland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionaal Orgaan voor de Verkeersveiligheid in Noord-Holland"@nl .
+
+overheid:Aqualysis a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Aqualysis"@nl .
+
+overheid:Streekraad_Oost-Groningen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Streekraad Oost-Groningen"@nl .
+
+overheid:Commissie_Regionaal_Overleg_Luchthaven_Schiphol a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Commissie Regionaal Overleg Luchthaven Schiphol"@nl .
+
+overheid:OVER-gemeenten a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "OVER-gemeenten"@nl .
+
+overheid:Belastingsamenwerking_Oost-Brabant a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Belastingsamenwerking Oost-Brabant"@nl ;
+	overheid:startDate "2010-07-01"^^xsd:date .
+
+overheid:Uitvoeringsorganisatie_De_Friese_Meren a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Uitvoeringsorganisatie De Friese Meren"@nl .
+
+overheid:Regio_De_Vallei a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio De Vallei"@nl .
+
+overheid:Samenwerkingsverband_Regio_Eindhoven a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Samenwerkingsverband Regio Eindhoven"@nl ;
+	overheid:startDate "1993-05-12"^^xsd:date .
+
+overheid:metregein a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Metropoolregio Eindhoven"@nl ;
+	overheid:startDate "1993-05-12"^^xsd:date .
+
+overheid:Stadsgewest_Haaglanden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Stadsgewest Haaglanden"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:metregrdh a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Metropoolregio Rotterdam Den Haag"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:Parkstad_Limburg a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Parkstad Limburg"@nl .
+
+overheid:Stadsregio_Arnhem_Nijmegen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Stadsregio Arnhem Nijmegen"@nl .
+
+overheid:Regio_Twente a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regio Twente"@nl ;
+	overheid:startDate "1995-04-01"^^xsd:date .
+
+overheid:Stadsregio_Amsterdam a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Stadsregio Amsterdam"@nl ;
+	overheid:startDate "1992-05-01"^^xsd:date .
+
+overheid:Stadsregio_Rotterdam a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Stadsregio Rotterdam"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:Bestuur_Regio_Utrecht a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Bestuur Regio Utrecht"@nl .
+
+overheid:Groenservice_Zuid-Holland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Groenservice Zuid-Holland"@nl .
+
+overheid:Recreatieschap_Het_Twiske a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Recreatieschap Het Twiske"@nl .
+
+overheid:Recreatieschap_Geestmerambacht a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Recreatieschap Geestmerambacht"@nl .
+
+overheid:Recreatie_Noord-Holland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Recreatie Noord-Holland"@nl .
+
+overheid:Landschap_Waterland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Landschap Waterland"@nl .
+
+overheid:Groengebied_Amstelland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Groengebied Amstelland"@nl .
+
+overheid:Recreatieschap_Alkmaarder-_en_Uitgeestermeer a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Recreatieschap Alkmaarder- en Uitgeestermeer"@nl .
+
+overheid:Recreatieschap_Spaarnwoude a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Recreatieschap Spaarnwoude"@nl .
+
+overheid:ISD_BOL a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD BOL"@nl .
+
+overheid:Regionale_Sociale_Dienst_en_Kredietbank_Alblasserwaard_Vijfheerenlanden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale Sociale Dienst en Kredietbank Alblasserwaard/Vijfheerenlanden"@nl ;
+	overheid:startDate "2002-01-01"^^xsd:date .
+
+overheid:ISD_Assen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Assen"@nl .
+
+overheid:Sociale_Dienst_Baarn_Bunschoten_Soest a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Sociale Dienst Baarn, Bunschoten, Soest"@nl .
+
+overheid:Optimisd a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Optimisd"@nl .
+
+overheid:RSD_Pentasz_Mergelland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "RSD Pentasz Mergelland"@nl .
+
+overheid:ISD_Noordenkwartier a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Noordenkwartier"@nl .
+
+overheid:Sociale_Dienst_Walcheren a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Sociale Dienst Walcheren"@nl .
+
+overheid:Dienst_Sociale_Zaken_en_Werkgelegenheid_Noardwest_Fryslan a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Dienst Sociale Zaken en Werkgelegenheid Noardwest Fryslân"@nl ;
+	overheid:startDate "1999-01-01"^^xsd:date .
+
+overheid:ISD_Midden-Langstraat a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Midden-Langstraat"@nl .
+
+overheid:ISD_Steenwijkerland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Steenwijkerland"@nl .
+
+overheid:ISD_Kop_van_Noord-Holland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Kop van Noord-Holland"@nl .
+
+overheid:Sociale_Dienst_Bommelerwaard a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Sociale Dienst Bommelerwaard"@nl .
+
+overheid:RSD_Hoekse_Waard a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "RSD Hoekse Waard"@nl .
+
+overheid:Sociale_Dienst_Veluwerand a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Sociale Dienst Veluwerand"@nl .
+
+overheid:Intergemeentelijke_Sociale_Dienst_Zuidwest-Fryslan a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Intergemeentelijke Sociale Dienst Zuidwest-Fryslân"@nl .
+
+overheid:ISD_Bollenstreek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Bollenstreek"@nl .
+
+overheid:ISD_Voorne-Putten-Rozenburg a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Voorne-Putten-Rozenburg"@nl .
+
+overheid:ISD_Drechtsteden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Drechtsteden"@nl .
+
+overheid:Loket_Altena_voor_werk_inkomen_en_zorg a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Loket Altena voor werk, inkomen en zorg"@nl .
+
+overheid:ISD_De_Kempen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD De Kempen"@nl .
+
+overheid:wphvwb a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Werkplein Hart van West-Brabant"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+overheid:Intergemeentelijk_Samenwerkingsverband_Werk_en_Inkomen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Intergemeentelijk Samenwerkingsverband Werk en Inkomen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/ISD_Huizen,_Eemnes_&_Blaricum> a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Huizen, Eemnes & Blaricum"@nl .
+
+overheid:ISD_Kompas a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Kompas"@nl .
+
+overheid:ISD_CGM a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD CGM"@nl .
+
+overheid:Het_Plein a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Het Plein"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date .
+
+overheid:RSD_Kromme_Rijn_Heuvelrug a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "RSD Kromme Rijn Heuvelrug"@nl .
+
+overheid:Sociale_Dienst_Oost-Achterhoek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Sociale Dienst Oost-Achterhoek"@nl .
+
+overheid:ISD_Noordoost a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD Noordoost"@nl .
+
+overheid:ISD_De_Rijnstreek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "ISD De Rijnstreek"@nl .
+
+overheid:Milieudienst_Zuidoost-Utrecht a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst Zuidoost-Utrecht"@nl .
+
+overheid:Omgevingsdienst_regio_Arnhem a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst regio Arnhem"@nl ;
+	overheid:startDate "2012-11-14"^^xsd:date .
+
+overheid:Milieusamenwerkingsverband_Westerkwartier a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieusamenwerkingsverband Westerkwartier"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+overheid:odmh a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Midden-Holland"@nl ;
+	overheid:startDate "2012-07-01"^^xsd:date .
+
+overheid:ODRU a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Regio Utrecht"@nl ;
+	overheid:startDate "2012-07-01"^^xsd:date .
+
+overheid:Milieusamenwerking_Noord-Oost_Flevoland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieusamenwerking Noord-Oost Flevoland"@nl .
+
+overheid:Milieudienst_IJmond a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst IJmond"@nl ;
+	overheid:startDate "1998-05-01"^^xsd:date ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+overheid:Milieudienst_Zuid-Holland_Zuid a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst Zuid-Holland Zuid"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:odbrnrd a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Brabant Noord"@nl ;
+	overheid:startDate "2013-04-01"^^xsd:date .
+
+overheid:odvelijs a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Veluwe IJssel"@nl .
+
+overheid:Milieudienst_Samenwerkingsverband_regio_Eindhoven a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst Samenwerkingsverband regio Eindhoven"@nl .
+
+overheid:ODHL a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Haaglanden"@nl ;
+	overheid:startDate "2012-07-01"^^xsd:date .
+
+overheid:Milieuadviesdienst_Noord-Friesland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieuadviesdienst Noord Friesland"@nl .
+
+overheid:OFGV a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Flevoland & Gooi en Vechtstreek"@nl .
+
+overheid:odvallei a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel """Omgevingsdienst de	 Vallei"""@nl .
+
+overheid:odrrivl a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Rivierenland"@nl ;
+	overheid:startDate "2012-10-24"^^xsd:date .
+
+overheid:odrnijm a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Regio Nijmegen"@nl .
+
+overheid:RUDNHN a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale Uitvoeringsdienst Noord-Holland Noord"@nl ;
+	overheid:startDate "2013-07-11"^^xsd:date .
+
+overheid:rudijsld a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "RUD IJsselland"@nl .
+
+overheid:Regionaal_Milieubedrijf_Brabant_Noordoost a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionaal Milieubedrijf Brabant Noordoost"@nl .
+
+overheid:rudlimnrd a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "RUD Limburg-Noord"@nl .
+
+overheid:Milieudienst_Regio_Alkmaar a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst Regio Alkmaar"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:Milieudienst_Kop_van_Noord-Holland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst Kop van Noord-Holland"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:omwb a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Midden- en West-Brabant"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:DCMR_Milieudienst_Rijnmond a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "DCMR Milieudienst Rijnmond"@nl .
+
+overheid:odgron a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Groningen"@nl ;
+	overheid:startDate "2013-05-01"^^xsd:date .
+
+overheid:Milieudienst_Noord-West_Utrecht a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst Noord-West Utrecht"@nl ;
+	overheid:endDate "2012-06-30"^^xsd:date .
+
+overheid:fumo a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Fryske Utfieringstsjinst Miljeu en Omjouwing"@nl .
+
+overheid:Milieudienst_Westfriesland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst Westfriesland"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:RUD_Zuid-Limburg a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "RUD Zuid-Limburg"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:odach a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Achterhoek"@nl ;
+	overheid:startDate "2012-11-07"^^xsd:date .
+
+overheid:RUDU2_0 a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale uitvoeringsdienst Utrecht 2.0"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:Milieudienst_Midden-Holland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst Midden-Holland"@nl ;
+	overheid:endDate "2012-06-30"^^xsd:date .
+
+overheid:rudtw a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "RUD Twente"@nl .
+
+overheid:Milieudienst_West-Holland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Milieudienst West-Holland"@nl .
+
+overheid:odnrdvel a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Noord-Veluwe"@nl .
+
+overheid:rudzld a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale uitvoeringsdienst Zeeland"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:Noorzeekanaalgebied a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Noordzeekanaalgebied"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:odijm a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst IJmond"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+overheid:Omgevingsdienst_Zuid-Holland_Zuid a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Zuid-Holland Zuid"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+overheid:odflgvs a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Flevoland en Gooi en Vechtstreek"@nl .
+
+overheid:odwhol a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst West-Holland"@nl .
+
+overheid:ruddr a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale Uitvoeringsdienst Drenthe"@nl ;
+	overheid:startDate "2013-07-01"^^xsd:date .
+
+overheid:odzobr a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Omgevingsdienst Zuidoost-Brabant"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:GGD_Zaanstreek-Waterland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Zaanstreek-Waterland"@nl ;
+	overheid:endDate "1998-12-31"^^xsd:date .
+
+overheid:ggdrorm a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeentelijke Gezondheidsdienst Rotterdam-Rijnmond"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:ggdru a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeentelijke Gezondheidsdienst Regio Utrecht"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/GG&GD_Utrecht> a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GG&GD Utrecht"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:GGD_Drenthe a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Drenthe"@nl .
+
+overheid:GGD_Fryslan a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Fryslân"@nl .
+
+overheid:GGD_Regio_Twente a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Regio Twente"@nl .
+
+overheid:GGD_Den_Haag a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Den Haag"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:GGD_Gelre-IJssel a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Gelre-IJssel"@nl .
+
+overheid:GGD_Regio_Nijmegen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Regio Nijmegen"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:GGD_Midden-Nederland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Midden-Nederland"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:GGD_Kennemerland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Kennemerland"@nl .
+
+overheid:ggdzld a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Zeeland"@nl ;
+	overheid:startDate "2012-06-16"^^xsd:date .
+
+overheid:ggdglz a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeentelijke Gezondheidsdienst Gelderland-Zuid"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:GGD_Hart_voor_Brabant a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Hart voor Brabant"@nl ;
+	overheid:startDate "2013-09-01"^^xsd:date .
+
+overheid:GGD_Rivierenland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Rivierenland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/GGD_Gooi_&_Vechtstreek> a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Gooi & Vechtstreek"@nl .
+
+overheid:GGD_Zuid-Holland_West a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Zuid-Holland West"@nl ;
+	overheid:startDate "2004-12-11"^^xsd:date ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:rdoghm a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Regionale dienst openbare gezondheidszorg Hollands Midden"@nl ;
+	overheid:startDate "2006-01-01"^^xsd:date .
+
+overheid:GGD_Hollands_Midden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Hollands Midden"@nl .
+
+overheid:pgzgron a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Publieke Gezondheid & Zorg Groningen"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+overheid:ggdholn a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Hollands Noorden"@nl ;
+	overheid:startDate "2007-04-01"^^xsd:date .
+
+overheid:GGD_Zeeland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Zeeland"@nl ;
+	overheid:endDate "2012-06-15"^^xsd:date .
+
+overheid:GGD_Groningen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Groningen"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:ggdzlim a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Geneeskundige Gezondheidsdienst Zuid-Limburg"@nl ;
+	overheid:startDate "2010-04-01"^^xsd:date .
+
+overheid:GGD_West-Brabant a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD West-Brabant"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+overheid:GGD_Zuid-Holland_Zuid a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Zuid-Holland Zuid"@nl .
+
+overheid:GGD_Brabant-Zuidoost a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Brabant-Zuidoost"@nl .
+
+overheid:GGD_Flevoland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Flevoland"@nl ;
+	overheid:endDate "2007-12-31"^^xsd:date .
+
+overheid:GGD_Zuid_Limburg a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Zuid Limburg"@nl ;
+	overheid:endDate "2010-03-31"^^xsd:date .
+
+overheid:GGD_Rotterdam-Rijnmond a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Rotterdam-Rijnmond"@nl .
+
+overheid:ggdnog a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Noord- en Oost-Gelderland"@nl ;
+	overheid:startDate "2004-12-31"^^xsd:date .
+
+overheid:GGD_Limburg-Noord a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Limburg-Noord"@nl .
+
+overheid:GGD_Gelderland_Midden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Gelderland Midden"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:GGD_Hollands_Noorden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Hollands Noorden"@nl .
+
+overheid:ggdfld a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Flevoland 2008"@nl ;
+	overheid:startDate "2008-01-01"^^xsd:date .
+
+overheid:ggdhl a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeentelijke Gezondheidsdienst Haaglanden"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:ggdzswl a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Zaanstreek-Waterland"@nl ;
+	overheid:startDate "1999-01-01"^^xsd:date .
+
+overheid:GGD_Amsterdam a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD Amsterdam"@nl .
+
+overheid:GGD_IJsselland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD IJsselland"@nl .
+
+overheid:Veiligheidsregio_Gelderland-Midden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheids- en Gezondheidsregio Gelderland-Midden"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Rotterdam-Rijnmond a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Rotterdam-Rijnmond"@nl ;
+	overheid:startDate "2006-03-27"^^xsd:date .
+
+overheid:Veiligheidsregio_Flevoland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Flevoland"@nl .
+
+overheid:vregnhn a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Noord-Holland Noord"@nl ;
+	overheid:startDate "2004-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Amsterdam-Amstelland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Amsterdam-Amstelland"@nl .
+
+overheid:Veiligheidsregio_Fryslan a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Fryslân"@nl ;
+	overheid:startDate "2007-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Limburg-Noord a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Limburg-Noord"@nl ;
+	overheid:startDate "2002-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Zuid-Limburg a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Zuid-Limburg"@nl ;
+	overheid:startDate "2012-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Hollands_Midden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Hollands Midden"@nl .
+
+overheid:Veiligheidsregio_Groningen a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Groningen"@nl ;
+	overheid:startDate "2013-11-15"^^xsd:date .
+
+overheid:Veiligheidsregio_Noord-_en_Oost-Gelderland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Noord- en Oost-Gelderland"@nl .
+
+overheid:Veiligheidsregio_Brabant-Noord a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Brabant-Noord"@nl ;
+	overheid:startDate "2006-07-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Gelderland-Zuid a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Gelderland-Zuid"@nl .
+
+overheid:Veiligheidsregio_Gooi_en_Vechtstreek a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Gooi en Vechtstreek"@nl .
+
+overheid:vregfl a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Flevoland 2008"@nl ;
+	overheid:startDate "2008-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Midden-_en_West-Brabant a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Midden- en West-Brabant"@nl ;
+	overheid:startDate "2005-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Drenthe a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Drenthe"@nl .
+
+overheid:Veiligheidsregio_Zaanstreek-Waterland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Zaanstreek-Waterland"@nl ;
+	overheid:startDate "2008-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Twente a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Twente"@nl .
+
+overheid:Veiligheidsregio_Haaglanden a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Haaglanden"@nl .
+
+overheid:Veiligheidsregio_Utrecht a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Utrecht"@nl .
+
+overheid:Veiligheidsregio_Zeeland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Zeeland"@nl .
+
+overheid:Veiligheidsregio_IJsselland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio IJsselland"@nl .
+
+overheid:Veiligheidsregio_Brabant-Zuidoost a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Brabant-Zuidoost"@nl .
+
+overheid:Veiligheidsregio_Kennemerland a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Kennemerland"@nl .
+
+overheid:Veiligheidsregio_Zuid-Holland-Zuid a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Zuid-Holland-Zuid"@nl .
+
+overheid:vregzhz a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Zuid-Holland Zuid"@nl .
+
+overheid:Veiligheidsregio_Noord-Holland-Noord a overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio Noord-Holland-Noord"@nl .

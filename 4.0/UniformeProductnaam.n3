@@ -1,0 +1,1596 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:UniformeProductnaam a overheid:CV ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/UniformeProductnaam.rdf> , <http://standaarden.overheid.nl/owms/terms/UniformeProductnaam.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/UniformeProductnaam.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/UniformeProductnaam.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:UniformeProductnaam rdfs:label "Uniforme productnaam"@nl ;
+	dcterms:identifier "UniformeProductnaam" ;
+	skos:prefLabel "Uniforme productnaam"@nl ;
+	a rdfs:Resource , skos:ConceptScheme .
+
+overheid:kabels-_en_leidingenvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kabels- en leidingenvergunning"@nl .
+
+overheid:ov-begeleiderskaart skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ov-begeleiderskaart"@nl .
+
+overheid:straatnaamgeving skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "straatnaamgeving"@nl .
+
+overheid:museumsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "museumsubsidie"@nl .
+
+overheid:natuurbeheer_provinciale_subsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "natuurbeheer provinciale subsidie"@nl .
+
+overheid:rijbewijs skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rijbewijs"@nl .
+
+overheid:brandveiligheidadvies skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "brandveiligheidadvies"@nl .
+
+overheid:rioolbelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rioolbelasting"@nl .
+
+overheid:huurtoeslag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "huurtoeslag"@nl .
+
+overheid:parkeervergunning_diensten skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeervergunning diensten"@nl .
+
+overheid:avondwinkelopenstelling skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "avondwinkelopenstelling"@nl .
+
+overheid:hofleverancieraanvraag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "hofleverancieraanvraag"@nl .
+
+overheid:gehoorapparaat skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehoorapparaat"@nl .
+
+overheid:tillift skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "tillift"@nl .
+
+overheid:loophulpmiddel skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "loophulpmiddel"@nl .
+
+overheid:seksbedrijf_exploitatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "seksbedrijf exploitatievergunning"@nl .
+
+overheid:ambulancevervoer skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ambulancevervoer"@nl .
+
+overheid:wmo-voorziening skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wmo-voorziening"@nl .
+
+overheid:monumentensubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "monumentensubsidie"@nl .
+
+overheid:collectieve_ziektekostenverzekering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "collectieve ziektekostenverzekering"@nl .
+
+overheid:afvalwaterlozingontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalwaterlozingontheffing"@nl .
+
+overheid:buiten_toepassingsverklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "buiten toepassingsverklaring"@nl .
+
+overheid:hotel_of_pension_exploitatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "hotel of pension exploitatievergunning"@nl .
+
+overheid:wsnp-verklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wsnp-verklaring"@nl .
+
+overheid:huisnummertoekenning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "huisnummertoekenning"@nl .
+
+overheid:woonvergunning_recreatiewoning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonvergunning recreatiewoning"@nl .
+
+overheid:schoolbegeidingsdienstsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "schoolbegeidingsdienstsubsidie"@nl .
+
+overheid:kermisvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kermisvergunning"@nl .
+
+overheid:woonomgeving_inrichting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonomgeving inrichting"@nl .
+
+overheid:afvalinzameling_textiel skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling textiel"@nl .
+
+overheid:kleine_landschapselementensubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kleine landschapselementensubsidie"@nl .
+
+overheid:naamgebruik_verzoek_aanduiding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "naamgebruik verzoek aanduiding"@nl .
+
+overheid:onbewoonbaarverklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onbewoonbaarverklaring"@nl .
+
+overheid:bewijs_van_nederlanderschap skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bewijs van nederlanderschap"@nl .
+
+overheid:belastingaanslag_bezwaar skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "belastingaanslag bezwaar"@nl .
+
+overheid:leerlingenvervoer skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "leerlingenvervoer"@nl .
+
+overheid:inburgeringsexamen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "inburgeringsexamen"@nl .
+
+overheid:zakenpaspoort skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "zakenpaspoort"@nl .
+
+overheid:woonvoorziening_gehandicapten_en_ouderen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonvoorziening gehandicapten en ouderen"@nl .
+
+overheid:huwelijk_omzetting_in_geregistreerd_partnerschap skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "huwelijk omzetting in geregistreerd partnerschap"@nl .
+
+overheid:digid skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "digid"@nl .
+
+overheid:woning_tijdelijke_verhuurvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woning tijdelijke verhuurvergunning"@nl .
+
+overheid:naamskeuzeverklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "naamskeuzeverklaring"@nl .
+
+overheid:gehandicaptenparkeerkaart_passagier skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenparkeerkaart passagier"@nl .
+
+overheid:bijzonder_transportontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bijzonder transportontheffing"@nl .
+
+overheid:starterskrediet_ondernemer skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "starterskrediet ondernemer"@nl .
+
+overheid:bodemonderzoek_schadevergoeding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bodemonderzoek schadevergoeding"@nl .
+
+overheid:woonwagenstandplaats skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonwagenstandplaats"@nl .
+
+overheid:rioolbelasting_gebruikers skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rioolbelasting gebruikers"@nl .
+
+overheid:parkeervergunning_bedrijven skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeervergunning bedrijven"@nl .
+
+overheid:mantelzorgondersteuning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "mantelzorgondersteuning"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/melding_openbare_ruimte_(straatverlichting)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "melding openbare ruimte (straatverlichting)"@nl .
+
+overheid:tafel-_en_stoelaanpassing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "tafel- en stoelaanpassing"@nl .
+
+overheid:grafmonumentenvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "grafmonumentenvergunning"@nl .
+
+overheid:pleegkindverzorgingmelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "pleegkindverzorgingmelding"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/melding_openbare_ruimte_(milieu)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "melding openbare ruimte (milieu)"@nl .
+
+overheid:grafuitgifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "grafuitgifte"@nl .
+
+overheid:gba-geheimhoudingsverzoek skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gba-geheimhoudingsverzoek"@nl .
+
+overheid:marktvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "marktvergunning"@nl .
+
+overheid:bedrijfsafvalwaterlozingontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsafvalwaterlozingontheffing"@nl .
+
+overheid:verslavingszorg skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verslavingszorg"@nl .
+
+overheid:huishoudelijk_afvalinzameling skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "huishoudelijk afvalinzameling"@nl .
+
+overheid:mededelingen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "mededelingen"@nl .
+
+overheid:omgevingsvergunning_kap skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "omgevingsvergunning kap"@nl .
+
+overheid:doodgeboren_kind_aangifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "doodgeboren kind aangifte"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/openbare_geestelijke_gezondheidszorg_(oggz)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "openbare geestelijke gezondheidszorg (oggz)"@nl .
+
+overheid:studiefinanciering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "studiefinanciering"@nl .
+
+overheid:regiotaxi skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "regiotaxi"@nl .
+
+overheid:vrijkomen_woonruimtemelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vrijkomen woonruimtemelding"@nl .
+
+overheid:jeugdsportsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "jeugdsportsubsidie"@nl .
+
+overheid:luchtkwaliteit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "luchtkwaliteit"@nl .
+
+overheid:leerlinggebonden_financiering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "leerlinggebonden financiering"@nl .
+
+overheid:vuurwerkvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vuurwerkvergunning"@nl .
+
+overheid:kansspelvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kansspelvergunning"@nl .
+
+overheid:afvalinzameling_bouw-_en_sloopafval skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling bouw- en sloopafval"@nl .
+
+overheid:loterijvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "loterijvergunning"@nl .
+
+overheid:verhuismelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verhuismelding"@nl .
+
+overheid:speelvoorziening_kinderen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "speelvoorziening kinderen"@nl .
+
+overheid:aansprakelijkstelling_gemeente skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "aansprakelijkstelling gemeente"@nl .
+
+overheid:woz-taxatieverslag_kopie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woz-taxatieverslag kopie"@nl .
+
+overheid:parkeerontheffing_autobedrijven skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeerontheffing autobedrijven"@nl .
+
+overheid:kinderdagverblijf skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kinderdagverblijf"@nl .
+
+overheid:verhuurdersverklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verhuurdersverklaring"@nl .
+
+overheid:gehandicaptenparkeervergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenparkeervergunning"@nl .
+
+overheid:huiselijk_geweldondersteuning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "huiselijk geweldondersteuning"@nl .
+
+overheid:rampen_en_zware_ongevallen_informatieplicht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rampen en zware ongevallen informatieplicht"@nl .
+
+overheid:ouderenwoning_bijdrage_bouwkosten skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ouderenwoning bijdrage bouwkosten"@nl .
+
+overheid:stedenbouwkundig_plan skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "stedenbouwkundig plan"@nl .
+
+overheid:podiumkunstensubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "podiumkunstensubsidie"@nl .
+
+overheid:verklaring_positie_molukkers skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verklaring positie molukkers"@nl .
+
+overheid:gehandicaptenparkeerplaats_op_kenteken skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenparkeerplaats op kenteken"@nl .
+
+overheid:aanleunwoning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "aanleunwoning"@nl .
+
+overheid:voertuig_te_koop_aanbieden_op_openbare_weg_ontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "voertuig te koop aanbieden op openbare weg ontheffing"@nl .
+
+overheid:palliatieve_zorg skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "palliatieve zorg"@nl .
+
+overheid:manifestatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "manifestatievergunning"@nl .
+
+overheid:gehandicaptenauto skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenauto"@nl .
+
+overheid:rectificatie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rectificatie"@nl .
+
+overheid:omgevingsvergunning_bouw skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "omgevingsvergunning bouw"@nl .
+
+overheid:uitvliegverbodontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "uitvliegverbodontheffing"@nl .
+
+overheid:dienstverlening_op_of_aan_de_openbare_weg_vergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "dienstverlening op of aan de openbare weg vergunning"@nl .
+
+overheid:braderievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "braderievergunning"@nl .
+
+overheid:forensenbelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "forensenbelasting"@nl .
+
+overheid:indirecte_lozing_vanuit_inrichtingen_ontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "indirecte lozing vanuit inrichtingen ontheffing"@nl .
+
+overheid:badkameraanpassing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "badkameraanpassing"@nl .
+
+overheid:welzijnswerksubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "welzijnswerksubsidie"@nl .
+
+overheid:thuiszorg skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "thuiszorg"@nl .
+
+overheid:vuurwerkverkoopvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vuurwerkverkoopvergunning"@nl .
+
+overheid:rioolbelasting_bedrijven skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rioolbelasting bedrijven"@nl .
+
+overheid:omgevingsvergunning_sloop skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "omgevingsvergunning sloop"@nl .
+
+overheid:paspoort_tweede_nationaliteit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "paspoort tweede nationaliteit"@nl .
+
+overheid:akte_van_de_burgerlijke_stand skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "akte van de burgerlijke stand"@nl .
+
+overheid:onderwijssubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onderwijssubsidie"@nl .
+
+overheid:wilde_dieren_houdenontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wilde dieren houdenontheffing"@nl .
+
+overheid:vaderschapsontkenning_verklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vaderschapsontkenning verklaring"@nl .
+
+overheid:mantelzorgcompliment skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "mantelzorgcompliment"@nl .
+
+overheid:rolstoel skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rolstoel"@nl .
+
+overheid:stempas skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "stempas"@nl .
+
+overheid:standplaatsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "standplaatsvergunning"@nl .
+
+overheid:horecatijdenontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "horecatijdenontheffing"@nl .
+
+overheid:woz-beschikking skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woz-beschikking"@nl .
+
+overheid:kortverblijfhuis skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kortverblijfhuis"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/burgerservicenummer_(bsn)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "burgerservicenummer (bsn)"@nl .
+
+overheid:vaarvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vaarvergunning"@nl .
+
+overheid:afvalcontainer skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalcontainer"@nl .
+
+overheid:woonvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonvergunning"@nl .
+
+overheid:woonconsumentenorganisatie_subsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonconsumentenorganisatie subsidie"@nl .
+
+overheid:anw-uitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "anw-uitkering"@nl .
+
+overheid:register_kinderopvang_inschrijving skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "register kinderopvang inschrijving"@nl .
+
+overheid:draaiorgel_exploitatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "draaiorgel exploitatievergunning"@nl .
+
+overheid:nederlander_worden_door_optie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "nederlander worden door optie"@nl .
+
+overheid:asbestverwijdering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "asbestverwijdering"@nl .
+
+overheid:bouwgronduitgifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouwgronduitgifte"@nl .
+
+overheid:brandbeheersing_aanvalsplan skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "brandbeheersing aanvalsplan"@nl .
+
+overheid:grondwateronttrekkingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "grondwateronttrekkingsvergunning"@nl .
+
+overheid:geboorteakte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "geboorteakte"@nl .
+
+overheid:onroerendezaak_gebruiksbeperking skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onroerendezaak gebruiksbeperking"@nl .
+
+overheid:maaltijdservice skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "maaltijdservice"@nl .
+
+overheid:persoonsgegevens_verklaring_onder_eed_of_belofte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "persoonsgegevens verklaring onder eed of belofte"@nl .
+
+overheid:gedoogverklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gedoogverklaring"@nl .
+
+overheid:rommelmarktvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rommelmarktvergunning"@nl .
+
+overheid:parkeerbelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeerbelasting"@nl .
+
+overheid:woonruimte_verblijfsgerechtigden skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonruimte verblijfsgerechtigden"@nl .
+
+overheid:waterschapsbelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "waterschapsbelasting"@nl .
+
+overheid:afvalinzameling_grofvuil skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling grofvuil"@nl .
+
+overheid:persoonsgebonden_budget skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "persoonsgebonden budget"@nl .
+
+overheid:volwasseneneducatiesubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "volwasseneneducatiesubsidie"@nl .
+
+overheid:gemeentelijke_onderscheiding_voordracht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gemeentelijke onderscheiding voordracht"@nl .
+
+overheid:startend_ondernemerschapsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "startend ondernemerschapsubsidie"@nl .
+
+overheid:sportaccommodatieverhuur skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "sportaccommodatieverhuur"@nl .
+
+overheid:emancipatiesubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "emancipatiesubsidie"@nl .
+
+overheid:bouwwerk_voltooiingsverklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouwwerk voltooiingsverklaring"@nl .
+
+overheid:terrasvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "terrasvergunning"@nl .
+
+overheid:leefmilieuverordening_ontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "leefmilieuverordening ontheffing"@nl .
+
+overheid:garantverklaring_verblijf_in_nederland skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "garantverklaring verblijf in Nederland"@nl .
+
+overheid:omgevingsvergunning_reclame skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "omgevingsvergunning reclame"@nl .
+
+overheid:grafrechten skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "grafrechten"@nl .
+
+overheid:gehandicaptenparkeerkaart skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenparkeerkaart"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/busbaangebruikvergunning_taxi's> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "busbaangebruikvergunning taxi's"@nl .
+
+overheid:koopzondageninformatie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "koopzondageninformatie"@nl .
+
+overheid:bezwaar skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bezwaar"@nl .
+
+overheid:toeristenbelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "toeristenbelasting"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/melding_openbare_ruimte_(groenvoorziening)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "melding openbare ruimte (groenvoorziening)"@nl .
+
+overheid:woonsubsidie_ouderen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonsubsidie ouderen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/antenne(schotel)_plaatsingsvergunning> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "antenne(schotel) plaatsingsvergunning"@nl .
+
+overheid:woningaanpassing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woningaanpassing"@nl .
+
+overheid:stemmen_per_brief skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "stemmen per brief"@nl .
+
+overheid:omgevingsvergunning_milieu skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "omgevingsvergunning milieu"@nl .
+
+overheid:woningen_samenvoegsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woningen samenvoegsubsidie"@nl .
+
+overheid:tolk skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "tolk"@nl .
+
+overheid:briefadres skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "briefadres"@nl .
+
+overheid:amateuristische_kunstbeoefeningsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "amateuristische kunstbeoefeningsubsidie"@nl .
+
+overheid:groenstroken_en_restgronden_kopen_of_huren skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "groenstroken en restgronden kopen of huren"@nl .
+
+overheid:omgevingsvergunning_ruimtelijke_ordening skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "omgevingsvergunning ruimtelijke ordening"@nl .
+
+overheid:kerstbomen_verkoopvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kerstbomen verkoopvergunning"@nl .
+
+overheid:wegenverkeerswetontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wegenverkeerswetontheffing"@nl .
+
+overheid:werkbegeleiding_werkzoekenden skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "werkbegeleiding werkzoekenden"@nl .
+
+overheid:legalisatie_handtekening skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "legalisatie handtekening"@nl .
+
+overheid:verhuizing_binnen_gemeente skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verhuizing binnen gemeente"@nl .
+
+overheid:verkoopdemonstratievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verkoopdemonstratievergunning"@nl .
+
+overheid:marktgelden skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "marktgelden"@nl .
+
+overheid:vervoersdocumenten_stoffelijk_overschot skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vervoersdocumenten stoffelijk overschot"@nl .
+
+overheid:ziekenvervoer skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ziekenvervoer"@nl .
+
+overheid:reiskostenvergoeding_ziekenbezoek skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "reiskostenvergoeding ziekenbezoek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/verklaring_omtrent_gedrag_(vog)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verklaring omtrent gedrag (vog)"@nl .
+
+overheid:bedrijfsverzamelgebouw_toewijzing_en_beheer skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsverzamelgebouw toewijzing en beheer"@nl .
+
+overheid:recreatie-inrichting_exploitatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "recreatie-inrichting exploitatievergunning"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/verklaring_omtrent_inkomen_en_vermogen_(viv)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verklaring omtrent inkomen en vermogen (viv)"@nl .
+
+overheid:ioaz-uitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ioaz-uitkering"@nl .
+
+overheid:voorbereidingsbesluit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "voorbereidingsbesluit"@nl .
+
+overheid:maatschappelijke_zorgsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "maatschappelijke zorgsubsidie"@nl .
+
+overheid:bedrijfsafvalinzameling skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsafvalinzameling"@nl .
+
+overheid:belastingteruggave skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "belastingteruggave"@nl .
+
+overheid:carbidschietenmelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "carbidschietenmelding"@nl .
+
+overheid:verblijfsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verblijfsvergunning"@nl .
+
+overheid:logeerhuis skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "logeerhuis"@nl .
+
+overheid:caravanparkeervergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "caravanparkeervergunning"@nl .
+
+overheid:vergoeding_woonruimtevordering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vergoeding woonruimtevordering"@nl .
+
+overheid:woonruimte_onttrekkingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonruimte onttrekkingsvergunning"@nl .
+
+overheid:hoogspanningslijn_objecten_plaatsen_onder skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "hoogspanningslijn objecten plaatsen onder"@nl .
+
+overheid:bouwwerk_vaarwegvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouwwerk vaarwegvergunning"@nl .
+
+overheid:wia-uitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wia-uitkering"@nl .
+
+overheid:opleidingsvergoeding_werklozen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "opleidingsvergoeding werklozen"@nl .
+
+overheid:overlijdensakte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "overlijdensakte"@nl .
+
+overheid:reclamemateriaalverspreiding_ontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "reclamemateriaalverspreiding ontheffing"@nl .
+
+overheid:voornaamwijziging skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "voornaamwijziging"@nl .
+
+overheid:afvalinzameling_plastic skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling plastic"@nl .
+
+overheid:natuurkampeerterreinontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "natuurkampeerterreinontheffing"@nl .
+
+overheid:rioolaansluitingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rioolaansluitingsvergunning"@nl .
+
+overheid:woningbouwsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woningbouwsubsidie"@nl .
+
+overheid:afmeervergunning_vaartuigen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afmeervergunning vaartuigen"@nl .
+
+overheid:keukenaanpassing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "keukenaanpassing"@nl .
+
+overheid:adresonderzoek skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "adresonderzoek"@nl .
+
+overheid:rijbewijs_eigen_verklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rijbewijs eigen verklaring"@nl .
+
+overheid:alarmsirenes skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "alarmsirenes"@nl .
+
+overheid:urgentiebewijs_woningzoekende skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "urgentiebewijs woningzoekende"@nl .
+
+overheid:ontgrondingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ontgrondingsvergunning"@nl .
+
+overheid:ongediertebestrijding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ongediertebestrijding"@nl .
+
+overheid:maaltijdsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "maaltijdsubsidie"@nl .
+
+overheid:wwb-uitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wwb-uitkering"@nl .
+
+overheid:computeraanpassing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "computeraanpassing"@nl .
+
+overheid:verkeerscirculatie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verkeerscirculatie"@nl .
+
+overheid:naturalisatieverzoek skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "naturalisatieverzoek"@nl .
+
+overheid:bermgebruikontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bermgebruikontheffing"@nl .
+
+overheid:watervergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "watervergunning"@nl .
+
+overheid:achternaamwijziging skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "achternaamwijziging"@nl .
+
+overheid:bedrijfsterrein_huren_of_kopen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsterrein huren of kopen"@nl .
+
+overheid:dagopvang_ouderen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "dagopvang ouderen"@nl .
+
+overheid:burgerinitiatief skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "burgerinitiatief"@nl .
+
+overheid:sollicitatieplichtontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "sollicitatieplichtontheffing"@nl .
+
+overheid:woonruimte_splitsingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonruimte splitsingsvergunning"@nl .
+
+overheid:ioaw-uitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ioaw-uitkering"@nl .
+
+overheid:respijtzorg skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "respijtzorg"@nl .
+
+overheid:glastuinbouwbedrijven_meldingsplicht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "glastuinbouwbedrijven meldingsplicht"@nl .
+
+overheid:hervestiging_vanuit_het_buitenland skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "hervestiging vanuit het buitenland"@nl .
+
+overheid:gebruiksmelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gebruiksmelding"@nl .
+
+overheid:geluidsontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "geluidsontheffing"@nl .
+
+overheid:woz-taxatieverslag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woz-taxatieverslag"@nl .
+
+overheid:informatiestandplaatsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "informatiestandplaatsvergunning"@nl .
+
+overheid:afvalstortontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalstortontheffing"@nl .
+
+overheid:ligplaatsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ligplaatsvergunning"@nl .
+
+overheid:jeugdgezondheidszorg skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "jeugdgezondheidszorg"@nl .
+
+overheid:economische_ontwikkelingssubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "economische ontwikkelingssubsidie"@nl .
+
+overheid:bedrijfsafvalstoffenheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsafvalstoffenheffing"@nl .
+
+overheid:gedenkteken_plaatsingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gedenkteken plaatsingsvergunning"@nl .
+
+overheid:koninklijke_onderscheiding_voordracht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "koninklijke onderscheiding voordracht"@nl .
+
+overheid:crisisopvang skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "crisisopvang"@nl .
+
+overheid:onkruidbestrijding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onkruidbestrijding"@nl .
+
+overheid:innovatiestimuleringssubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "innovatiestimuleringssubsidie"@nl .
+
+overheid:vrijwilligersverzekering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vrijwilligersverzekering"@nl .
+
+overheid:kantine_of_buurthuis_exploitatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kantine of buurthuis exploitatievergunning"@nl .
+
+overheid:geboorteaangifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "geboorteaangifte"@nl .
+
+overheid:opgraven_herbegraven_en_grafruimenvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "opgraven herbegraven en grafruimenvergunning"@nl .
+
+overheid:bladkorf skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bladkorf"@nl .
+
+overheid:marktstandplaatsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "marktstandplaatsvergunning"@nl .
+
+overheid:register_gemeenschappelijke_regelingen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "register gemeenschappelijke regelingen"@nl .
+
+overheid:onverwijlde_bijstand_voorziening skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onverwijlde bijstand voorziening"@nl .
+
+overheid:verkeersbesluit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verkeersbesluit"@nl .
+
+overheid:inzamelingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "inzamelingsvergunning"@nl .
+
+overheid:huisvestingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "huisvestingsvergunning"@nl .
+
+overheid:belastingkwijtschelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "belastingkwijtschelding"@nl .
+
+overheid:urnen_bewaarplaatsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "urnen bewaarplaatsvergunning"@nl .
+
+overheid:bedrijf_aan_huis_melding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijf aan huis melding"@nl .
+
+overheid:visvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "visvergunning"@nl .
+
+overheid:aow-uitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "aow-uitkering"@nl .
+
+overheid:verklaring_van_afstand_nederlandse_nationaliteit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verklaring van afstand nederlandse nationaliteit"@nl .
+
+overheid:prijsvraagvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "prijsvraagvergunning"@nl .
+
+overheid:schuldhulpverlening skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "schuldhulpverlening"@nl .
+
+overheid:m46-verklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "m46-verklaring"@nl .
+
+overheid:gehandicaptenparkeerplaats skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenparkeerplaats"@nl .
+
+overheid:ventvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ventvergunning"@nl .
+
+overheid:lokale_omroepsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "lokale omroepsubsidie"@nl .
+
+overheid:drank-_en_horecavergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "drank- en horecavergunning"@nl .
+
+overheid:rijbewijs_buitenlands_omwisseling skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rijbewijs buitenlands omwisseling"@nl .
+
+overheid:natuurgebieden_betreden_ontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "natuurgebieden betreden ontheffing"@nl .
+
+overheid:inrijverbodontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "inrijverbodontheffing"@nl .
+
+overheid:re-integratie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "re-integratie"@nl .
+
+overheid:scootmobiel skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "scootmobiel"@nl .
+
+overheid:parkeervergunning_bewoners skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeervergunning bewoners"@nl .
+
+overheid:verhuizing_naar_buitenland skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verhuizing naar buitenland"@nl .
+
+overheid:autobandenproducent_of_importeur_bedrijfsmelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "autobandenproducent of importeur bedrijfsmelding"@nl .
+
+overheid:belastingbesluit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "belastingbesluit"@nl .
+
+overheid:gba-uittreksel skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gba-uittreksel"@nl .
+
+overheid:dyslexieverklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "dyslexieverklaring"@nl .
+
+overheid:zorgtoeslag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "zorgtoeslag"@nl .
+
+overheid:UPL-naam_nog_niet_beschikbaar skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "UPL-naam nog niet beschikbaar"@nl .
+
+overheid:kinderopvangtoeslag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kinderopvangtoeslag"@nl .
+
+overheid:rechtshulp skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rechtshulp"@nl .
+
+overheid:verklaring_van_huwelijksbevoegdheid skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verklaring van huwelijksbevoegdheid"@nl .
+
+overheid:gehandicaptenparkeerkaart_bestuurder skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenparkeerkaart bestuurder"@nl .
+
+overheid:boodschappenhulp skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "boodschappenhulp"@nl .
+
+overheid:schoolzwemmensubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "schoolzwemmensubsidie"@nl .
+
+overheid:afvaldoorzoekingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvaldoorzoekingsvergunning"@nl .
+
+overheid:aanduiding_naamgebruik skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "aanduiding naamgebruik"@nl .
+
+overheid:onroerendezaak_huur_pacht_koop skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onroerendezaak huur pacht koop"@nl .
+
+overheid:speelautomatenhal_exploitatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "speelautomatenhal exploitatievergunning"@nl .
+
+overheid:kampeerterrein_exploitatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kampeerterrein exploitatievergunning"@nl .
+
+overheid:tapontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "tapontheffing"@nl .
+
+overheid:sociaal-cultureel_werksubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "sociaal-cultureel werksubsidie"@nl .
+
+overheid:gebruiksvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gebruiksvergunning"@nl .
+
+overheid:koninklijk_predicaataanvraag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "koninklijk predicaataanvraag"@nl .
+
+overheid:woonkostentoeslag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonkostentoeslag"@nl .
+
+overheid:rioolonderhoud skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rioolonderhoud"@nl .
+
+overheid:omgevingsvergunning_inrit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "omgevingsvergunning inrit"@nl .
+
+overheid:wwik-uitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wwik-uitkering"@nl .
+
+overheid:gladheidbestrijding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gladheidbestrijding"@nl .
+
+overheid:spandoekvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "spandoekvergunning"@nl .
+
+overheid:leerplichtvrijstelling skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "leerplichtvrijstelling"@nl .
+
+overheid:overlijdensuitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "overlijdensuitkering"@nl .
+
+overheid:verontreinigingsontheffing_van_weg_en_terreinen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verontreinigingsontheffing van weg en terreinen"@nl .
+
+overheid:milieuvriendelijk_bouwsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "milieuvriendelijk bouwsubsidie"@nl .
+
+overheid:parkeervergunning_servicebedrijven skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeervergunning servicebedrijven"@nl .
+
+overheid:gedoogbesluit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gedoogbesluit"@nl .
+
+overheid:rampenplan skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rampenplan"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/melding_openbare_ruimte_(straatmeubilair)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "melding openbare ruimte (straatmeubilair)"@nl .
+
+overheid:afvalinzameling_gft skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling gft"@nl .
+
+overheid:wajong-uitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wajong-uitkering"@nl .
+
+overheid:awbz-verpleging skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "awbz-verpleging"@nl .
+
+overheid:collectevergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "collectevergunning"@nl .
+
+overheid:vuurwerkopslagvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vuurwerkopslagvergunning"@nl .
+
+overheid:leegstandvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "leegstandvergunning"@nl .
+
+overheid:bouwplaninzage skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouwplaninzage"@nl .
+
+overheid:groepsvervoer skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "groepsvervoer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/melding_openbare_ruimte_(algemeen)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "melding openbare ruimte (algemeen)"@nl .
+
+overheid:winkeltijdenontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "winkeltijdenontheffing"@nl .
+
+overheid:wwb-uitkering_zelfstandigen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wwb-uitkering zelfstandigen"@nl .
+
+overheid:routeplichtontheffing_vervoer_gevaarlijke_stoffen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "routeplichtontheffing vervoer gevaarlijke stoffen"@nl .
+
+overheid:fietsaanpassing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "fietsaanpassing"@nl .
+
+overheid:objectvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "objectvergunning"@nl .
+
+overheid:volkstuinverhuur skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "volkstuinverhuur"@nl .
+
+overheid:stookvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "stookvergunning"@nl .
+
+overheid:bijzondere_begraafplaats_toestemming skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bijzondere begraafplaats toestemming"@nl .
+
+overheid:traplift skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "traplift"@nl .
+
+overheid:rollator skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rollator"@nl .
+
+overheid:parkeerontheffing_blauwe_zone skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeerontheffing blauwe zone"@nl .
+
+overheid:legalisatie_document skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "legalisatie document"@nl .
+
+overheid:beroep skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "beroep"@nl .
+
+overheid:bouwblokverzoek skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouwblokverzoek"@nl .
+
+overheid:beeldende_kunstsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "beeldende kunstsubsidie"@nl .
+
+overheid:precariobelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "precariobelasting"@nl .
+
+overheid:gba-correctieverzoek skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gba-correctieverzoek"@nl .
+
+overheid:aanwijzingsbesluit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "aanwijzingsbesluit"@nl .
+
+overheid:geregistreerd_partnerschapaangifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "geregistreerd partnerschapaangifte"@nl .
+
+overheid:bestemmingsplan_schadevergoeding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bestemmingsplan schadevergoeding"@nl .
+
+overheid:kunstzinnige_vormingsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kunstzinnige vormingsubsidie"@nl .
+
+overheid:wwb-uitkering_categoriaal skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wwb-uitkering categoriaal"@nl .
+
+overheid:parkeerboete skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeerboete"@nl .
+
+overheid:godsdienstonderwijssubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "godsdienstonderwijssubsidie"@nl .
+
+overheid:parkeerontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeerontheffing"@nl .
+
+overheid:bouw_en_verbouw_welstandsadvies skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouw en verbouw welstandsadvies"@nl .
+
+overheid:verzorging_pleegkindmelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verzorging pleegkindmelding"@nl .
+
+overheid:straatartiestoptreden_toestemming skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "straatartiestoptreden toestemming"@nl .
+
+overheid:duurloopvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "duurloopvergunning"@nl .
+
+overheid:milieuhandhaving skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "milieuhandhaving"@nl .
+
+overheid:verhuizing_binnen_nederland skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verhuizing binnen nederland"@nl .
+
+overheid:parkeervergunning_bezoekers skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeervergunning bezoekers"@nl .
+
+overheid:opvoedingsondersteuning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "opvoedingsondersteuning"@nl .
+
+overheid:bedrijfsterreinuitgifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsterreinuitgifte"@nl .
+
+overheid:optochtvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "optochtvergunning"@nl .
+
+overheid:stemmen_vanuit_buitenland skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "stemmen vanuit buitenland"@nl .
+
+overheid:langdurigheidstoeslag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "langdurigheidstoeslag"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/onroerendezaakbelasting_(ozb)_kopie_aanslag> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onroerendezaakbelasting (ozb) kopie aanslag"@nl .
+
+overheid:blikbak skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "blikbak"@nl .
+
+overheid:huwelijksaangifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "huwelijksaangifte"@nl .
+
+overheid:plantsoenen_betreden_toestemming skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "plantsoenen betreden toestemming"@nl .
+
+overheid:woonzorgcomplex skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonzorgcomplex"@nl .
+
+overheid:waarmerken_document skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "waarmerken document"@nl .
+
+overheid:erkenning_vaderschap skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "erkenning vaderschap"@nl .
+
+overheid:zwaartransportvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "zwaartransportvergunning"@nl .
+
+overheid:gemeenschappelijke_regelingen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gemeenschappelijke regelingen"@nl .
+
+overheid:taxivergoeding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "taxivergoeding"@nl .
+
+overheid:belastingaanslag_kopie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "belastingaanslag kopie"@nl .
+
+overheid:legalisatie_van_buitenlandse_documenten skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "legalisatie van buitenlandse documenten"@nl .
+
+overheid:welstandsadvies skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "welstandsadvies"@nl .
+
+overheid:vervangende_leerplicht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vervangende leerplicht"@nl .
+
+overheid:biz-bijdrage skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "biz-bijdrage"@nl .
+
+overheid:sociale_werkvoorziening skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "sociale werkvoorziening"@nl .
+
+overheid:awbz-persoonlijke_verzorging skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "awbz-persoonlijke verzorging"@nl .
+
+overheid:hondenbelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "hondenbelasting"@nl .
+
+overheid:afvalkalender skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalkalender"@nl .
+
+overheid:tegemoetkoming_ouders skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "tegemoetkoming ouders"@nl .
+
+overheid:herbegraven_of_alsnog_cremeren skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "herbegraven of alsnog cremeren"@nl .
+
+overheid:stadspas skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "stadspas"@nl .
+
+overheid:ontleding_stoffelijk_overschot_toestemming skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ontleding stoffelijk overschot toestemming"@nl .
+
+overheid:bestemmingsplan_inzage skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bestemmingsplan inzage"@nl .
+
+overheid:afvalinzamelstation skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzamelstation"@nl .
+
+overheid:parkeervergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeervergunning"@nl .
+
+overheid:wapenvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "wapenvergunning"@nl .
+
+overheid:evenementenvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "evenementenvergunning"@nl .
+
+overheid:vervoersvoorziening_gehandicapten_en_ouderen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vervoersvoorziening gehandicapten en ouderen"@nl .
+
+overheid:verwijzingsbordenontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "verwijzingsbordenontheffing"@nl .
+
+overheid:begrafenis_uitstelvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "begrafenis uitstelvergunning"@nl .
+
+overheid:leerplichtverzuimmelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "leerplichtverzuimmelding"@nl .
+
+overheid:levensloopregeling skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "levensloopregeling"@nl .
+
+overheid:afvalinzameling_chemisch_afval skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling chemisch afval"@nl .
+
+overheid:onderhoud_infrastructuur skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onderhoud infrastructuur"@nl .
+
+overheid:rechtmatigheidsformulier skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rechtmatigheidsformulier"@nl .
+
+overheid:uitstallingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "uitstallingsvergunning"@nl .
+
+overheid:gemeentearchief_inzage skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gemeentearchief inzage"@nl .
+
+overheid:loonsuppletie_werknemers skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "loonsuppletie werknemers"@nl .
+
+overheid:personenvervoerconcessie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "personenvervoerconcessie"@nl .
+
+overheid:stads-_en_dorpsvernieuwingssubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "stads- en dorpsvernieuwingssubsidie"@nl .
+
+overheid:afgezette_gebieden_betreden_ontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afgezette gebieden betreden ontheffing"@nl .
+
+overheid:vos-inrichting_gegevenslevering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vos-inrichting gegevenslevering"@nl .
+
+overheid:zorgvoorzieningensubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "zorgvoorzieningensubsidie"@nl .
+
+overheid:sportactiviteitensubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "sportactiviteitensubsidie"@nl .
+
+overheid:uitlening_gemeentelijke_materialen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "uitlening gemeentelijke materialen"@nl .
+
+overheid:personenalarmering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "personenalarmering"@nl .
+
+overheid:geregistreerd_partnerschap_ontbinding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "geregistreerd partnerschap ontbinding"@nl .
+
+overheid:hinderlijke_of_schadelijke_dieren_houdenontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "hinderlijke of schadelijke dieren houdenontheffing"@nl .
+
+overheid:asverstrooiing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "asverstrooiing"@nl .
+
+overheid:blindengeleidehond skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "blindengeleidehond"@nl .
+
+overheid:afvalinzameling_glas skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling glas"@nl .
+
+overheid:vreemdelingenpaspoort skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vreemdelingenpaspoort"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/bewijs_van_in_leven_zijn_(attestatie_de_vita)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bewijs van in leven zijn (attestatie de vita)"@nl .
+
+overheid:risicokaart skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "risicokaart"@nl .
+
+overheid:dagverzorging_ouderen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "dagverzorging ouderen"@nl .
+
+overheid:bouwstoffenmelding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouwstoffenmelding"@nl .
+
+overheid:kadastrale_gegevens_kopie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kadastrale gegevens kopie"@nl .
+
+overheid:automatische_incasso_of_machtiging skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "automatische incasso of machtiging"@nl .
+
+overheid:valyspas skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "valyspas"@nl .
+
+overheid:vrouwenopvang skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vrouwenopvang"@nl .
+
+overheid:gebruik_gemeentelijke_panden skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gebruik gemeentelijke panden"@nl .
+
+overheid:rijbewijs_internationaal skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rijbewijs internationaal"@nl .
+
+overheid:schoonmaakhulp skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "schoonmaakhulp"@nl .
+
+overheid:gba-inschrijving skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gba-inschrijving"@nl .
+
+overheid:dagactiviteitencentrum skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "dagactiviteitencentrum"@nl .
+
+overheid:identiteitskaart skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "identiteitskaart"@nl .
+
+overheid:melding_schade_gemeente_eigendommen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "melding schade gemeente eigendommen"@nl .
+
+overheid:gba-inzagerecht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gba-inzagerecht"@nl .
+
+overheid:funderingsherstelsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "funderingsherstelsubsidie"@nl .
+
+overheid:erkenning_kind skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "erkenning kind"@nl .
+
+overheid:luchtruim_gebruikvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "luchtruim gebruikvergunning"@nl .
+
+overheid:compostvat skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "compostvat"@nl .
+
+overheid:olietankverwijdering_melding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "olietankverwijdering melding"@nl .
+
+overheid:inburgeringsbudget skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "inburgeringsbudget"@nl .
+
+overheid:tog skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "tog"@nl .
+
+overheid:afvalinzameling_oud_papier skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling oud papier"@nl .
+
+overheid:afstand_doen_nederlandse_nationaliteit skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afstand doen nederlandse nationaliteit"@nl .
+
+overheid:epidemiologie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "epidemiologie"@nl .
+
+overheid:antireclamesticker skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "antireclamesticker"@nl .
+
+overheid:kinderdagverblijf_medisch skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kinderdagverblijf medisch"@nl .
+
+overheid:afsluiting_openbare_weg_vergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afsluiting openbare weg vergunning"@nl .
+
+overheid:parkeerontheffing_reclamevoertuig skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeerontheffing reclamevoertuig"@nl .
+
+overheid:gemeentegarantie_hypotheek_op_koopwoningen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gemeentegarantie hypotheek op koopwoningen"@nl .
+
+overheid:psychiatrisch_ziekenhuis_gedwongen_opname skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "psychiatrisch ziekenhuis gedwongen opname"@nl .
+
+overheid:winkeltijdeninformatie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "winkeltijdeninformatie"@nl .
+
+overheid:jachtvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "jachtvergunning"@nl .
+
+overheid:bijenhoudvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bijenhoudvergunning"@nl .
+
+overheid:dierenopvang skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "dierenopvang"@nl .
+
+overheid:maatschappelijke_dienstverleningsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "maatschappelijke dienstverleningsubsidie"@nl .
+
+overheid:kansspelautomaatvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kansspelautomaatvergunning"@nl .
+
+overheid:speelautomaat_exploitatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "speelautomaat exploitatievergunning"@nl .
+
+overheid:overlijdensaangifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "overlijdensaangifte"@nl .
+
+overheid:toeristenvisum skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "toeristenvisum"@nl .
+
+overheid:bodembeschermingsvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bodembeschermingsvergunning"@nl .
+
+overheid:grafonderhoud skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "grafonderhoud"@nl .
+
+overheid:woningzoekende_inschrijvingsbewijs skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woningzoekende inschrijvingsbewijs"@nl .
+
+overheid:natuur-_en_landschapsbeheer_subsidiestelsel skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "natuur- en landschapsbeheer subsidiestelsel"@nl .
+
+overheid:bouwen_nabij_hoogspanningslijnen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouwen nabij hoogspanningslijnen"@nl .
+
+overheid:rijbewijs_verklaring_van_geschiktheid skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "rijbewijs verklaring van geschiktheid"@nl .
+
+overheid:roerenderuimtebelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "roerenderuimtebelasting"@nl .
+
+overheid:circusvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "circusvergunning"@nl .
+
+overheid:inkomensvoorziening_jongeren skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "inkomensvoorziening jongeren"@nl .
+
+overheid:bevoorradingstijdenontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bevoorradingstijdenontheffing"@nl .
+
+overheid:bedrijfsinterne_milieuzorg skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsinterne milieuzorg"@nl .
+
+overheid:energiesubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "energiesubsidie"@nl .
+
+overheid:gehandicaptenparkeerkaart_instellingen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenparkeerkaart instellingen"@nl .
+
+overheid:parkeerontheffing_grote_voertuigen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "parkeerontheffing grote voertuigen"@nl .
+
+overheid:bedrijfsbewegwijzeringvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsbewegwijzeringvergunning"@nl .
+
+overheid:awbz-indicatie_voor_verblijf skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "awbz-indicatie voor verblijf"@nl .
+
+overheid:zorgverlof skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "zorgverlof"@nl .
+
+overheid:dyslexiezorg skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "dyslexiezorg"@nl .
+
+overheid:werkplekaanpassing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "werkplekaanpassing"@nl .
+
+overheid:horecabedrijf_explotatievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "horecabedrijf explotatievergunning"@nl .
+
+overheid:klacht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "klacht"@nl .
+
+overheid:opbreekvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "opbreekvergunning"@nl .
+
+overheid:ontgrondingsvergunning_schadevergoeding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "ontgrondingsvergunning schadevergoeding"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/onroerendezaakbelasting_(ozb)> skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "onroerendezaakbelasting (ozb)"@nl .
+
+overheid:slijterijvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "slijterijvergunning"@nl .
+
+overheid:besmettelijke_dierziektemeldingsplicht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "besmettelijke dierziektemeldingsplicht"@nl .
+
+overheid:snuffelmarktvergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "snuffelmarktvergunning"@nl .
+
+overheid:volmachtbewijs_verkiezingen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "volmachtbewijs verkiezingen"@nl .
+
+overheid:minderhedensubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "minderhedensubsidie"@nl .
+
+overheid:aanschrijving_gemeente skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "aanschrijving gemeente"@nl .
+
+overheid:koopwoningsubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "koopwoningsubsidie"@nl .
+
+overheid:adoptie_aangifte skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "adoptie aangifte"@nl .
+
+overheid:baatbelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "baatbelasting"@nl .
+
+overheid:echtscheiding_inschrijving skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "echtscheiding inschrijving"@nl .
+
+overheid:gemeentegids skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gemeentegids"@nl .
+
+overheid:auto-aanpassing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "auto-aanpassing"@nl .
+
+overheid:belastingbetalingsregeling skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "belastingbetalingsregeling"@nl .
+
+overheid:grote_aantallen_dieren_houdenontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "grote aantallen dieren houdenontheffing"@nl .
+
+overheid:eerste_inschrijving_in_nederland skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "eerste inschrijving in nederland"@nl .
+
+overheid:erfpacht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "erfpacht"@nl .
+
+overheid:jeugdhulpverlening_en_jongerenwerksubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "jeugdhulpverlening en jongerenwerksubsidie"@nl .
+
+overheid:monumentaanwijzing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "monumentaanwijzing"@nl .
+
+overheid:burgerjaarverslag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "burgerjaarverslag"@nl .
+
+overheid:naturalisatieceremonie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "naturalisatieceremonie"@nl .
+
+overheid:bouwvoorschriften skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouwvoorschriften"@nl .
+
+overheid:bouw-_en_grondverklaring skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bouw- en grondverklaring"@nl .
+
+overheid:kredietaanvraag skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kredietaanvraag"@nl .
+
+overheid:woonvergunning_tweede_woning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "woonvergunning tweede woning"@nl .
+
+overheid:vervoersontheffing_dierlijke_meststoffen skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vervoersontheffing dierlijke meststoffen"@nl .
+
+overheid:noodreisdocument skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "noodreisdocument"@nl .
+
+overheid:vluchtelingenpaspoort skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vluchtelingenpaspoort"@nl .
+
+overheid:zondagsrustverstoring_ontheffing skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "zondagsrustverstoring ontheffing"@nl .
+
+overheid:reclamebelasting skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "reclamebelasting"@nl .
+
+overheid:afvalinzameling_luiers skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "afvalinzameling luiers"@nl .
+
+overheid:vermoeden_van_besmetting_melding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "vermoeden van besmetting melding"@nl .
+
+overheid:gezondheidsopvoeding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gezondheidsopvoeding"@nl .
+
+overheid:havenverordening skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "havenverordening"@nl .
+
+overheid:kiezerspas skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "kiezerspas"@nl .
+
+overheid:paspoort skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "paspoort"@nl .
+
+overheid:bijzondere_bijstandsuitkering skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bijzondere bijstandsuitkering"@nl .
+
+overheid:reinigingsrecht skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "reinigingsrecht"@nl .
+
+overheid:betoging-_of_demonstratievergunning skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "betoging- of demonstratievergunning"@nl .
+
+overheid:geregistreerd_partnerschap_omzetting_in_huwelijk skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "geregistreerd partnerschap omzetting in huwelijk"@nl .
+
+overheid:gehandicaptenparkeerkaart_europees skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "gehandicaptenparkeerkaart europees"@nl .
+
+overheid:toerismesubsidie skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "toerismesubsidie"@nl .
+
+overheid:bedrijfsgezondheidszorg skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "bedrijfsgezondheidszorg"@nl .
+
+overheid:calamiteitenbestrijding skos:inScheme overheid:UniformeProductnaam ;
+	skos:prefLabel "calamiteitenbestrijding"@nl .

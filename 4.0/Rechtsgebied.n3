@@ -1,0 +1,333 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Rechtsgebied a overheid:Thesaurus ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Rechtsgebied.rdf> , <http://standaarden.overheid.nl/owms/terms/Rechtsgebied.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Rechtsgebied.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Rechtsgebied.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Rechtsgebied rdfs:label "Rechtsgebied"@nl ;
+	skos:hasTopConcept overheid:procesrecht , overheid:belastingrecht , overheid:gezondheidsrecht_en_farmaceutisch_recht , overheid:bank_en_effectenrecht_financiering , <http://standaarden.overheid.nl/owms/terms/privacy_(rechtsgebied)> , <http://standaarden.overheid.nl/owms/terms/strafrecht_(rechtsgebied)> , overheid:staats_en_bestuursrecht , overheid:goederenrecht , overheid:internationaal_privaatrecht , overheid:vervoersrecht , overheid:migratierecht , overheid:ondernemingspraktijk , overheid:mededingingsrecht , overheid:ruimtelijke_ordening_en_milieu , overheid:intellectuele_eigendom , overheid:contracten_schade_en_aansprakelijkheid , overheid:sportrecht , overheid:insolventierecht , overheid:levensmiddelenrecht , <http://standaarden.overheid.nl/owms/terms/overig_(rechtsgebied)> , overheid:internationaal_publiekrecht , overheid:arbeidsrecht_en_sociaalzekerheidsrecht , overheid:onderwijsrecht , overheid:wonen_onroerend_goed_bouwrecht , overheid:personen_en_familierecht , overheid:informatierecht , <http://standaarden.overheid.nl/owms/terms/arbitrage_(rechtsgebied)> ;
+	skos:prefLabel "Rechtsgebied"@nl ;
+	a rdfs:Resource , skos:ConceptScheme .
+
+overheid:belastingrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Belastingrecht"@nl .
+
+overheid:gezondheidsrecht_en_farmaceutisch_recht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Gezondheidsrecht en farmaceutisch recht"@nl .
+
+overheid:dividendbelasting skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Dividendbelasting"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/consumentenrecht_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Consumentenrecht"@nl .
+
+overheid:internationaal_contractrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Internationaal contractrecht"@nl .
+
+overheid:effectenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Effectenrecht"@nl .
+
+overheid:vreemdelingenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Vreemdelingenrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/echtscheiding_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Echtscheiding"@nl .
+
+overheid:ruimtelijke_ordening_en_milieu skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Ruimtelijke ordening en milieu"@nl .
+
+overheid:volkenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Volkenrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/strafrecht_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Strafrecht"@nl .
+
+overheid:militair_recht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Militair recht"@nl .
+
+overheid:personen_en_familierecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Personen- en familierecht"@nl .
+
+overheid:goederenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Goederenrecht"@nl .
+
+overheid:faillissement skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Faillissement"@nl .
+
+overheid:invoer_en_douane skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Invoer en douane"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/overig_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Overig"@nl .
+
+overheid:familierecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Familierecht"@nl .
+
+overheid:erfrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Erfrecht"@nl .
+
+overheid:financieeleconomisch_strafrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Financieel-economisch strafrecht"@nl .
+
+overheid:loonbelasting_en_premieheffing skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Loonbelasting en premieheffing"@nl .
+
+overheid:nationaliteitsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Nationaliteitsrecht"@nl .
+
+overheid:vervoersrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Vervoersrecht"@nl .
+
+overheid:burgerlijk_procesrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Burgerlijk procesrecht"@nl .
+
+overheid:arbeidsrecht_en_sociaalzekerheidsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Arbeidsrecht en sociaal zekerheidsrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/mensenrechten_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Mensenrechten"@nl .
+
+overheid:militaire_ambtenarenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Militaire ambtenarenrecht"@nl .
+
+overheid:omgevingsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Omgevingsrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/milieubelasting_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Milieubelasting"@nl .
+
+overheid:huurrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Huurrecht"@nl .
+
+overheid:bestuursstrafrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Bestuursstrafrecht"@nl .
+
+overheid:internationaal_publiekrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Internationaal publiekrecht"@nl .
+
+overheid:bestuursprocesrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Bestuursprocesrecht"@nl .
+
+overheid:procesrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Procesrecht"@nl .
+
+overheid:onderwijsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Onderwijsrecht"@nl .
+
+overheid:waterrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Waterrecht"@nl .
+
+overheid:schuldsanering skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Schuldsanering"@nl .
+
+overheid:insolventierecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Insolventierecht"@nl .
+
+overheid:arbeidsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Arbeidsrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/privacy_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Privacy"@nl .
+
+overheid:erfdienstbaarheid skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Erfdienstbaarheid"@nl .
+
+overheid:onroerend_goedrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Onroerend goedrecht"@nl .
+
+overheid:sociaal_zekerheidsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Sociaal zekerheidsrecht"@nl .
+
+overheid:bouwrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Bouwrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/bestuursrecht_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Bestuursrecht"@nl .
+
+overheid:auteursrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Auteursrecht"@nl .
+
+overheid:erfpacht_vruchtgebruik skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Erfpacht, vruchtgebruik"@nl .
+
+overheid:milieurecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Milieurecht"@nl .
+
+overheid:eigendomsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Eigendomsrecht"@nl .
+
+overheid:wonen_onroerend_goed_bouwrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Wonen, onroerend goed, bouwrecht"@nl .
+
+overheid:informatierecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Informatierecht"@nl .
+
+overheid:aansprakelijkheidsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Aansprakelijkheidsrecht"@nl .
+
+overheid:contracten_schade_en_aansprakelijkheid skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Contracten, schade en aansprakelijkheid"@nl .
+
+overheid:fusies_en_overnames skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Fusies en overnames"@nl .
+
+overheid:ondernemingspraktijk skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Ondernemingspraktijk"@nl .
+
+overheid:invorderingsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Invorderingsrecht"@nl .
+
+overheid:hypotheekrecht_en_pandrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Hypotheekrecht en pandrecht (zekerheidsrechten)"@nl .
+
+overheid:vennootschapsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Vennootschapsrecht"@nl .
+
+overheid:financiering_en_zekerheden skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Financiering en zekerheden"@nl .
+
+overheid:verkeersrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Verkeersrecht"@nl .
+
+overheid:asielrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Asielrecht"@nl .
+
+overheid:internationaal_privaatrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Internationaal privaatrecht"@nl .
+
+overheid:ambtenarenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Ambtenarenrecht"@nl .
+
+overheid:jeugdrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Jeugdrecht (m.u.v. jeugdstrafrecht)"@nl .
+
+overheid:inkomstenbelasting skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Inkomstenbelasting"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/staatsrecht_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Staatsrecht"@nl .
+
+overheid:internationaal_procesrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Internationaal procesrecht"@nl .
+
+overheid:milieustrafrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Milieustrafrecht"@nl .
+
+overheid:ICT_recht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "ICT-recht"@nl .
+
+overheid:penitentiair_recht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Penitentiair recht"@nl .
+
+overheid:successie_en_schenkingsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Successie- en schenkingsrecht"@nl .
+
+overheid:vennootschapsbelastingrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Vennootschapsbelastingrecht"@nl .
+
+overheid:levensmiddelenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Levensmiddelenrecht"@nl .
+
+overheid:contractenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Contractenrecht"@nl .
+
+overheid:intellectuele_eigendom skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Intellectuele eigendom"@nl .
+
+overheid:intellectueel_eigendomsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Intellectueel eigendomsrecht"@nl .
+
+overheid:internationaal_onroerend_goedrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Internationaal onroerend goedrecht"@nl .
+
+overheid:letselschade skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Letselschade"@nl .
+
+overheid:toezicht_bank_en_kredietwezen skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Toezicht bank- en kredietwezen"@nl .
+
+overheid:bank_en_effectenrecht_financiering skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Bank- en effectenrecht, financiering"@nl .
+
+overheid:mededingingsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Mededingingsrecht"@nl .
+
+overheid:sportrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Sportrecht"@nl .
+
+overheid:octrooirecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Octrooirecht"@nl .
+
+overheid:BTW_en_accijns skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "BTW en accijns"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/strafrecht_(algemeen)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Strafrecht (algemeen)"@nl .
+
+overheid:tuchtrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Tuchtrecht"@nl .
+
+overheid:pensioenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Pensioenrecht"@nl .
+
+overheid:ondernemingsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Ondernemingsrecht"@nl .
+
+overheid:telecomrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Telecomrecht"@nl .
+
+overheid:internationaal_strafrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Internationaal strafrecht"@nl .
+
+overheid:verzekeringsrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Verzekeringsrecht"@nl .
+
+overheid:bankrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Bankrecht"@nl .
+
+overheid:surseance skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Surseance"@nl .
+
+overheid:verbintenissenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Verbintenissenrecht"@nl .
+
+overheid:personenrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Personenrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/arbitrage_(rechtsgebied)> skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Arbitrage"@nl .
+
+overheid:migratierecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Migratierecht"@nl .
+
+overheid:staats_en_bestuursrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Staats- en bestuursrecht"@nl .
+
+overheid:jeugdstrafrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Jeugdstrafrecht"@nl .
+
+overheid:strafprocesrecht skos:inScheme overheid:Rechtsgebied ;
+	skos:prefLabel "Strafprocesrecht"@nl .

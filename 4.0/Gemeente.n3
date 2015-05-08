@@ -1,0 +1,2028 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Gemeente a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Gemeente.rdf> , <http://standaarden.overheid.nl/owms/terms/Gemeente.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Gemeente.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Gemeente.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Gemeente rdfs:label "Gemeente"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Gemeente"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , rdfs:Resource , overheid:Gemeente , owl:Thing .
+
+overheid:Laarbeek a overheid:Gemeente ;
+	skos:prefLabel "Laarbeek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wierden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wierden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Groesbeek_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Groesbeek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hasselt_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hasselt"@nl ;
+	overheid:endDate "2001-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Purmerend_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Purmerend"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Noordoostpolder_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Noordoostpolder"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zutphen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zutphen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oostflakkee_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oostflakkee"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Medemblik_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Medemblik"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heemstede_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heemstede"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zundert_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zundert"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Didam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Didam"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Winsum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Winsum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Middelburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Middelburg"@nl .
+
+overheid:Maasgouw a overheid:Gemeente ;
+	skos:prefLabel "Maasgouw"@nl ;
+	overheid:startDate "2007-01-01"^^xsd:date .
+
+overheid:Midden-Drenthe a overheid:Gemeente ;
+	skos:prefLabel "Midden-Drenthe"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oosterhout_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oosterhout"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nunspeet_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nunspeet"@nl .
+
+overheid:Montferland a overheid:Gemeente ;
+	skos:prefLabel "Montferland"@nl ;
+	overheid:startDate "2005-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Valkenswaard_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Valkenswaard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Meijel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Meijel"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Heino_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heino"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+overheid:Stichtse_Vecht a overheid:Gemeente ;
+	skos:prefLabel "Stichtse Vecht"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Berkel_en_Rodenrijs_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Berkel en Rodenrijs"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+overheid:Westland a overheid:Gemeente ;
+	skos:prefLabel "Westland"@nl ;
+	overheid:startDate "2004-01-01"^^xsd:date .
+
+overheid:Landerd a overheid:Gemeente ;
+	skos:prefLabel "Landerd"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Boekel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Boekel"@nl .
+
+overheid:Bellingwedde a overheid:Gemeente ;
+	skos:prefLabel "Bellingwedde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hillegom_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hillegom"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bladel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bladel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lith_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Lith"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Werkendam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Werkendam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Drechterland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Drechterland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hellevoetsluis_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hellevoetsluis"@nl .
+
+overheid:Lichtenvoorde a overheid:Gemeente ;
+	skos:prefLabel "Lichtenvoorde"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Zwartsluis_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zwartsluis"@nl ;
+	overheid:endDate "2001-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Avereest_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Avereest"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Borsele_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Borsele"@nl .
+
+overheid:Opsterland a overheid:Gemeente ;
+	skos:prefLabel "Opsterland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zelhem_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zelhem"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Raalte_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Raalte"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ruurlo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ruurlo"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Haren_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Haren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gendringen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Gendringen"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+overheid:Rotterdam a overheid:Gemeente ;
+	skos:prefLabel "Rotterdam"@nl .
+
+overheid:Midden-Delfland a overheid:Gemeente ;
+	skos:prefLabel "Midden-Delfland"@nl ;
+	overheid:startDate "2004-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Ten_Boer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ten Boer"@nl .
+
+overheid:Amsterdam a overheid:Gemeente ;
+	skos:prefLabel "Amsterdam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Middelharnis_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Middelharnis"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Uitgeest_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Uitgeest"@nl .
+
+overheid:Bodegraven a overheid:Gemeente ;
+	skos:prefLabel "Bodegraven"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Voorburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Voorburg"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Heerde_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heerde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Arcen_en_Velden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Arcen en Velden"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Lochem_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Lochem"@nl .
+
+overheid:Rijssen-Holten a overheid:Gemeente ;
+	skos:prefLabel "Rijssen-Holten"@nl ;
+	overheid:startDate "2003-03-15"^^xsd:date .
+
+overheid:Achtkarspelen a overheid:Gemeente ;
+	skos:prefLabel "Achtkarspelen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ravenstein_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ravenstein"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+overheid:Ameland a overheid:Gemeente ;
+	skos:prefLabel "Ameland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Terschelling_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Terschelling"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ootmarsum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ootmarsum"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Landgraaf_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Landgraaf"@nl .
+
+overheid:Leeuwarderadeel a overheid:Gemeente ;
+	skos:prefLabel "Leeuwarderadeel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Winschoten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Winschoten"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Ermelo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ermelo"@nl .
+
+overheid:Goeree-Overflakkee a overheid:Gemeente ;
+	skos:prefLabel "Goeree-Overflakkee"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Leusden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Leusden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dodewaard_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Dodewaard"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+overheid:Veere a overheid:Gemeente ;
+	skos:prefLabel "Veere"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Appingedam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Appingedam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oudewater_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oudewater"@nl .
+
+overheid:Leidschendam a overheid:Gemeente ;
+	skos:prefLabel "Leidschendam"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Bergh_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bergh"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Zijpe_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zijpe"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:De_Fryske_Marren a overheid:Gemeente ;
+	skos:prefLabel "De Fryske Marren"@nl ;
+	overheid:startDate "2015-07-01"^^xsd:date .
+
+overheid:Korendijk a overheid:Gemeente ;
+	skos:prefLabel "Korendijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gennep_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Gennep"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenzande_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "'s-Gravenzande"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Moordrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Moordrecht"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Hardinxveld-Giessendam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hardinxveld-Giessendam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Loon_op_Zand_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Loon op Zand"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Belfeld_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Belfeld"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Beemster_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Beemster"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Renswoude_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Renswoude"@nl .
+
+overheid:Kaag_en_Braassem a overheid:Gemeente ;
+	skos:prefLabel "Kaag en Braassem"@nl ;
+	overheid:startDate "2009-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/IJsselstein_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "IJsselstein"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Enkhuizen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Enkhuizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ouder-Amstel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ouder-Amstel"@nl .
+
+overheid:Oost_Gelre a overheid:Gemeente ;
+	skos:prefLabel "Oost Gelre"@nl ;
+	overheid:startDate "2006-05-20"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Dalfsen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Dalfsen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Buren_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Buren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Simpelveld_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Simpelveld"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bernisse_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bernisse"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Boskoop_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Boskoop"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Geertruidenberg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Geertruidenberg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Denekamp_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Denekamp"@nl ;
+	overheid:endDate "2002-05-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Someren_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Someren"@nl .
+
+overheid:Mill_en_Sint_Hubert a overheid:Gemeente ;
+	skos:prefLabel "Mill en Sint Hubert"@nl .
+
+overheid:Hollands_Kroon a overheid:Gemeente ;
+	skos:prefLabel "Hollands Kroon"@nl ;
+	overheid:startDate "2012-01-01"^^xsd:date .
+
+overheid:Epe a overheid:Gemeente ;
+	skos:prefLabel "Epe"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Steenderen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Steenderen"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+overheid:Roggel_en_Neer a overheid:Gemeente ;
+	skos:prefLabel "Roggel en Neer"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Asten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Asten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Strijen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Strijen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Diepenheim_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Diepenheim"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+overheid:Bernheze a overheid:Gemeente ;
+	skos:prefLabel "Bernheze"@nl .
+
+overheid:Heel a overheid:Gemeente ;
+	skos:prefLabel "Heel"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+overheid:Heeze-Leende a overheid:Gemeente ;
+	skos:prefLabel "Heeze-Leende"@nl .
+
+overheid:Tynaarlo a overheid:Gemeente ;
+	skos:prefLabel "Tynaarlo"@nl .
+
+overheid:Noordenveld a overheid:Gemeente ;
+	skos:prefLabel "Noordenveld"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/De_Lier_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "De Lier"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Sneek_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Sneek"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Aalburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Aalburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Valburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Valburg"@nl ;
+	overheid:endDate "2001-01-01"^^xsd:date .
+
+overheid:Skarsterlan a overheid:Gemeente ;
+	skos:prefLabel "Skarsterlân"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Goor_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Goor"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Delfzijl_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Delfzijl"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergen_(NH)> a overheid:Gemeente ;
+	skos:prefLabel "Bergen (NH)"@nl .
+
+overheid:Ommen a overheid:Gemeente ;
+	skos:prefLabel "Ommen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nieuwleusen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nieuwleusen"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Elburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Elburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Markelo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Markelo"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+overheid:Liesveld a overheid:Gemeente ;
+	skos:prefLabel "Liesveld"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Vlagtwedde_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vlagtwedde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Boxmeer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Boxmeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Weert_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Weert"@nl .
+
+overheid:Edam-Volendam a overheid:Gemeente ;
+	skos:prefLabel "Edam-Volendam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Goedereede_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Goedereede"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Giessenlanden a overheid:Gemeente ;
+	skos:prefLabel "Giessenlanden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gendt_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Gendt"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Vlissingen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vlissingen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rucphen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Rucphen"@nl .
+
+overheid:Roosendaal a overheid:Gemeente ;
+	skos:prefLabel "Roosendaal"@nl .
+
+overheid:Nissewaard a overheid:Gemeente ;
+	skos:prefLabel "Nissewaard"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Leeuwarden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Leeuwarden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maasbracht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maasbracht"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Hoevelaken_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hoevelaken"@nl ;
+	overheid:endDate "1999-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Rozenburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Rozenburg"@nl ;
+	overheid:endDate "2010-03-17"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Alkmaar_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Alkmaar"@nl .
+
+overheid:Eijsden-Margraten a overheid:Gemeente ;
+	skos:prefLabel "Eijsden-Margraten"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+overheid:Hengelo a overheid:Gemeente ;
+	skos:prefLabel "Hengelo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Beverwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Beverwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Elst_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Elst"@nl ;
+	overheid:endDate "2001-01-01"^^xsd:date .
+
+overheid:Tytsjerksteradiel a overheid:Gemeente ;
+	skos:prefLabel "Tytsjerksteradiel"@nl .
+
+overheid:Opmeer a overheid:Gemeente ;
+	skos:prefLabel "Opmeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Aalsmeer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Aalsmeer"@nl .
+
+overheid:Graafstroom a overheid:Gemeente ;
+	skos:prefLabel "Graafstroom"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Alphen-Chaam a overheid:Gemeente ;
+	skos:prefLabel "Alphen-Chaam"@nl .
+
+overheid:Wymbritseradiel a overheid:Gemeente ;
+	skos:prefLabel "Wymbritseradiel"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Leerdam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Leerdam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Winterswijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Winterswijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schoorl_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schoorl"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Amstelveen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Amstelveen"@nl .
+
+overheid:De_Ronde_Venen a overheid:Gemeente ;
+	skos:prefLabel "De Ronde Venen"@nl .
+
+overheid:Valkenburg_aan_de_Geul a overheid:Gemeente ;
+	skos:prefLabel "Valkenburg aan de Geul"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Venray_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Venray"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Best_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Best"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Noordwijkerhout_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Noordwijkerhout"@nl .
+
+overheid:Kollumerland_en_Nieuwkruisland a overheid:Gemeente ;
+	skos:prefLabel "Kollumerland en Nieuwkruisland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stein_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Stein"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voorschoten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Voorschoten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Den_Ham_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Den Ham"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Hattem_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hattem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voorst_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Voorst"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haelen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Haelen"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Naaldwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Naaldwijk"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Vlieland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vlieland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravendeel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "'s-Gravendeel"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Rijswijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Rijswijk"@nl .
+
+overheid:Pekela a overheid:Gemeente ;
+	skos:prefLabel "Pekela"@nl .
+
+overheid:Peel_en_Maas a overheid:Gemeente ;
+	skos:prefLabel "Peel en Maas"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Neede_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Neede"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+overheid:Rijnwoude a overheid:Gemeente ;
+	skos:prefLabel "Rijnwoude"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wassenaar_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wassenaar"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Veenendaal_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Veenendaal"@nl .
+
+overheid:Menaldumadeel a overheid:Gemeente ;
+	skos:prefLabel "Menaldumadeel"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Ede_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ede"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Apeldoorn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Apeldoorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Alblasserdam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Alblasserdam"@nl .
+
+overheid:Oude_IJsselstreek a overheid:Gemeente ;
+	skos:prefLabel "Oude IJsselstreek"@nl ;
+	overheid:startDate "2005-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Andijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Andijk"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Aalten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Aalten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Staphorst_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Staphorst"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zoeterwoude_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zoeterwoude"@nl .
+
+overheid:Ooststellingwerf a overheid:Gemeente ;
+	skos:prefLabel "Ooststellingwerf"@nl .
+
+overheid:Ferwerderadiel a overheid:Gemeente ;
+	skos:prefLabel "Ferwerderadiel"@nl .
+
+overheid:Zaanstad a overheid:Gemeente ;
+	skos:prefLabel "Zaanstad"@nl .
+
+overheid:Gaasterlan-Sleat a overheid:Gemeente ;
+	skos:prefLabel "Gaasterlân-Sleat"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:Wormerland a overheid:Gemeente ;
+	skos:prefLabel "Wormerland"@nl .
+
+overheid:Smallingerland a overheid:Gemeente ;
+	skos:prefLabel "Smallingerland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Westvoorne_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Westvoorne"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Pijnacker_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Pijnacker"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Hilvarenbeek_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hilvarenbeek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Veendam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Veendam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leersum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Leersum"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+overheid:Roerdalen a overheid:Gemeente ;
+	skos:prefLabel "Roerdalen"@nl .
+
+overheid:Oldambt a overheid:Gemeente ;
+	skos:prefLabel "Oldambt"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Angerlo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Angerlo"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Tilburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Tilburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vlist_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vlist"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Maasland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maasland"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+overheid:Nederlek a overheid:Gemeente ;
+	skos:prefLabel "Nederlek"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+overheid:Cranendonck a overheid:Gemeente ;
+	skos:prefLabel "Cranendonck"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/De_Bilt_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "De Bilt"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Reimerswaal_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Reimerswaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lisse_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Lisse"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vaals_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vaals"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schinnen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schinnen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Noorder-Koggenland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Noorder-Koggenland"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wervershoof_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wervershoof"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:Utrechtse_Heuvelrug a overheid:Gemeente ;
+	skos:prefLabel "Utrechtse Heuvelrug"@nl ;
+	overheid:startDate "2006-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Noordwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Noordwijk"@nl .
+
+overheid:Pijnacker-Nootdorp a overheid:Gemeente ;
+	skos:prefLabel "Pijnacker-Nootdorp"@nl ;
+	overheid:startDate "2002-01-01"^^xsd:date .
+
+overheid:Millingen_aan_de_Rijn a overheid:Gemeente ;
+	skos:prefLabel "Millingen aan de Rijn"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wieringermeer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wieringermeer"@nl ;
+	overheid:endDate "2011-12-31"^^xsd:date .
+
+overheid:Brummen a overheid:Gemeente ;
+	skos:prefLabel "Brummen"@nl .
+
+overheid:Egmond a overheid:Gemeente ;
+	skos:prefLabel "Egmond"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+overheid:Zwartewaterland a overheid:Gemeente ;
+	skos:prefLabel "Zwartewaterland"@nl ;
+	overheid:startDate "2001-01-01"^^xsd:date .
+
+overheid:Bodegraven-Reeuwijk a overheid:Gemeente ;
+	skos:prefLabel "Bodegraven-Reeuwijk"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+overheid:Jacobswoude a overheid:Gemeente ;
+	skos:prefLabel "Jacobswoude"@nl ;
+	overheid:endDate "2008-12-31"^^xsd:date .
+
+overheid:Borger-Odoorn a overheid:Gemeente ;
+	skos:prefLabel "Borger-Odoorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vriezenveen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vriezenveen"@nl ;
+	overheid:endDate "2002-05-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Harmelen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Harmelen"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Veldhoven_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Veldhoven"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heusden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heusden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nijmegen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nijmegen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wateringen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wateringen"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Beesel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Beesel"@nl .
+
+overheid:Noord-Beveland a overheid:Gemeente ;
+	skos:prefLabel "Noord-Beveland"@nl .
+
+overheid:Dantumadeel a overheid:Gemeente ;
+	skos:prefLabel "Dantumadeel"@nl ;
+	overheid:endDate "2008-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Brunssum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Brunssum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Olst_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Olst"@nl ;
+	overheid:endDate "2002-03-25"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Den_Helder_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Den Helder"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Katwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Katwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hunsel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hunsel"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+overheid:Nieuwerkerk_aan_den_IJssel a overheid:Gemeente ;
+	skos:prefLabel "Nieuwerkerk aan den IJssel"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+overheid:Hummelo_en_Keppel a overheid:Gemeente ;
+	skos:prefLabel "Hummelo"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Heerenveen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heerenveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Grubbenvorst_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Grubbenvorst"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Warnsveld_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Warnsveld"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+overheid:Terneuzen a overheid:Gemeente ;
+	skos:prefLabel "Terneuzen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Coevorden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Coevorden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Doesburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Doesburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heerjansdam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heerjansdam"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Utrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Utrecht (Utr)"@nl .
+
+overheid:Het_Bildt a overheid:Gemeente ;
+	skos:prefLabel "Het Bildt"@nl .
+
+overheid:Bronckhorst a overheid:Gemeente ;
+	skos:prefLabel "Bronckhorst"@nl ;
+	overheid:startDate "2005-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Beek_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Beek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rozendaal_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Rozendaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Barendrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Barendrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Steenbergen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Steenbergen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haaksbergen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Haaksbergen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lelystad_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Lelystad"@nl .
+
+overheid:Binnenmaas a overheid:Gemeente ;
+	skos:prefLabel "Binnenmaas"@nl .
+
+overheid:Lemsterland a overheid:Gemeente ;
+	skos:prefLabel "Lemsterland"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Schijndel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schijndel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bunnik_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bunnik"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kerkrade_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Kerkrade"@nl .
+
+overheid:Sint_Anthonis a overheid:Gemeente ;
+	skos:prefLabel "Sint Anthonis"@nl .
+
+overheid:Lansingerland a overheid:Gemeente ;
+	skos:prefLabel "Lansingerland"@nl ;
+	overheid:startDate "2007-01-01"^^xsd:date .
+
+overheid:Twenterand a overheid:Gemeente ;
+	skos:prefLabel "Twenterand"@nl ;
+	overheid:startDate "2002-06-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Warmond_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Warmond"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Gorinchem_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Gorinchem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dongen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Dongen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Cuijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Cuijk"@nl .
+
+overheid:Krimpenerwaard a overheid:Gemeente ;
+	skos:prefLabel "Krimpenerwaard"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage> a overheid:Gemeente ;
+	skos:prefLabel "'s-Gravenhage"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Margraten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Margraten"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Graveland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "'s-Graveland"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Grave_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Grave"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oisterwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oisterwijk"@nl .
+
+overheid:Ambt_Montfort a overheid:Gemeente ;
+	skos:prefLabel "Ambt Montfort"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Heiloo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heiloo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Steenwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Steenwijk"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+overheid:Valkenburg a overheid:Gemeente ;
+	skos:prefLabel "Valkenburg"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Hertogenbosch> a overheid:Gemeente ;
+	skos:prefLabel "'s-Hertogenbosch"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Venhuizen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Venhuizen"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Abcoude_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Abcoude"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:Vleuten-De_Meern a overheid:Gemeente ;
+	skos:prefLabel "Vleuten-De Meern"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Woerden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Woerden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nootdorp_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nootdorp"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+overheid:Echt-Susteren a overheid:Gemeente ;
+	skos:prefLabel "Echt-Susteren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hoorn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hoorn"@nl .
+
+overheid:Zuidplas a overheid:Gemeente ;
+	skos:prefLabel "Zuidplas"@nl ;
+	overheid:startDate "2010-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Nuth_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nuth"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Amerongen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Amerongen"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Schiedam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schiedam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wognum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wognum"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+overheid:De_Wolden a overheid:Gemeente ;
+	skos:prefLabel "De Wolden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Losser_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Losser"@nl .
+
+overheid:Menameradiel a overheid:Gemeente ;
+	skos:prefLabel "Menameradiel"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Geldrop_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Geldrop"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Hoogeveen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hoogeveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Culemborg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Culemborg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Susteren_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Susteren"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Helmond_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Helmond"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergeijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bergeijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gouda_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Gouda"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oldebroek_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oldebroek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Broekhuizen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Broekhuizen"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Emmen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Emmen"@nl .
+
+overheid:Horst_aan_de_Maas a overheid:Gemeente ;
+	skos:prefLabel "Horst aan de Maas"@nl ;
+	overheid:startDate "2001-01-01"^^xsd:date .
+
+overheid:Aa_en_Hunze a overheid:Gemeente ;
+	skos:prefLabel "Aa en Hunze"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leek_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Leek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sevenum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Sevenum"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Niedorp_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Niedorp"@nl ;
+	overheid:endDate "2011-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Huizen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Huizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sluis_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Sluis"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Baarn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Baarn"@nl .
+
+overheid:Sluis-Aardenburg a overheid:Gemeente ;
+	skos:prefLabel "Sluis-Aardenburg"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+overheid:Leidschendam-Voorburg a overheid:Gemeente ;
+	skos:prefLabel "Leidschendam-Voorburg"@nl ;
+	overheid:startDate "2002-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Nuenen,_Gerwen_en_Nederwetten> a overheid:Gemeente ;
+	skos:prefLabel "Nuenen, Gerwen en Nederwetten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Houten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Houten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sittard_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Sittard"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Brederwiede_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Brederwiede"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Groenlo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Groenlo"@nl ;
+	overheid:endDate "2006-05-19"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Bleiswijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bleiswijk"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Eemnes_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Eemnes"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergschenhoek_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bergschenhoek"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Harlingen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Harlingen"@nl .
+
+overheid:Reiderland a overheid:Gemeente ;
+	skos:prefLabel "Reiderland"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Heemskerk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heemskerk"@nl .
+
+overheid:Drimmelen a overheid:Gemeente ;
+	skos:prefLabel "Drimmelen"@nl .
+
+overheid:Zeevang a overheid:Gemeente ;
+	skos:prefLabel "Zeevang"@nl .
+
+overheid:Moerdijk a overheid:Gemeente ;
+	skos:prefLabel "Moerdijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Born_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Born"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+overheid:Olst-Wijhe a overheid:Gemeente ;
+	skos:prefLabel "Olst-Wijhe"@nl ;
+	overheid:startDate "2002-03-26"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Voerendaal_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Voerendaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nijkerk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nijkerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nederweert_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nederweert"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rijnsburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Rijnsburg"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Bedum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bedum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maasdriel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maasdriel"@nl .
+
+overheid:Weststellingwerf a overheid:Gemeente ;
+	skos:prefLabel "Weststellingwerf"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Landsmeer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Landsmeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heerlen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heerlen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Holten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Holten"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+overheid:Slochteren a overheid:Gemeente ;
+	skos:prefLabel "Slochteren"@nl .
+
+overheid:West_Maas_en_Waal a overheid:Gemeente ;
+	skos:prefLabel "West Maas en Waal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/IJsselmuiden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "IJsselmuiden"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Bloemendaal_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bloemendaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zandvoort_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zandvoort"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oostzaan_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oostzaan"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Uithoorn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Uithoorn"@nl .
+
+overheid:Haarlemmerliede_en_Spaarnwoude a overheid:Gemeente ;
+	skos:prefLabel "Haarlemmerliede en Spaarnwoude"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Roermond_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Roermond"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sassenheim_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Sassenheim"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Oldenzaal_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oldenzaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schermer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schermer"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Heerhugowaard_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heerhugowaard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hendrik-Ido-Ambacht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hendrik-Ido-Ambacht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Enschede_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Enschede"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zederik_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zederik"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Eijsden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Eijsden"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:Sittard-Geleen a overheid:Gemeente ;
+	skos:prefLabel "Sittard-Geleen"@nl ;
+	overheid:startDate "2001-01-01"^^xsd:date .
+
+overheid:Meerlo-Wanssum a overheid:Gemeente ;
+	skos:prefLabel "Meerlo-Wanssum"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Eindhoven_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Eindhoven"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Eibergen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Eibergen"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Gilze_en_Rijen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Gilze en Rijen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oegstgeest_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oegstgeest"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergen_op_Zoom_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bergen op Zoom"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maasbree_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maasbree"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Deurne_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Deurne"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Mook_en_Middelaar_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Mook en Middelaar"@nl .
+
+overheid:Gulpen-Wittem a overheid:Gemeente ;
+	skos:prefLabel "Gulpen-Wittem"@nl ;
+	overheid:startDate "1999-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Dinxperlo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Dinxperlo"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Leiderdorp_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Leiderdorp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maarn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maarn"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Gramsbergen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Gramsbergen"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Zaltbommel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zaltbommel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Meerssen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Meerssen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dronten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Dronten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Venlo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Venlo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wageningen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wageningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schiermonnikoog_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schiermonnikoog"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rheden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Rheden"@nl .
+
+overheid:Molenwaard a overheid:Gemeente ;
+	skos:prefLabel "Molenwaard"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Rijnwaarden a overheid:Gemeente ;
+	skos:prefLabel "Rijnwaarden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Axel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Axel"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+overheid:Teylingen a overheid:Gemeente ;
+	skos:prefLabel "Teylingen"@nl ;
+	overheid:startDate "2006-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Maassluis_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maassluis"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zeewolde_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zeewolde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Uden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Uden"@nl .
+
+overheid:Reusel-De_Mierden a overheid:Gemeente ;
+	skos:prefLabel "Reusel-De Mierden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Woudenberg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Woudenberg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kessel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Kessel"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Waalwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Waalwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vianen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vianen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Duiven_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Duiven"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Langedijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Langedijk"@nl .
+
+overheid:Sint-Oedenrode a overheid:Gemeente ;
+	skos:prefLabel "Sint-Oedenrode"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Borne_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Borne"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oostburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oostburg"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wijchen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wijchen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Graft-De_Rijp_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Graft-De Rijp"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Genemuiden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Genemuiden"@nl ;
+	overheid:endDate "2001-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Sas_van_Gent_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Sas van Gent"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+overheid:Eemsmond a overheid:Gemeente ;
+	skos:prefLabel "Eemsmond"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Reeuwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Reeuwijk"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Stede_Broec_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Stede Broec"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Spijkenisse_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Spijkenisse"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Goirle_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Goirle"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Horst_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Horst"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Soest_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Soest"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heythuysen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heythuysen"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Muiden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Muiden"@nl .
+
+overheid:Leudal a overheid:Gemeente ;
+	skos:prefLabel "Leudal"@nl ;
+	overheid:startDate "2007-01-01"^^xsd:date .
+
+overheid:Halderberge a overheid:Gemeente ;
+	skos:prefLabel "Halderberge"@nl .
+
+overheid:Gemert-Bakel a overheid:Gemeente ;
+	skos:prefLabel "Gemert-Bakel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Helden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Helden"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Loenen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Loenen"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:Dinkelland a overheid:Gemeente ;
+	skos:prefLabel "Dinkelland"@nl ;
+	overheid:startDate "2002-06-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Huissen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Huissen"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Boxtel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Boxtel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heteren_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heteren"@nl ;
+	overheid:endDate "2001-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Alphen_aan_den_Rijn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Alphen aan den Rijn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gorssel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Gorssel"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Montfoort_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Montfoort"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bolsward_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bolsward"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Zwijndrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zwijndrecht"@nl .
+
+overheid:Hardenberg a overheid:Gemeente ;
+	skos:prefLabel "Hardenberg"@nl .
+
+overheid:Friese_Meren a overheid:Gemeente ;
+	skos:prefLabel "De Friese Meren"@nl ;
+	overheid:endDate "2015-06-30"^^xsd:date .
+
+overheid:Lingewaal a overheid:Gemeente ;
+	skos:prefLabel "Lingewaal"@nl .
+
+overheid:Overbetuwe a overheid:Gemeente ;
+	skos:prefLabel "Overbetuwe"@nl ;
+	overheid:startDate "2001-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Zevenaar_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zevenaar"@nl .
+
+overheid:Almelo a overheid:Gemeente ;
+	skos:prefLabel "Almelo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Son_en_Breugel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Son en Breugel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bussum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bussum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kesteren_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Kesteren"@nl ;
+	overheid:endDate "2003-03-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Bergen_(Li)> a overheid:Gemeente ;
+	skos:prefLabel "Bergen (Li)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schipluiden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schipluiden"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+overheid:Lingewaard a overheid:Gemeente ;
+	skos:prefLabel "Lingewaard"@nl ;
+	overheid:startDate "2003-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Capelle_aan_den_IJssel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Capelle aan den IJssel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Druten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Druten"@nl .
+
+overheid:Ouderkerk a overheid:Gemeente ;
+	skos:prefLabel "Ouderkerk"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wijhe_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wijhe"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Lopik_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Lopik"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kapelle_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Kapelle"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hilversum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hilversum"@nl .
+
+overheid:Stadskanaal a overheid:Gemeente ;
+	skos:prefLabel "Stadskanaal"@nl .
+
+overheid:Westerveld a overheid:Gemeente ;
+	skos:prefLabel "Westerveld"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bathmen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bathmen"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Mierlo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Mierlo"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Bergambacht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bergambacht"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Limmen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Limmen"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+overheid:Boarnsterhim a overheid:Gemeente ;
+	skos:prefLabel "Boarnsterhim"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Schoonhoven_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schoonhoven"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+overheid:Nijefurd a overheid:Gemeente ;
+	skos:prefLabel "Nijefurd"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Thorn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Thorn"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Groningen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Groningen (Gr)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Delft_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Delft"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Monster_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Monster"@nl ;
+	overheid:endDate "2003-12-31"^^xsd:date .
+
+overheid:Wijdemeren a overheid:Gemeente ;
+	skos:prefLabel "Wijdemeren"@nl ;
+	overheid:startDate "2002-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wieringen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wieringen"@nl ;
+	overheid:endDate "2011-12-31"^^xsd:date .
+
+overheid:Franekeradeel a overheid:Gemeente ;
+	skos:prefLabel "Franekeradeel"@nl .
+
+overheid:Wunseradiel a overheid:Gemeente ;
+	skos:prefLabel "Wûnseradiel"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Velsen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Velsen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nederhorst_den_Berg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nederhorst den Berg"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Renkum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Renkum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Swalmen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Swalmen"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Laren_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Laren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tubbergen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Tubbergen"@nl .
+
+overheid:Sudwest_Fryslan a overheid:Gemeente ;
+	skos:prefLabel "Súdwest Fryslân"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Driebergen-Rijsenburg_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Driebergen-Rijsenburg"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+overheid:Neder-Betuwe a overheid:Gemeente ;
+	skos:prefLabel "Neder-Betuwe"@nl ;
+	overheid:startDate "2003-04-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wijk_bij_Duurstede_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wijk bij Duurstede"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bemmel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bemmel"@nl ;
+	overheid:startDate "2001-01-01"^^xsd:date ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Etten-Leur_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Etten-Leur"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vorden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vorden"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Zoetermeer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zoetermeer"@nl .
+
+overheid:Zevenhuizen-Moerkapelle a overheid:Gemeente ;
+	skos:prefLabel "Zevenhuizen-Moerkapelle"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wehl_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wehl"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Ambt_Delden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ambt Delden"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Bunschoten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bunschoten"@nl .
+
+overheid:Nieuw-Lekkerland a overheid:Gemeente ;
+	skos:prefLabel "Nieuw-Lekkerland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/IJsselham_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "IJsselham"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Zwolle_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zwolle"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Scheemda_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Scheemda"@nl ;
+	overheid:endDate "2009-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Veghel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Veghel"@nl .
+
+overheid:Berkelland a overheid:Gemeente ;
+	skos:prefLabel "Berkelland"@nl ;
+	overheid:startDate "2005-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Bennebroek_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Bennebroek"@nl ;
+	overheid:endDate "2008-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Ubbergen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ubbergen"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Naarden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Naarden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zeist_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zeist"@nl .
+
+overheid:Haarlem a overheid:Gemeente ;
+	skos:prefLabel "Haarlem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Geleen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Geleen"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Geldermalsen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Geldermalsen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Breukelen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Breukelen"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Tholen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Tholen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hellendoorn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hellendoorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tegelen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Tegelen"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Hontenisse_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hontenisse"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Rijssen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Rijssen"@nl ;
+	overheid:endDate "2003-03-14"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Maastricht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maastricht"@nl .
+
+overheid:Steenwijkerland a overheid:Gemeente ;
+	skos:prefLabel "Steenwijkerland"@nl ;
+	overheid:startDate "2003-01-01"^^xsd:date .
+
+overheid:Menterwolde a overheid:Gemeente ;
+	skos:prefLabel "Menterwolde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tiel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Tiel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Waterland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Waterland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oss_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oss"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Baarle-Nassau_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Baarle-Nassau"@nl .
+
+overheid:Maasdonk a overheid:Gemeente ;
+	skos:prefLabel "Maasdonk"@nl ;
+	overheid:endDate "2014-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Anna_Paulowna_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Anna Paulowna"@nl ;
+	overheid:endDate "2011-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Urk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Urk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Amersfoort_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Amersfoort"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heumen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Heumen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oirschot_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oirschot"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Waddinxveen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Waddinxveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dirksland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Dirksland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Putten_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Putten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haaren_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Haaren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Diemen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Diemen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sint-Michielsgestel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Sint-Michielsgestel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sliedrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Sliedrecht"@nl .
+
+overheid:Nieuwegein a overheid:Gemeente ;
+	skos:prefLabel "Nieuwegein"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Marum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Marum"@nl .
+
+overheid:Dongeradeel a overheid:Gemeente ;
+	skos:prefLabel "Dongeradeel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maartensdijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maartensdijk"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Leiden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Leiden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Echt_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Echt"@nl ;
+	overheid:endDate "2002-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Wisch_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wisch"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Vlaardingen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vlaardingen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Weerselo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Weerselo"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Zuidhorn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Zuidhorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Harenkarspel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Harenkarspel"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Loppersum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Loppersum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Akersloot_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Akersloot"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Krimpen_aan_den_IJssel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Krimpen aan den IJssel"@nl .
+
+overheid:Doetinchem a overheid:Gemeente ;
+	skos:prefLabel "Doetinchem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Barneveld_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Barneveld"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Westervoort_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Westervoort"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Obdam_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Obdam"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Ridderkerk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ridderkerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Beuningen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Beuningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stad_Delden_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Stad Delden"@nl ;
+	overheid:endDate "2000-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Deventer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Deventer"@nl .
+
+overheid:Onderbanken a overheid:Gemeente ;
+	skos:prefLabel "Onderbanken"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wester-Koggenland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Wester-Koggenland"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+overheid:Geldrop-Mierlo a overheid:Gemeente ;
+	skos:prefLabel "Geldrop-Mierlo"@nl ;
+	overheid:startDate "2004-01-01"^^xsd:date .
+
+overheid:Hoogezand-Sappemeer a overheid:Gemeente ;
+	skos:prefLabel "Hoogezand-Sappemeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Echteld_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Echteld"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Blaricum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Blaricum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Weesp_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Weesp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Almere_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Almere"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haarlemmermeer_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Haarlemmermeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Harderwijk_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Harderwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hulst_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Hulst"@nl .
+
+overheid:Cromstrijen a overheid:Gemeente ;
+	skos:prefLabel "Cromstrijen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Loosdrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Loosdrecht"@nl ;
+	overheid:endDate "2001-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Castricum_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Castricum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Woudrichem_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Woudrichem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maarssen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Maarssen"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:Neerijnen a overheid:Gemeente ;
+	skos:prefLabel "Neerijnen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Meppel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Meppel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Borculo_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Borculo"@nl ;
+	overheid:endDate "2004-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Grootegast_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Grootegast"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rhenen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Rhenen"@nl .
+
+overheid:Liemeer a overheid:Gemeente ;
+	skos:prefLabel "Liemeer"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Papendrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Papendrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kampen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Kampen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ter_Aar_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Ter Aar"@nl ;
+	overheid:endDate "2006-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Eersel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Eersel"@nl .
+
+overheid:Dantumadiel a overheid:Gemeente ;
+	skos:prefLabel "Dantumadiel"@nl ;
+	overheid:startDate "2009-01-01"^^xsd:date .
+
+overheid:De_Marne a overheid:Gemeente ;
+	skos:prefLabel "De Marne"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oud-Beijerland_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Oud-Beijerland"@nl .
+
+overheid:Albrandswaard a overheid:Gemeente ;
+	skos:prefLabel "Albrandswaard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nieuwkoop_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Nieuwkoop"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Goes_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Goes"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Brielle_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Brielle"@nl .
+
+overheid:Schouwen-Duiveland a overheid:Gemeente ;
+	skos:prefLabel "Schouwen-Duiveland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Arnhem_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Arnhem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schagen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Schagen"@nl .
+
+overheid:Koggenland a overheid:Gemeente ;
+	skos:prefLabel "Koggenland"@nl ;
+	overheid:startDate "2007-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Assen_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Assen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Woensdrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Woensdrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Alkemade_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Alkemade"@nl ;
+	overheid:endDate "2008-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Doorn_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Doorn"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+overheid:Hof_van_Twente a overheid:Gemeente ;
+	skos:prefLabel "Hof van Twente"@nl ;
+	overheid:startDate "2001-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Voorhout_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Voorhout"@nl ;
+	overheid:endDate "2005-12-31"^^xsd:date .
+
+overheid:Littenseradiel a overheid:Gemeente ;
+	skos:prefLabel "Littenseradiel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Waalre_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Waalre"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Breda_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Breda"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Texel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Texel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dordrecht_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Dordrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Scherpenzeel_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Scherpenzeel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vught_(gemeente)> a overheid:Gemeente ;
+	skos:prefLabel "Vught"@nl .

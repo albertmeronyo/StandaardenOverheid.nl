@@ -1,0 +1,206 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:TuchtrechtelijkeInstantie a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/TuchtrechtelijkeInstantie.rdf> , <http://standaarden.overheid.nl/owms/terms/TuchtrechtelijkeInstantie.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/TuchtrechtelijkeInstantie.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/TuchtrechtelijkeInstantie.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:TuchtrechtelijkeInstantie rdfs:label "Tuchtrechtelijke instantie"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:changeNote "Toegevoegd op 2013-04-05: RFC 20130405-1  Tuchtrechtelijke instanties" ;
+	skos:note "Toegevoegd op 2013-04-05: RFC 20130405-1  Tuchtrechtelijke instanties" ;
+	skos:prefLabel "Tuchtrechtelijke instantie"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:TuchtrechtelijkeInstantie .
+
+overheid:tnokarn a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Arnhem"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tscts a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Tuchtcollege voor de Scheepvaart"@nl .
+
+overheid:tnokutr a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Utrecht"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tadrarn a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Raad van Discipline Arnhem"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tadrarl a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Raad van Discipline Arnhem-Leeuwarden"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:tnokmaa a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Maastricht"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tgzrein a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Regionaal Tuchtcollege voor de Gezondheidszorg Eindhoven"@nl .
+
+overheid:tnokmid a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Middelburg"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tdivbc a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Veterinair Beroepscollege"@nl .
+
+overheid:tacakn a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Accountantskamer NIVRA"@nl .
+
+overheid:tgfkcb a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Tuchtgerecht Kwaliteits-Controle-Bureau"@nl .
+
+overheid:tadrshe a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Raad van Discipline 's-Hertogenbosch"@nl .
+
+overheid:tnoklee a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Leeuwarden"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnokzly a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Zwolle-Lelystad"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tgzrgro a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Regionaal Tuchtcollege voor de Gezondheidszorg Groningen"@nl .
+
+overheid:tnokzut a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Zutphen"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnokass a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Assen"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnokdor a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Dordrecht"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tgdkg a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer voor Gerechtsdeurwaarders"@nl .
+
+overheid:tnokalm a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Almelo"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnokalk a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Alkmaar"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnorams a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer voor het notariaat in het ressort Amsterdam"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:tgzctg a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Centraal Tuchtcollege voor de Gezondheidszorg"@nl .
+
+overheid:tnokhaa a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Haarlem"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnorarl a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer voor het notariaat in het ressort Arnhem-Leeuwarden"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:tnordha a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer voor het notariaat in het ressort Den Haag"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:tnokams a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Amsterdam"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnokbre a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Breda"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tgzrsgr a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Regionaal Tuchtcollege voor de Gezondheidszorg 's-Gravenhage"@nl .
+
+overheid:tvstpv a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Tuchtgerecht Productschap Vis"@nl .
+
+overheid:tadrsgr a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Raad van Discipline 's-Gravenhage"@nl .
+
+overheid:tbbbkd a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Tuchtgerecht Bloembollenkeuringsdienst"@nl .
+
+overheid:taktpa a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Tuchtgerecht Productschap Akkerbouw"@nl .
+
+overheid:tbpskal a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Skal-Tuchtgerecht"@nl .
+
+overheid:tgzrzwo a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Regionaal Tuchtcollege voor de Gezondheidszorg Zwolle"@nl .
+
+overheid:tpetpve a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Tuchtgerecht Productschap Pluimvee en Eieren"@nl .
+
+overheid:tnokshe a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen 's-Hertogenbosch"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tahvd a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Hof van Discipline"@nl .
+
+overheid:tadrlee a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Raad van Discipline Leeuwarden"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tdivtc a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Veterinair Tuchtcollege"@nl .
+
+overheid:tgzrams a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Regionaal Tuchtcollege voor de Gezondheidszorg Amsterdam"@nl .
+
+overheid:tvvtpvv a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Tuchtgerecht Productschap Vee en Vlees"@nl .
+
+overheid:tnokroe a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Roermond"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnorshe a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer voor het notariaat in het ressort 's-Hertogenbosch"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:tnokgro a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Groningen"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tnokrot a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen Rotterdam"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:tadrams a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Raad van Discipline Amsterdam"@nl .
+
+overheid:tnoksgr a overheid:TuchtrechtelijkeInstantie ;
+	skos:prefLabel "Kamer van Toezicht over de notarissen en kandidaat-notarissen 's-Gravenhage"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .

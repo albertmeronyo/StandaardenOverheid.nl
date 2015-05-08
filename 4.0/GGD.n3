@@ -1,0 +1,185 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:GGD a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/GGD.rdf> , <http://standaarden.overheid.nl/owms/terms/GGD.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/GGD.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/GGD.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:GGD rdfs:label "GGD"@nl ;
+	rdfs:subClassOf overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "GGD"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Overheidsorganisatie , overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:GGD .
+
+overheid:GGD_Zaanstreek-Waterland a overheid:GGD ;
+	skos:prefLabel "GGD Zaanstreek-Waterland"@nl ;
+	overheid:endDate "1998-12-31"^^xsd:date .
+
+overheid:ggdrorm a overheid:GGD ;
+	skos:prefLabel "Gemeentelijke Gezondheidsdienst Rotterdam-Rijnmond"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:ggdru a overheid:GGD ;
+	skos:prefLabel "Gemeentelijke Gezondheidsdienst Regio Utrecht"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/GG&GD_Utrecht> a overheid:GGD ;
+	skos:prefLabel "GG&GD Utrecht"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:GGD_Drenthe a overheid:GGD ;
+	skos:prefLabel "GGD Drenthe"@nl .
+
+overheid:GGD_Fryslan a overheid:GGD ;
+	skos:prefLabel "GGD Fryslân"@nl .
+
+overheid:GGD_Regio_Twente a overheid:GGD ;
+	skos:prefLabel "GGD Regio Twente"@nl .
+
+overheid:GGD_Den_Haag a overheid:GGD ;
+	skos:prefLabel "GGD Den Haag"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:GGD_Gelre-IJssel a overheid:GGD ;
+	skos:prefLabel "GGD Gelre-IJssel"@nl .
+
+overheid:GGD_Regio_Nijmegen a overheid:GGD ;
+	skos:prefLabel "GGD Regio Nijmegen"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:GGD_Midden-Nederland a overheid:GGD ;
+	skos:prefLabel "GGD Midden-Nederland"@nl ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:GGD_Kennemerland a overheid:GGD ;
+	skos:prefLabel "GGD Kennemerland"@nl .
+
+overheid:ggdzld a overheid:GGD ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Zeeland"@nl ;
+	overheid:startDate "2012-06-16"^^xsd:date .
+
+overheid:ggdglz a overheid:GGD ;
+	skos:prefLabel "Gemeentelijke Gezondheidsdienst Gelderland-Zuid"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:GGD_Hart_voor_Brabant a overheid:GGD ;
+	skos:prefLabel "GGD Hart voor Brabant"@nl ;
+	overheid:startDate "2013-09-01"^^xsd:date .
+
+overheid:GGD_Rivierenland a overheid:GGD ;
+	skos:prefLabel "GGD Rivierenland"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/GGD_Gooi_&_Vechtstreek> a overheid:GGD ;
+	skos:prefLabel "GGD Gooi & Vechtstreek"@nl .
+
+overheid:GGD_Zuid-Holland_West a overheid:GGD ;
+	skos:prefLabel "GGD Zuid-Holland West"@nl ;
+	overheid:startDate "2004-12-11"^^xsd:date ;
+	overheid:endDate "2013-12-31"^^xsd:date .
+
+overheid:rdoghm a overheid:GGD ;
+	skos:prefLabel "Regionale dienst openbare gezondheidszorg Hollands Midden"@nl ;
+	overheid:startDate "2006-01-01"^^xsd:date .
+
+overheid:GGD_Hollands_Midden a overheid:GGD ;
+	skos:prefLabel "GGD Hollands Midden"@nl .
+
+overheid:pgzgron a overheid:GGD ;
+	skos:prefLabel "Publieke Gezondheid & Zorg Groningen"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .
+
+overheid:ggdholn a overheid:GGD ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Hollands Noorden"@nl ;
+	overheid:startDate "2007-04-01"^^xsd:date .
+
+overheid:GGD_Zeeland a overheid:GGD ;
+	skos:prefLabel "GGD Zeeland"@nl ;
+	overheid:endDate "2012-06-15"^^xsd:date .
+
+overheid:GGD_Groningen a overheid:GGD ;
+	skos:prefLabel "GGD Groningen"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:ggdzlim a overheid:GGD ;
+	skos:prefLabel "Geneeskundige Gezondheidsdienst Zuid-Limburg"@nl ;
+	overheid:startDate "2010-04-01"^^xsd:date .
+
+overheid:GGD_West-Brabant a overheid:GGD ;
+	skos:prefLabel "GGD West-Brabant"@nl ;
+	overheid:startDate "2015-01-01"^^xsd:date .
+
+overheid:GGD_Zuid-Holland_Zuid a overheid:GGD ;
+	skos:prefLabel "GGD Zuid-Holland Zuid"@nl .
+
+overheid:GGD_Brabant-Zuidoost a overheid:GGD ;
+	skos:prefLabel "GGD Brabant-Zuidoost"@nl .
+
+overheid:GGD_Flevoland a overheid:GGD ;
+	skos:prefLabel "GGD Flevoland"@nl ;
+	overheid:endDate "2007-12-31"^^xsd:date .
+
+overheid:GGD_Zuid_Limburg a overheid:GGD ;
+	skos:prefLabel "GGD Zuid Limburg"@nl ;
+	overheid:endDate "2010-03-31"^^xsd:date .
+
+overheid:GGD_Rotterdam-Rijnmond a overheid:GGD ;
+	skos:prefLabel "GGD Rotterdam-Rijnmond"@nl .
+
+overheid:ggdnog a overheid:GGD ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Noord- en Oost-Gelderland"@nl ;
+	overheid:startDate "2004-12-31"^^xsd:date .
+
+overheid:GGD_Limburg-Noord a overheid:GGD ;
+	skos:prefLabel "GGD Limburg-Noord"@nl .
+
+overheid:GGD_Gelderland_Midden a overheid:GGD ;
+	skos:prefLabel "GGD Gelderland Midden"@nl ;
+	overheid:endDate "2010-12-31"^^xsd:date .
+
+overheid:GGD_Hollands_Noorden a overheid:GGD ;
+	skos:prefLabel "GGD Hollands Noorden"@nl .
+
+overheid:ggdfld a overheid:GGD ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Flevoland 2008"@nl ;
+	overheid:startDate "2008-01-01"^^xsd:date .
+
+overheid:ggdhl a overheid:GGD ;
+	skos:prefLabel "Gemeentelijke Gezondheidsdienst Haaglanden"@nl ;
+	overheid:startDate "2014-01-01"^^xsd:date .
+
+overheid:ggdzswl a overheid:GGD ;
+	skos:prefLabel "Gemeenschappelijke Gezondheidsdienst Zaanstreek-Waterland"@nl ;
+	overheid:startDate "1999-01-01"^^xsd:date .
+
+overheid:GGD_Amsterdam a overheid:GGD ;
+	skos:prefLabel "GGD Amsterdam"@nl .
+
+overheid:GGD_IJsselland a overheid:GGD ;
+	skos:prefLabel "GGD IJsselland"@nl .
+
+overheid:Veiligheidsregio_Gelderland-Midden a overheid:GGD ;
+	skos:prefLabel "Veiligheids- en Gezondheidsregio Gelderland-Midden"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .

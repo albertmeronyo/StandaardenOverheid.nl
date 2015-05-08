@@ -1,0 +1,147 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Adviescollege a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Adviescollege.rdf> , <http://standaarden.overheid.nl/owms/terms/Adviescollege.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Adviescollege.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Adviescollege.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Adviescollege rdfs:label "Adviescollege"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Adviescollege"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:Adviescollege .
+
+overheid:Adviescommissie_voor_burgerlijk_procesrecht a overheid:Adviescollege ;
+	skos:prefLabel "Adviescommissie voor burgerlijk procesrecht"@nl .
+
+overheid:Raad_voor_het_Openbaar_bestuur a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor het Openbaar bestuur"@nl .
+
+overheid:Sociaal_Economische_Raad a overheid:Adviescollege ;
+	skos:prefLabel "Sociaal Economische Raad"@nl .
+
+overheid:Commissie_van_Advies_inzake_Volkenrechtelijke_Vraagstukken a overheid:Adviescollege ;
+	skos:prefLabel "Commissie van Advies inzake Volkenrechtelijke Vraagstukken"@nl .
+
+overheid:VROM-raad a overheid:Adviescollege ;
+	skos:prefLabel "VROM-raad"@nl .
+
+overheid:Raad_voor_de_Financiele_Verhoudingen a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor de Financiële Verhoudingen"@nl .
+
+overheid:Wetenschappelijke_Raad_voor_het_Regeringsbeleid a overheid:Adviescollege ;
+	skos:prefLabel "Wetenschappelijke Raad voor het Regeringsbeleid"@nl .
+
+overheid:Technische_Adviescommissie_Waterkeringen a overheid:Adviescollege ;
+	skos:prefLabel "Technische Adviescommissie Waterkeringen"@nl .
+
+overheid:Raad_voor_het_Landelijk_Gebied a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor het Landelijk Gebied"@nl .
+
+overheid:Algemene_Energieraad a overheid:Adviescollege ;
+	skos:prefLabel "Algemene Energieraad"@nl .
+
+overheid:Raad_voor_Maatschappelijke_Ontwikkeling a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor Maatschappelijke Ontwikkeling"@nl .
+
+overheid:Nationale_Raad_voor_Landbouwkundig_Onderzoek a overheid:Adviescollege ;
+	skos:prefLabel "Nationale Raad voor Landbouwkundig Onderzoek"@nl .
+
+overheid:Adviescommissie_vennootschapsrecht a overheid:Adviescollege ;
+	skos:prefLabel "Adviescommissie vennootschapsrecht"@nl .
+
+overheid:Raden_voor_de_leefomgeving_en_infrastructuur a overheid:Adviescollege ;
+	skos:prefLabel "Raden voor de leefomgeving en infrastructuur"@nl .
+
+overheid:Raad_voor_het_Wetenschappelijk_Onderzoek_in_het_kader_van_Ontwikkelingssamenwerking a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor het Wetenschappelijk Onderzoek in het kader van Ontwikkelingssamenwerking"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Raad_voor_ruimtelijk,_milieu-_en_natuuronderzoek> a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor ruimtelijk, milieu- en natuuronderzoek"@nl .
+
+overheid:Adviescollege_toetsing_administratieve_lasten a overheid:Adviescollege ;
+	skos:prefLabel "Adviescollege toetsing administratieve lasten"@nl .
+
+overheid:Adviesraad_gevaarlijke_stoffen a overheid:Adviescollege ;
+	skos:prefLabel "Adviesraad gevaarlijke stoffen"@nl .
+
+overheid:Commissie_voor_de_milieueffectrapportage a overheid:Adviescollege ;
+	skos:prefLabel "Commissie voor de milieueffectrapportage"@nl .
+
+overheid:Raad_van_deskundigen_voor_de_nationale_standaarden a overheid:Adviescollege ;
+	skos:prefLabel "Raad van deskundigen voor de nationale standaarden"@nl .
+
+overheid:Commissie_bedreigde_uitheemse_dier-_en_plantensoorten a overheid:Adviescollege ;
+	skos:prefLabel "Commissie bedreigde uitheemse dier- en plantensoorten"@nl .
+
+overheid:Ruimtelijk_Planbureau a overheid:Adviescollege ;
+	skos:prefLabel "Ruimtelijk Planbureau"@nl ;
+	overheid:endDate "2008-05-06"^^xsd:date .
+
+overheid:Raad_voor_Werk_en_Inkomen a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor Werk en Inkomen"@nl .
+
+overheid:Raad_voor_Gezondheidsonderzoek a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor Gezondheidsonderzoek"@nl .
+
+overheid:Commissie_Ekkart a overheid:Adviescollege ;
+	skos:prefLabel "Commissie Ekkart"@nl .
+
+overheid:Gezondheidsraad a overheid:Adviescollege ;
+	skos:prefLabel "Gezondheidsraad"@nl .
+
+overheid:Waddenadviesraad a overheid:Adviescollege ;
+	skos:prefLabel "Waddenadviesraad"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/College_Bescherming_Persoonsgegevens_(adviescollege)> a overheid:Adviescollege ;
+	skos:prefLabel "College Bescherming Persoonsgegevens"@nl .
+
+overheid:Adviesraad_voor_het_Wetenschaps-_en_Technologiebeleid a overheid:Adviescollege ;
+	skos:prefLabel "Adviesraad voor het Wetenschaps- en Technologiebeleid"@nl .
+
+overheid:pbl a overheid:Adviescollege ;
+	skos:prefLabel "Planbureau voor de Leefomgeving"@nl ;
+	overheid:startDate "2008-05-07"^^xsd:date .
+
+overheid:Onderwijsraad a overheid:Adviescollege ;
+	skos:prefLabel "Onderwijsraad"@nl .
+
+overheid:Raad_voor_de_Volksgezondheid_en_Zorg a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor de Volksgezondheid en Zorg"@nl .
+
+overheid:Raad_voor_Cultuur a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor Cultuur"@nl .
+
+overheid:Raad_voor_Verkeer_en_Waterstaat a overheid:Adviescollege ;
+	skos:prefLabel "Raad voor Verkeer en Waterstaat"@nl .
+
+overheid:Adviesraad_Internationale_Vraagstukken a overheid:Adviescollege ;
+	skos:prefLabel "Adviesraad Internationale Vraagstukken"@nl .
+
+overheid:Staatscommissie_voor_het_Internationaal_Privaatrecht a overheid:Adviescollege ;
+	skos:prefLabel "Staatscommissie voor het Internationaal Privaatrecht"@nl .
+
+overheid:Adviescommissie_voor_Vreemdelingenzaken a overheid:Adviescollege ;
+	skos:prefLabel "Adviescommissie voor Vreemdelingenzaken"@nl .

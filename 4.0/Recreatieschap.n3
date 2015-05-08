@@ -1,0 +1,58 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Recreatieschap a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Recreatieschap.rdf> , <http://standaarden.overheid.nl/owms/terms/Recreatieschap.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Recreatieschap.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Recreatieschap.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Recreatieschap rdfs:label "Recreatieschap"@nl ;
+	rdfs:subClassOf overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Recreatieschap"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Overheidsorganisatie , overheid:Organisatie , rdfs:Resource , overheid:Recreatieschap , overheid:Agent , dcterms:Agent , owl:Thing .
+
+overheid:Groenservice_Zuid-Holland a overheid:Recreatieschap ;
+	skos:prefLabel "Groenservice Zuid-Holland"@nl .
+
+overheid:Recreatieschap_Het_Twiske a overheid:Recreatieschap ;
+	skos:prefLabel "Recreatieschap Het Twiske"@nl .
+
+overheid:Recreatieschap_Geestmerambacht a overheid:Recreatieschap ;
+	skos:prefLabel "Recreatieschap Geestmerambacht"@nl .
+
+overheid:Recreatie_Noord-Holland a overheid:Recreatieschap ;
+	skos:prefLabel "Recreatie Noord-Holland"@nl .
+
+overheid:Landschap_Waterland a overheid:Recreatieschap ;
+	skos:prefLabel "Landschap Waterland"@nl .
+
+overheid:Groengebied_Amstelland a overheid:Recreatieschap ;
+	skos:prefLabel "Groengebied Amstelland"@nl .
+
+overheid:Recreatieschap_Alkmaarder-_en_Uitgeestermeer a overheid:Recreatieschap ;
+	skos:prefLabel "Recreatieschap Alkmaarder- en Uitgeestermeer"@nl .
+
+overheid:Recreatieschap_Spaarnwoude a overheid:Recreatieschap ;
+	skos:prefLabel "Recreatieschap Spaarnwoude"@nl .

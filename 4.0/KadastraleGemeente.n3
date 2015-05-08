@@ -1,0 +1,3932 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:KadastraleGemeente a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/KadastraleGemeente.rdf> , <http://standaarden.overheid.nl/owms/terms/KadastraleGemeente.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/KadastraleGemeente.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/KadastraleGemeente.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:KadastraleGemeente rdfs:label "Kadastrale gemeente"@nl ;
+	rdfs:subClassOf overheid:Locatie ;
+	skos:note "Bron: Kadaster" ;
+	skos:prefLabel "Kadastrale gemeente"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf dcterms:Location , owl:Thing , rdfs:Resource , overheid:KadastraleGemeente .
+
+<http://standaarden.overheid.nl/owms/terms/Valburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Valburg"@nl .
+
+overheid:Nijbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nijbroek"@nl .
+
+overheid:Woubrugge a overheid:KadastraleGemeente ;
+	skos:prefLabel "Woubrugge"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Aalst_N.B.> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aalst (N.B.)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vlist_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vlist"@nl .
+
+overheid:Beers a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beers"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Krimpen_aan_den_IJssel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Krimpen aan den IJssel"@nl .
+
+overheid:Zuilen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuilen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Alkmaar_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Alkmaar"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Berkel_en_Rodenrijs_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Berkel en Rodenrijs"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wisch_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wisch"@nl .
+
+overheid:Etten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Etten"@nl .
+
+overheid:Zwartewaal a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zwartewaal"@nl .
+
+overheid:Opheusden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Opheusden"@nl .
+
+overheid:Goudriaan a overheid:KadastraleGemeente ;
+	skos:prefLabel "Goudriaan"@nl .
+
+overheid:Oostvoorne a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oostvoorne"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Muiden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Muiden"@nl .
+
+overheid:Oppenhuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oppenhuizen"@nl .
+
+overheid:Posterholt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Posterholt"@nl .
+
+overheid:Twello a overheid:KadastraleGemeente ;
+	skos:prefLabel "Twello"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voorst_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Voorst"@nl .
+
+overheid:Goudswaard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Goudswaard"@nl .
+
+overheid:Nieuwolda a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwolda"@nl .
+
+overheid:Hillegersberg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hillegersberg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergh_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergh"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wognum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wognum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BK> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BK"@nl .
+
+overheid:Anjum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Anjum"@nl .
+
+overheid:Grathem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grathem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Someren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Someren"@nl .
+
+overheid:Oldekerk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oldekerk"@nl .
+
+overheid:Netwerken_Breda a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Breda"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sas_van_Gent_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sas van Gent"@nl .
+
+overheid:Everdingen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Everdingen"@nl .
+
+overheid:Noordzee_II a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordzee II"@nl .
+
+overheid:Vledder a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vledder"@nl .
+
+overheid:Nederhemert a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nederhemert"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gilze_en_Rijen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gilze en Rijen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gorinchem_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gorinchem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Anna_Paulowna_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Anna Paulowna"@nl .
+
+overheid:Baflo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Baflo"@nl .
+
+overheid:Oosterzee a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oosterzee"@nl .
+
+overheid:Muntendam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Muntendam"@nl .
+
+overheid:Willemstad a overheid:KadastraleGemeente ;
+	skos:prefLabel "Willemstad"@nl .
+
+overheid:Eenrum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eenrum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Noordwijkerhout_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordwijkerhout"@nl .
+
+overheid:Stad_aan_het_Haringvliet a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stad aan het Haringvliet"@nl .
+
+overheid:Roosteren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Roosteren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maasland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maasland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ootmarsum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ootmarsum"@nl .
+
+overheid:Warmenhuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Warmenhuizen"@nl .
+
+overheid:Overasselt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Overasselt"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenmoer> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenmoer"@nl .
+
+overheid:Noordzee_IV a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordzee IV"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Beek_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sneek_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sneek"@nl .
+
+overheid:Epe_en_Oene a overheid:KadastraleGemeente ;
+	skos:prefLabel "Epe en Oene"@nl .
+
+overheid:Geulle a overheid:KadastraleGemeente ;
+	skos:prefLabel "Geulle"@nl .
+
+overheid:Wissenkerke a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wissenkerke"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Putten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Putten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haarlemmermeer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haarlemmermeer"@nl .
+
+overheid:Maasdam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maasdam"@nl .
+
+overheid:Hoogblokland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoogblokland"@nl .
+
+overheid:Varik a overheid:KadastraleGemeente ;
+	skos:prefLabel "Varik"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hoogeveen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoogeveen"@nl .
+
+overheid:Balgoy a overheid:KadastraleGemeente ;
+	skos:prefLabel "Balgoy"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Woudrichem_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Woudrichem"@nl .
+
+overheid:Bergum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergum"@nl .
+
+overheid:Oudega a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oudega"@nl .
+
+overheid:Ulrum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ulrum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Werkendam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Werkendam"@nl .
+
+overheid:Empel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Empel"@nl .
+
+overheid:Ureterp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ureterp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zeeland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zeeland"@nl .
+
+overheid:Doorwerth a overheid:KadastraleGemeente ;
+	skos:prefLabel "Doorwerth"@nl .
+
+overheid:Marken a overheid:KadastraleGemeente ;
+	skos:prefLabel "Marken"@nl .
+
+overheid:Sijbekarspel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sijbekarspel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Aalten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aalten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Langedijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Langedijk"@nl .
+
+overheid:Scharnegoutum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Scharnegoutum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Den_Helder_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Den Helder"@nl .
+
+overheid:Stavenisse a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stavenisse"@nl .
+
+overheid:Westmaas a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westmaas"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Doorn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Doorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vlagtwedde_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vlagtwedde"@nl .
+
+overheid:Vinkeveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vinkeveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nederhorst_den_Berg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nederhorst den Berg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heiloo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heiloo"@nl .
+
+overheid:Baambrugge a overheid:KadastraleGemeente ;
+	skos:prefLabel "Baambrugge"@nl .
+
+overheid:Velp_NB a overheid:KadastraleGemeente ;
+	skos:prefLabel "Velp (NB)"@nl .
+
+overheid:Blija a overheid:KadastraleGemeente ;
+	skos:prefLabel "Blija"@nl .
+
+overheid:Terhorne a overheid:KadastraleGemeente ;
+	skos:prefLabel "Terhorne"@nl .
+
+overheid:Rijnsaterwoude a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rijnsaterwoude"@nl .
+
+overheid:Niftrik a overheid:KadastraleGemeente ;
+	skos:prefLabel "Niftrik"@nl .
+
+overheid:Heeg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heeg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wateringen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wateringen"@nl .
+
+overheid:Neeritter a overheid:KadastraleGemeente ;
+	skos:prefLabel "Neeritter"@nl .
+
+overheid:Streefkerk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Streefkerk"@nl .
+
+overheid:Rottevalle a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rottevalle"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Meppel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Meppel"@nl .
+
+overheid:Ohe_en_Laak a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ohe en Laak"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Helden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Helden"@nl .
+
+overheid:Prinsenbeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Prinsenbeek"@nl .
+
+overheid:Linschoten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Linschoten"@nl .
+
+overheid:Koudum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Koudum"@nl .
+
+overheid:Ewijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ewijk"@nl .
+
+overheid:Lonneker a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lonneker"@nl .
+
+overheid:Winssen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Winssen"@nl .
+
+overheid:Zeddam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zeddam"@nl .
+
+overheid:Ferwerd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ferwerd"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_13e_afd._sectie_BA> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 13e afd. (sectie BA)"@nl .
+
+overheid:Balk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Balk"@nl .
+
+overheid:Nes_A a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nes (A)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Steenbergen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Steenbergen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Urk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Urk"@nl .
+
+overheid:Drunen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Drunen"@nl .
+
+overheid:Netwerken_Groningen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Groningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Enschede_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Enschede"@nl .
+
+overheid:Nieuw-Ginneken a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuw-Ginneken"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Laren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Laren"@nl .
+
+overheid:Uithuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Uithuizen"@nl .
+
+overheid:Watergraafsmeer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Watergraafsmeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/de_Bilt_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "de Bilt"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Waterland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waterland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Uden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Uden"@nl .
+
+overheid:Zalk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zalk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Limmen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Limmen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gennep_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gennep"@nl .
+
+overheid:Rietveld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rietveld"@nl .
+
+overheid:Beek_en_Donk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beek en Donk"@nl .
+
+overheid:Hedel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hedel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dongen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dongen"@nl .
+
+overheid:Heesch a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heesch"@nl .
+
+overheid:Waddenzee_III a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waddenzee III"@nl .
+
+overheid:Diever a overheid:KadastraleGemeente ;
+	skos:prefLabel "Diever"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Terneuzen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Terneuzen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Purmerend_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Purmerend"@nl .
+
+overheid:Nijkerk_Gld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nijkerk (Gld)"@nl .
+
+overheid:Oud-Alblas a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oud-Alblas"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Steenderen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Steenderen"@nl .
+
+overheid:Gaast a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gaast"@nl .
+
+overheid:Domburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Domburg"@nl .
+
+overheid:Roordahuizum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Roordahuizum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nederweert_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nederweert"@nl .
+
+overheid:Beilen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beilen"@nl .
+
+overheid:Schoten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schoten"@nl .
+
+overheid:Aarlanderveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aarlanderveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Winterswijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Winterswijk"@nl .
+
+overheid:Hoensbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoensbroek"@nl .
+
+overheid:Oud-Vossemeer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oud-Vossemeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hattem_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hattem"@nl .
+
+overheid:Sloten_Fr a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sloten (Fr)"@nl .
+
+overheid:Hoogkarspel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoogkarspel"@nl .
+
+overheid:Pannerden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Pannerden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Brummen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Brummen"@nl .
+
+overheid:Jelsum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Jelsum"@nl .
+
+overheid:Oploo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oploo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oudewater_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oudewater"@nl .
+
+overheid:Lent a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lent"@nl .
+
+overheid:Zevenhuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zevenhuizen"@nl .
+
+overheid:Zuidland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuidland"@nl .
+
+overheid:Nieuwpoort a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwpoort"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Huizen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Huizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maasbracht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maasbracht"@nl .
+
+overheid:Lithoijen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lithoijen"@nl .
+
+overheid:Klimmen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Klimmen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hontenisse_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hontenisse"@nl .
+
+overheid:Noordbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordbroek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oosterhout_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oosterhout"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Monster_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Monster"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Echteld_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Echteld"@nl .
+
+overheid:Waverveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waverveen"@nl .
+
+overheid:Blokzijl a overheid:KadastraleGemeente ;
+	skos:prefLabel "Blokzijl"@nl .
+
+overheid:Oudetrijne a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oudetrijne"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Boskoop_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Boskoop"@nl .
+
+overheid:Joure a overheid:KadastraleGemeente ;
+	skos:prefLabel "Joure"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Deurne_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Deurne"@nl .
+
+overheid:Akkrum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Akkrum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leeuwarden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leeuwarden"@nl .
+
+overheid:Midwoud a overheid:KadastraleGemeente ;
+	skos:prefLabel "Midwoud"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Elburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Elburg"@nl .
+
+overheid:Steenwijkerwold a overheid:KadastraleGemeente ;
+	skos:prefLabel "Steenwijkerwold"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heumen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heumen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Landsmeer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Landsmeer"@nl .
+
+overheid:Loosduinen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Loosduinen"@nl .
+
+overheid:Heer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heer"@nl .
+
+overheid:Noordeloos a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordeloos"@nl .
+
+overheid:Oosterbeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oosterbeek"@nl .
+
+overheid:Stolwijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stolwijk"@nl .
+
+overheid:Nistelrode a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nistelrode"@nl .
+
+overheid:Borkel_en_Schaft a overheid:KadastraleGemeente ;
+	skos:prefLabel "Borkel en Schaft"@nl .
+
+overheid:Norg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Norg"@nl .
+
+overheid:Roosendaal_en_Nispen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Roosendaal en Nispen"@nl .
+
+overheid:Lauwerecht a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lauwerecht"@nl .
+
+overheid:Hall a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hall"@nl .
+
+overheid:Hei-_en_Boeicop a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hei- en Boeicop"@nl .
+
+overheid:Schaijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schaijk"@nl .
+
+overheid:Abbenbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Abbenbroek"@nl .
+
+overheid:Veenwouden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veenwouden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/s-Hertogenbosch_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Hertogenbosch"@nl .
+
+overheid:Jutphaas a overheid:KadastraleGemeente ;
+	skos:prefLabel "Jutphaas"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voorhout_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Voorhout"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maassluis_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maassluis"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_Z> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage Z"@nl .
+
+overheid:Aalst_Gld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aalst (Gld)"@nl .
+
+overheid:Beusichem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beusichem"@nl .
+
+overheid:Waarder a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waarder"@nl .
+
+overheid:Langezwaag a overheid:KadastraleGemeente ;
+	skos:prefLabel "Langezwaag"@nl .
+
+overheid:Slenaken a overheid:KadastraleGemeente ;
+	skos:prefLabel "Slenaken"@nl .
+
+overheid:Noorbeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noorbeek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vlissingen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vlissingen"@nl .
+
+overheid:Ruwiel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ruwiel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_X> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage X"@nl .
+
+overheid:Makkum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Makkum"@nl .
+
+overheid:Klaaswaal a overheid:KadastraleGemeente ;
+	skos:prefLabel "Klaaswaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Alkemade_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Alkemade"@nl .
+
+overheid:Waddenzee_II a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waddenzee II"@nl .
+
+overheid:Doornenburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Doornenburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heerlen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heerlen"@nl .
+
+overheid:Netwerken_Alkmaar a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Alkmaar"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_Y> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage Y"@nl .
+
+overheid:Oosterend a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oosterend"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ter_Aar_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ter Aar"@nl .
+
+overheid:Bierum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bierum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Pijnacker_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Pijnacker"@nl .
+
+overheid:Tjalleberd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tjalleberd"@nl .
+
+overheid:Sleen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sleen"@nl .
+
+overheid:Ressen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ressen"@nl .
+
+overheid:Ried a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ried"@nl .
+
+overheid:Blesdijke a overheid:KadastraleGemeente ;
+	skos:prefLabel "Blesdijke"@nl .
+
+overheid:Wouw a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wouw"@nl .
+
+overheid:Lienden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lienden"@nl .
+
+overheid:Veur a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veur"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_V> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage V"@nl .
+
+overheid:Makkinga a overheid:KadastraleGemeente ;
+	skos:prefLabel "Makkinga"@nl .
+
+overheid:Wilp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wilp"@nl .
+
+overheid:Besoijen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Besoijen"@nl .
+
+overheid:Broeksittard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Broeksittard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Brunssum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Brunssum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_W> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage W"@nl .
+
+overheid:Donkerbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Donkerbroek"@nl .
+
+overheid:Zwollerkerspel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zwollerkerspel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Terschelling_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Terschelling"@nl .
+
+overheid:Odijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Odijk"@nl .
+
+overheid:Hoeven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoeven"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Eijsden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eijsden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wijchen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wijchen"@nl .
+
+overheid:Diepenveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Diepenveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leerdam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leerdam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wierden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wierden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Niedorp_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Niedorp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_U> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage U"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Goor_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Goor"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Valkenburg_Z.H.> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Valkenburg (Z.H.)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ridderkerk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ridderkerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_4e_afd._sectie_AEAFAGAH> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 4e afd. (sectie AE,AF,AG,AH)"@nl .
+
+overheid:Maurik a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maurik"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Beverwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beverwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tilburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tilburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Blaricum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Blaricum"@nl .
+
+overheid:Luyksgestel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Luyksgestel"@nl .
+
+overheid:Moerkapelle a overheid:KadastraleGemeente ;
+	skos:prefLabel "Moerkapelle"@nl .
+
+overheid:Giethoorn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Giethoorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vught_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vught"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Aalburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aalburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oldenzaal_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oldenzaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wijk_bij_Duurstede_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wijk bij Duurstede"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Heerenberg> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Heerenberg"@nl .
+
+overheid:Mildam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mildam"@nl .
+
+overheid:Gassel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gassel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haelen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haelen"@nl .
+
+overheid:Gronsveld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gronsveld"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Beesel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beesel"@nl .
+
+overheid:Burgwerd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Burgwerd"@nl .
+
+overheid:Hagestein a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hagestein"@nl .
+
+overheid:Beesd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beesd"@nl .
+
+overheid:Kamerik a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kamerik"@nl .
+
+overheid:Eck_en_Wiel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eck en Wiel"@nl .
+
+overheid:Leimuiden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leimuiden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/den_Ham_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "den Ham"@nl .
+
+overheid:Ginneken a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ginneken"@nl .
+
+overheid:Berlikum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Berlikum"@nl .
+
+overheid:Horn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Horn"@nl .
+
+overheid:Nieuwland_Fr a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwland (Fr)"@nl .
+
+overheid:Zuidzande a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuidzande"@nl .
+
+overheid:Terheijden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Terheijden"@nl .
+
+overheid:Kerkwijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kerkwijk"@nl .
+
+overheid:Groningen_AA_tm_AD a overheid:KadastraleGemeente ;
+	skos:prefLabel "Groningen AA t/m AD"@nl .
+
+overheid:Graft a overheid:KadastraleGemeente ;
+	skos:prefLabel "Graft"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oud-Beijerland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oud-Beijerland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wieringermeer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wieringermeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergen_op_Zoom_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergen op Zoom"@nl .
+
+overheid:Afferden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Afferden"@nl .
+
+overheid:Bergharen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergharen"@nl .
+
+overheid:Opperdoes a overheid:KadastraleGemeente ;
+	skos:prefLabel "Opperdoes"@nl .
+
+overheid:Millingen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Millingen"@nl .
+
+overheid:Zouteveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zouteveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lichtenvoorde_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lichtenvoorde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Geleen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Geleen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Baarn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Baarn"@nl .
+
+overheid:Ooij a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ooij"@nl .
+
+overheid:Gorredijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gorredijk"@nl .
+
+overheid:Sint-Johannesga a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint-Johannesga"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Barneveld_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Barneveld"@nl .
+
+overheid:Oost-_West-_en_Middelbeers a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oost-, West- en Middelbeers"@nl .
+
+overheid:Ameide a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ameide"@nl .
+
+overheid:Hardegarijp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hardegarijp"@nl .
+
+overheid:Hekendorp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hekendorp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Castricum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Castricum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Delft_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Delft"@nl .
+
+overheid:Schoonrewoerd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schoonrewoerd"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ubbergen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ubbergen"@nl .
+
+overheid:Willige-Langerak a overheid:KadastraleGemeente ;
+	skos:prefLabel "Willige-Langerak"@nl .
+
+overheid:Wijngaarden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wijngaarden"@nl .
+
+overheid:Arnhem_AF a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arnhem AF"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hellevoetsluis_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hellevoetsluis"@nl .
+
+overheid:Arnhem_AE a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arnhem AE"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zwartsluis_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zwartsluis"@nl .
+
+overheid:Netwerken_Middelburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Middelburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Scherpenzeel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Scherpenzeel"@nl .
+
+overheid:Waarde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waarde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Waalre_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waalre"@nl .
+
+overheid:Arnhem_AC a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arnhem AC"@nl .
+
+overheid:Ternaard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ternaard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Uitgeest_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Uitgeest"@nl .
+
+overheid:Aduard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aduard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maarssen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maarssen"@nl .
+
+overheid:Rilland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rilland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zoetermeer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zoetermeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Alblasserdam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Alblasserdam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Breukelen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Breukelen"@nl .
+
+overheid:Veessen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veessen"@nl .
+
+overheid:Princenhage a overheid:KadastraleGemeente ;
+	skos:prefLabel "Princenhage"@nl .
+
+overheid:Ambt-Almelo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ambt-Almelo"@nl .
+
+overheid:Reusel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Reusel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Medemblik_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Medemblik"@nl .
+
+overheid:Beegden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beegden"@nl .
+
+overheid:Schaesberg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schaesberg"@nl .
+
+overheid:Westzaan a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westzaan"@nl .
+
+overheid:Wijnandsrade a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wijnandsrade"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Echt_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Echt"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zandvoort_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zandvoort"@nl .
+
+overheid:Langweer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Langweer"@nl .
+
+overheid:Ambt-Doetinchem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ambt-Doetinchem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heemstede_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heemstede"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bemmel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bemmel"@nl .
+
+overheid:Oldemarkt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oldemarkt"@nl .
+
+overheid:Nieuweschans a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuweschans"@nl .
+
+overheid:Maasniel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maasniel"@nl .
+
+overheid:Weesperkarspel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Weesperkarspel"@nl .
+
+overheid:Wilsum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wilsum"@nl .
+
+overheid:Nieuwveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwveen"@nl .
+
+overheid:Vlijmen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vlijmen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Aalsmeer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aalsmeer"@nl .
+
+overheid:Nieuwenhagen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwenhagen"@nl .
+
+overheid:Oeffelt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oeffelt"@nl .
+
+overheid:Dronrijp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dronrijp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bladel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bladel"@nl .
+
+overheid:Heukelum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heukelum"@nl .
+
+overheid:Lunteren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lunteren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tull_en_'t_Waal> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tull en 't Waal"@nl .
+
+overheid:Wieringerwaard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wieringerwaard"@nl .
+
+overheid:Meerkerk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Meerkerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wester-Koggenland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wester-Koggenland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rozenburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rozenburg"@nl .
+
+overheid:Ossendrecht a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ossendrecht"@nl .
+
+overheid:Aerdt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aerdt"@nl .
+
+overheid:Laren-Verwolde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Laren-Verwolde"@nl .
+
+overheid:Kloosterburen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kloosterburen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nuth_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nuth"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nijkerk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nijkerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hendrik-Ido-Ambacht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hendrik-Ido-Ambacht"@nl .
+
+overheid:Oosterwolde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oosterwolde"@nl .
+
+overheid:Sint_Kruis a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Kruis"@nl .
+
+overheid:Wildervank a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wildervank"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hilversum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hilversum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Raalte_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Raalte"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bunnik_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bunnik"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heusden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heusden"@nl .
+
+overheid:Rosmalen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rosmalen"@nl .
+
+overheid:Grevenbicht a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grevenbicht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Reeuwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Reeuwijk"@nl .
+
+overheid:Haarlem_sectie_A_tm_K a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haarlem (sectie A t/m K)"@nl .
+
+overheid:IJsselmeer-west a overheid:KadastraleGemeente ;
+	skos:prefLabel "IJsselmeer-west"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hoorn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Markelo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Markelo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Almere_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Almere"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zeist_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zeist"@nl .
+
+overheid:Breukelen_Sint_Pieters a overheid:KadastraleGemeente ;
+	skos:prefLabel "Breukelen Sint Pieters"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Warmond_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Warmond"@nl .
+
+overheid:Borgharen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Borgharen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nieuwland_Z.H.> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwland (Z.H.)"@nl .
+
+overheid:Gasselte a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gasselte"@nl .
+
+overheid:Delfshaven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Delfshaven"@nl .
+
+overheid:Mijnsheerenland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mijnsheerenland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lisse_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lisse"@nl .
+
+overheid:Overschie a overheid:KadastraleGemeente ;
+	skos:prefLabel "Overschie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zundert_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zundert"@nl .
+
+overheid:Haarlem_II_sectie_N-Y a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haarlem II (sectie N t/m Y)"@nl .
+
+overheid:Tjum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tjum"@nl .
+
+overheid:Ilpendam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ilpendam"@nl .
+
+overheid:Stellendam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stellendam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Uithoorn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Uithoorn"@nl .
+
+overheid:Alphen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Alphen"@nl .
+
+overheid:Neerbosch a overheid:KadastraleGemeente ;
+	skos:prefLabel "Neerbosch"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Soest_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Soest"@nl .
+
+overheid:Soerendonk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Soerendonk"@nl .
+
+overheid:Petten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Petten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Eibergen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eibergen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/ten_Boer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "ten Boer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergambacht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergambacht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Winschoten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Winschoten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gorssel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gorssel"@nl .
+
+overheid:Workum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Workum"@nl .
+
+overheid:Est_en_Opijnen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Est en Opijnen"@nl .
+
+overheid:Made_en_Drimmelen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Made en Drimmelen"@nl .
+
+overheid:Helpman a overheid:KadastraleGemeente ;
+	skos:prefLabel "Helpman"@nl .
+
+overheid:Yerseke a overheid:KadastraleGemeente ;
+	skos:prefLabel "Yerseke"@nl .
+
+overheid:Groot-Ammers a overheid:KadastraleGemeente ;
+	skos:prefLabel "Groot-Ammers"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hellendoorn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hellendoorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Avereest_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Avereest"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Coevorden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Coevorden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Amstelveen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amstelveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tubbergen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tubbergen"@nl .
+
+overheid:Kooten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kooten"@nl .
+
+overheid:Amsterdam_AW a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AW"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ruurlo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ruurlo"@nl .
+
+overheid:Zuid-Beijerland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuid-Beijerland"@nl .
+
+overheid:Dreumel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dreumel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Amerongen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amerongen"@nl .
+
+overheid:Amsterdam_AV a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AV"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sliedrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sliedrecht"@nl .
+
+overheid:den_Bommel a overheid:KadastraleGemeente ;
+	skos:prefLabel "den Bommel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenzande_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenzande"@nl .
+
+overheid:Tolsteeg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tolsteeg"@nl .
+
+overheid:Amsterdam_AU a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AU"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Geldrop_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Geldrop"@nl .
+
+overheid:Ottoland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ottoland"@nl .
+
+overheid:Amsterdam_AT a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AT"@nl .
+
+overheid:Bruinisse a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bruinisse"@nl .
+
+overheid:Lieshout a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lieshout"@nl .
+
+overheid:Nieuw_Tonge a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuw Tonge"@nl .
+
+overheid:Nuland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nuland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Woensdrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Woensdrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AB> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AB"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wieringen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wieringen"@nl .
+
+overheid:Elsloo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Elsloo"@nl .
+
+overheid:Riethoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Riethoven"@nl .
+
+overheid:Abbekerk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Abbekerk"@nl .
+
+overheid:Hijum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hijum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Harenkarspel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Harenkarspel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Graveland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Graveland"@nl .
+
+overheid:Midwolda a overheid:KadastraleGemeente ;
+	skos:prefLabel "Midwolda"@nl .
+
+overheid:Groessen_en_Loo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Groessen en Loo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dinxperlo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dinxperlo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AD> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AD"@nl .
+
+overheid:Huijbergen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Huijbergen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Grave_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grave"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bloemendaal_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bloemendaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voorburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Voorburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AC> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AC"@nl .
+
+overheid:Barwoutswaarder a overheid:KadastraleGemeente ;
+	skos:prefLabel "Barwoutswaarder"@nl .
+
+overheid:Sprang a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sprang"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gramsbergen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gramsbergen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AF> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AF"@nl .
+
+overheid:Urmond a overheid:KadastraleGemeente ;
+	skos:prefLabel "Urmond"@nl .
+
+overheid:Zuidbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuidbroek"@nl .
+
+overheid:De_Wijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "De Wijk"@nl .
+
+overheid:Ooltgensplaat a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ooltgensplaat"@nl .
+
+overheid:Nijkerk_Fr a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nijkerk (Fr)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Huissen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Huissen"@nl .
+
+overheid:Oldehove a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oldehove"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AE> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AE"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Utrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Utrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Denekamp_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Denekamp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zuidhorn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuidhorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lith_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lith"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AH> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AH"@nl .
+
+overheid:Groningen_A_tm_R a overheid:KadastraleGemeente ;
+	skos:prefLabel "Groningen A t/m R"@nl .
+
+overheid:Boornbergum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Boornbergum"@nl .
+
+overheid:Philippine a overheid:KadastraleGemeente ;
+	skos:prefLabel "Philippine"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schagen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schagen"@nl .
+
+overheid:Jabeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Jabeek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AG> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AG"@nl .
+
+overheid:Sexbierum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sexbierum"@nl .
+
+overheid:Berg_en_Terblijt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Berg en Terblijt"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AK> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AK"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hasselt_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hasselt"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zevenaar_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zevenaar"@nl .
+
+overheid:Anloo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Anloo"@nl .
+
+overheid:Zesgehuchten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zesgehuchten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dordrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dordrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AL> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AL"@nl .
+
+overheid:Wijk_aan_Zee_en_Duin a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wijk aan Zee en Duin"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Moordrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Moordrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schiermonnikoog_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schiermonnikoog"@nl .
+
+overheid:Herwen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Herwen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Groesbeek_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Groesbeek"@nl .
+
+overheid:Stad-Ommen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stad-Ommen"@nl .
+
+overheid:Leende a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leende"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AI> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AI"@nl .
+
+overheid:Geffen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Geffen"@nl .
+
+overheid:Horssen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Horssen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Culemborg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Culemborg"@nl .
+
+overheid:Gestel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gestel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Katwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Katwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AO> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AO"@nl .
+
+overheid:Nieuw-Vossemeer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuw-Vossemeer"@nl .
+
+overheid:Roggel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Roggel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AP> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AP"@nl .
+
+overheid:Schinveld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schinveld"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stad_Delden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stad Delden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Eemnes_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eemnes"@nl .
+
+overheid:Rockanje a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rockanje"@nl .
+
+overheid:Twisk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Twisk"@nl .
+
+overheid:Oosterhesselen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oosterhesselen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AM> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AM"@nl .
+
+overheid:Wamel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wamel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heemskerk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heemskerk"@nl .
+
+overheid:Brakel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Brakel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AN> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AN"@nl .
+
+overheid:Randwijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Randwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Warnsveld_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Warnsveld"@nl .
+
+overheid:Oosthuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oosthuizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heerde_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heerde"@nl .
+
+overheid:Driel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Driel"@nl .
+
+overheid:Woudsend a overheid:KadastraleGemeente ;
+	skos:prefLabel "Woudsend"@nl .
+
+overheid:Hoogeloon a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoogeloon"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Renswoude_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Renswoude"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oostzaan_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oostzaan"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergschenhoek_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergschenhoek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Venhuizen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Venhuizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bedum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bedum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AS> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AS"@nl .
+
+overheid:Dalen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dalen"@nl .
+
+overheid:Chaam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Chaam"@nl .
+
+overheid:Meeden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Meeden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Angerlo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Angerlo"@nl .
+
+overheid:Harkstede a overheid:KadastraleGemeente ;
+	skos:prefLabel "Harkstede"@nl .
+
+overheid:Rhoon a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rhoon"@nl .
+
+overheid:Wormerveer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wormerveer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nootdorp_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nootdorp"@nl .
+
+overheid:Kring_van_Dorth a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kring van Dorth"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Borsele_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Borsele"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Strijen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Strijen"@nl .
+
+overheid:Bergen_L a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergen (L)"@nl .
+
+overheid:Leens a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leens"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Susteren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Susteren"@nl .
+
+overheid:Linne a overheid:KadastraleGemeente ;
+	skos:prefLabel "Linne"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Geertruidenberg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Geertruidenberg"@nl .
+
+overheid:Stad-Almelo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stad-Almelo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Brederwiede_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Brederwiede"@nl .
+
+overheid:Baexem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Baexem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AR> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AR"@nl .
+
+overheid:Dommelen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dommelen"@nl .
+
+overheid:Hoek_van_Holland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoek van Holland"@nl .
+
+overheid:Grijpskerk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grijpskerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Son_en_Breugel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Son en Breugel"@nl .
+
+overheid:Brandwijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Brandwijk"@nl .
+
+overheid:Wijdewormer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wijdewormer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zelhem_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zelhem"@nl .
+
+overheid:Deil a overheid:KadastraleGemeente ;
+	skos:prefLabel "Deil"@nl .
+
+overheid:Mijdrecht a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mijdrecht"@nl .
+
+overheid:Schoonebeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schoonebeek"@nl .
+
+overheid:Schalkwijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schalkwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AW> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AW"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AY> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AY"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heythuysen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heythuysen"@nl .
+
+overheid:Kollum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kollum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_6e_afd._sectie_S> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 6e afd. (sectie S)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dieren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dieren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Born_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Born"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hoevelaken_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoevelaken"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AX> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AX"@nl .
+
+overheid:Limbricht a overheid:KadastraleGemeente ;
+	skos:prefLabel "Limbricht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zwijndrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zwijndrecht"@nl .
+
+overheid:Oirsbeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oirsbeek"@nl .
+
+overheid:Termunten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Termunten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AU> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AU"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Westervoort_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westervoort"@nl .
+
+overheid:Vreeland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vreeland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Marum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Marum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vlaardingen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vlaardingen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AV> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AV"@nl .
+
+overheid:IJsselmonde a overheid:KadastraleGemeente ;
+	skos:prefLabel "IJsselmonde"@nl .
+
+overheid:Benschop a overheid:KadastraleGemeente ;
+	skos:prefLabel "Benschop"@nl .
+
+overheid:Erp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Erp"@nl .
+
+overheid:Schelluinen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schelluinen"@nl .
+
+overheid:Duiveland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Duiveland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Appingedam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Appingedam"@nl .
+
+overheid:Arum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arum"@nl .
+
+overheid:Nieuwenhoorn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwenhoorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Venlo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Venlo"@nl .
+
+overheid:Wilnis a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wilnis"@nl .
+
+overheid:Brouwershaven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Brouwershaven"@nl .
+
+overheid:Assendelft a overheid:KadastraleGemeente ;
+	skos:prefLabel "Assendelft"@nl .
+
+overheid:Doornspijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Doornspijk"@nl .
+
+overheid:Beltrum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beltrum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heteren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heteren"@nl .
+
+overheid:Eelde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eelde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vorden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vorden"@nl .
+
+overheid:Wanroij a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wanroij"@nl .
+
+overheid:Hernen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hernen"@nl .
+
+overheid:Oud-Valkenburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oud-Valkenburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_AZ> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage AZ"@nl .
+
+overheid:Stevensweert a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stevensweert"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oirschot_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oirschot"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Opmeer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Opmeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BB> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BB"@nl .
+
+overheid:Nigtevecht a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nigtevecht"@nl .
+
+overheid:Markermeer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Markermeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oostburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oostburg"@nl .
+
+overheid:Willeskop a overheid:KadastraleGemeente ;
+	skos:prefLabel "Willeskop"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Naarden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Naarden"@nl .
+
+overheid:Beetgum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beetgum"@nl .
+
+overheid:Hoogkerk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoogkerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dirksland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dirksland"@nl .
+
+overheid:Lekkerkerk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lekkerkerk"@nl .
+
+overheid:Kloetinge a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kloetinge"@nl .
+
+overheid:Berghem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Berghem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Margraten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Margraten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravendeel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravendeel"@nl .
+
+overheid:Hooge_en_Lage_Zwaluwe a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hooge en Lage Zwaluwe"@nl .
+
+overheid:Loenersloot a overheid:KadastraleGemeente ;
+	skos:prefLabel "Loenersloot"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leek_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leek"@nl .
+
+overheid:Alem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Alem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BF> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BF"@nl .
+
+overheid:Wadenoijen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wadenoijen"@nl .
+
+overheid:Rossum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rossum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BE> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BE"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Neede_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Neede"@nl .
+
+overheid:Grafhorst a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grafhorst"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BD> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BD"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sint-Michielsgestel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint-Michielsgestel"@nl .
+
+overheid:Stoutenburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stoutenburg"@nl .
+
+overheid:Giekerk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Giekerk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BC> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BC"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Weerselo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Weerselo"@nl .
+
+overheid:Bennekom a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bennekom"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Staphorst_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Staphorst"@nl .
+
+overheid:Valkenburg_L a overheid:KadastraleGemeente ;
+	skos:prefLabel "Valkenburg (L)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Driebergen-Rijsenburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Driebergen-Rijsenburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maartensdijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maartensdijk"@nl .
+
+overheid:Haastrecht a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haastrecht"@nl .
+
+overheid:Nieuw-Helvoet a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuw-Helvoet"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Noordwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordwijk"@nl .
+
+overheid:Oud_en_Nieuw_Gastel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oud en Nieuw Gastel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Reimerswaal_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Reimerswaal"@nl .
+
+overheid:Hoogvliet a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoogvliet"@nl .
+
+overheid:Borger a overheid:KadastraleGemeente ;
+	skos:prefLabel "Borger"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BI> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BI"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Waddinxveen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waddinxveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Goes_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Goes"@nl .
+
+overheid:Drogeham a overheid:KadastraleGemeente ;
+	skos:prefLabel "Drogeham"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BH> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BH"@nl .
+
+overheid:Middelie a overheid:KadastraleGemeente ;
+	skos:prefLabel "Middelie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ermelo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ermelo"@nl .
+
+overheid:Warffum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Warffum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voerendaal_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Voerendaal"@nl .
+
+overheid:Westerbork a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westerbork"@nl .
+
+overheid:Snelrewaard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Snelrewaard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bleiswijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bleiswijk"@nl .
+
+overheid:Witmarsum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Witmarsum"@nl .
+
+overheid:Zuidwolde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuidwolde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_BG> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage BG"@nl .
+
+overheid:Nes a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nes"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Broekhuizen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Broekhuizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Amersfoort_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amersfoort"@nl .
+
+overheid:Tjerkwerd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tjerkwerd"@nl .
+
+overheid:Heerewaarden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heerewaarden"@nl .
+
+overheid:Werkhoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Werkhoven"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Loosdrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Loosdrecht"@nl .
+
+overheid:Duizel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Duizel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haaksbergen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haaksbergen"@nl .
+
+overheid:Stramproy a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stramproy"@nl .
+
+overheid:Peize a overheid:KadastraleGemeente ;
+	skos:prefLabel "Peize"@nl .
+
+overheid:Moergestel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Moergestel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schoonhoven_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schoonhoven"@nl .
+
+overheid:Lobith_en_Spijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lobith en Spijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Delfzijl_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Delfzijl"@nl .
+
+overheid:Hoek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoek"@nl .
+
+overheid:Itteren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Itteren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sint_Maarten_kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Maarten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Diemen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Diemen"@nl .
+
+overheid:Ruinen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ruinen"@nl .
+
+overheid:Netwerken_Leeuwarden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Leeuwarden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zederik_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zederik"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Slochteren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Slochteren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heerhugowaard_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heerhugowaard"@nl .
+
+overheid:Valkenisse a overheid:KadastraleGemeente ;
+	skos:prefLabel "Valkenisse"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Roermond_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Roermond"@nl .
+
+overheid:Heinenoord a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heinenoord"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Harderwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Harderwijk"@nl .
+
+overheid:Lierop a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lierop"@nl .
+
+overheid:Stompwijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stompwijk"@nl .
+
+overheid:Amby a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amby"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sassenheim_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sassenheim"@nl .
+
+overheid:Netwerken_Utrecht a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Utrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bernisse_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bernisse"@nl .
+
+overheid:Zoelen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zoelen"@nl .
+
+overheid:Stiphout a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stiphout"@nl .
+
+overheid:Hoog_Soeren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoog Soeren"@nl .
+
+overheid:Clinge a overheid:KadastraleGemeente ;
+	skos:prefLabel "Clinge"@nl .
+
+overheid:Usquert a overheid:KadastraleGemeente ;
+	skos:prefLabel "Usquert"@nl .
+
+overheid:Duurswoude a overheid:KadastraleGemeente ;
+	skos:prefLabel "Duurswoude"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Meijel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Meijel"@nl .
+
+overheid:Breukelen-Nijenrode a overheid:KadastraleGemeente ;
+	skos:prefLabel "Breukelen-Nijenrode"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nunspeet_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nunspeet"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heino_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heino"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ouder-Amstel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ouder-Amstel"@nl .
+
+overheid:Franeker a overheid:KadastraleGemeente ;
+	skos:prefLabel "Franeker"@nl .
+
+overheid:Asperen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Asperen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oisterwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oisterwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Arnhem_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arnhem"@nl .
+
+overheid:Keppel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Keppel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Abcoude_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Abcoude"@nl .
+
+overheid:Spaubeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Spaubeek"@nl .
+
+overheid:Ransdorp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ransdorp"@nl .
+
+overheid:Noordwolde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordwolde"@nl .
+
+overheid:Munstergeleen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Munstergeleen"@nl .
+
+overheid:Ee a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ee"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sint-Oedenrode_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint-Oedenrode"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Asten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Asten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Eindhoven_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eindhoven"@nl .
+
+overheid:Grouw a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grouw"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hardinxveld-Giessendam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hardinxveld-Giessendam"@nl .
+
+overheid:Oerle a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oerle"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lochem_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lochem"@nl .
+
+overheid:Rijckholt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rijckholt"@nl .
+
+overheid:Maarheeze a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maarheeze"@nl .
+
+overheid:Kwadijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kwadijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kerkrade_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kerkrade"@nl .
+
+overheid:Sint_Odilienberg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Odilienberg"@nl .
+
+overheid:Nieuwstadt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwstadt"@nl .
+
+overheid:Buitenpost a overheid:KadastraleGemeente ;
+	skos:prefLabel "Buitenpost"@nl .
+
+overheid:Lieve_Vrouwe_Parochie a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lieve Vrouwe Parochie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Geldermalsen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Geldermalsen"@nl .
+
+overheid:Ophemert a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ophemert"@nl .
+
+overheid:Laren_Gld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Laren (Gld)"@nl .
+
+overheid:Oudenrijn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oudenrijn"@nl .
+
+overheid:Aardenburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aardenburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Obdam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Obdam"@nl .
+
+overheid:Alphen_en_Riel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Alphen en Riel"@nl .
+
+overheid:Heel_en_Panheel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heel en Panheel"@nl .
+
+overheid:Nijeveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nijeveen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maarn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maarn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wageningen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wageningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nieuwleusen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwleusen"@nl .
+
+overheid:Cadzand a overheid:KadastraleGemeente ;
+	skos:prefLabel "Cadzand"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'t_Zandt> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'t Zandt"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Andijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Andijk"@nl .
+
+overheid:Udenhout a overheid:KadastraleGemeente ;
+	skos:prefLabel "Udenhout"@nl .
+
+overheid:Kantens a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kantens"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Westvoorne_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westvoorne"@nl .
+
+overheid:Westdorpe a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westdorpe"@nl .
+
+overheid:Gulpen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gulpen"@nl .
+
+overheid:Ammerstol a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ammerstol"@nl .
+
+overheid:Ottersum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ottersum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nijmegen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nijmegen"@nl .
+
+overheid:Charlois a overheid:KadastraleGemeente ;
+	skos:prefLabel "Charlois"@nl .
+
+overheid:Kuinre a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kuinre"@nl .
+
+overheid:Barsingerhorn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Barsingerhorn"@nl .
+
+overheid:Nieuw_Lekkerland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuw Lekkerland"@nl .
+
+overheid:Edam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Edam"@nl .
+
+overheid:Deinum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Deinum"@nl .
+
+overheid:Hooge_en_Lage_Mierde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hooge en Lage Mierde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Houten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Houten"@nl .
+
+overheid:Zaandam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zaandam"@nl .
+
+overheid:Herkingen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Herkingen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schoorl_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schoorl"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dronten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dronten"@nl .
+
+overheid:Langerak a overheid:KadastraleGemeente ;
+	skos:prefLabel "Langerak"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Loenen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Loenen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Holten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Holten"@nl .
+
+overheid:Aarle-Rixtel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Aarle-Rixtel"@nl .
+
+overheid:Knijpe a overheid:KadastraleGemeente ;
+	skos:prefLabel "Knijpe"@nl .
+
+overheid:Rolde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rolde"@nl .
+
+overheid:Hazerswoude a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hazerswoude"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Akersloot_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Akersloot"@nl .
+
+overheid:Sint_Philipsland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Philipsland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Middelharnis_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Middelharnis"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Beemster_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beemster"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Alphen_aan_den_Rijn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Alphen aan den Rijn"@nl .
+
+overheid:Netwerken_Assen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Assen"@nl .
+
+overheid:Vleuten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vleuten"@nl .
+
+overheid:Herten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Herten"@nl .
+
+overheid:Dussen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dussen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Texel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Texel"@nl .
+
+overheid:Jisp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Jisp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergeijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergeijk"@nl .
+
+overheid:Drachten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Drachten"@nl .
+
+overheid:Marrum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Marrum"@nl .
+
+overheid:IJmuiden a overheid:KadastraleGemeente ;
+	skos:prefLabel "IJmuiden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bodegraven_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bodegraven"@nl .
+
+overheid:Maashees a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maashees"@nl .
+
+overheid:Benthuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Benthuizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Goirle_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Goirle"@nl .
+
+overheid:Berkel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Berkel"@nl .
+
+overheid:Odoorn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Odoorn"@nl .
+
+overheid:Baard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Baard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ravenstein_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ravenstein"@nl .
+
+overheid:Houthem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Houthem"@nl .
+
+overheid:Heeswijk-Dinther a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heeswijk-Dinther"@nl .
+
+overheid:Noordzee_VII a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordzee VII"@nl .
+
+overheid:Wolvega a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wolvega"@nl .
+
+overheid:Ballum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ballum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Scheemda_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Scheemda"@nl .
+
+overheid:Heeze a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heeze"@nl .
+
+overheid:Scherpenisse a overheid:KadastraleGemeente ;
+	skos:prefLabel "Scherpenisse"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Buren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Buren"@nl .
+
+overheid:Bemelen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bemelen"@nl .
+
+overheid:Woensel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Woensel"@nl .
+
+overheid:Bovenkarspel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bovenkarspel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zwolle_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zwolle"@nl .
+
+overheid:Budel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Budel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Grootegast_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grootegast"@nl .
+
+overheid:Amsterdam_AL a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AL"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_10e_afd._sectie_ZAAABAC> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 10e afd. (sectie Z,AA,AB,AC)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Enkhuizen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Enkhuizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Diepenheim_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Diepenheim"@nl .
+
+overheid:Amsterdam_W a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam W"@nl .
+
+overheid:Stad-Doetinchem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stad-Doetinchem"@nl .
+
+overheid:den_Dungen a overheid:KadastraleGemeente ;
+	skos:prefLabel "den Dungen"@nl .
+
+overheid:Amsterdam_AK a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AK"@nl .
+
+overheid:Amsterdam_X a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam X"@nl .
+
+overheid:Lange_Ruige_Weide a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lange Ruige Weide"@nl .
+
+overheid:Helvoirt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Helvoirt"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kampen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kampen"@nl .
+
+overheid:Amsterdam_AO a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AO"@nl .
+
+overheid:Tienhoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tienhoven"@nl .
+
+overheid:Egmond_aan_Zee a overheid:KadastraleGemeente ;
+	skos:prefLabel "Egmond aan Zee"@nl .
+
+overheid:Zegveld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zegveld"@nl .
+
+overheid:Amsterdam_Y a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam Y"@nl .
+
+overheid:Polsbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Polsbroek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Veere_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veere"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Eersel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eersel"@nl .
+
+overheid:Amsterdam_AN a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AN"@nl .
+
+overheid:Amsterdam_AM a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AM"@nl .
+
+overheid:Gameren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gameren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Weesp_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Weesp"@nl .
+
+overheid:Amsterdam_Z a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam Z"@nl .
+
+overheid:Amsterdam_AQ a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AQ"@nl .
+
+overheid:Waardenburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waardenburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Veghel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veghel"@nl .
+
+overheid:Arnemuiden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arnemuiden"@nl .
+
+overheid:Amsterdam_AP a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AP"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maasbree_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maasbree"@nl .
+
+overheid:Oostermeer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oostermeer"@nl .
+
+overheid:Netwerken_Zwolle a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Zwolle"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kessel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kessel"@nl .
+
+overheid:Amsterdam_AS a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AS"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Naaldwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Naaldwijk"@nl .
+
+overheid:Westerschouwen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westerschouwen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Druten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Druten"@nl .
+
+overheid:Amsterdam_AR a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AR"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gendt_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gendt"@nl .
+
+overheid:Puttershoek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Puttershoek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Woudenberg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Woudenberg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Apeldoorn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Apeldoorn"@nl .
+
+overheid:Nederasselt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nederasselt"@nl .
+
+overheid:Wildervank_DE a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wildervank DE"@nl .
+
+overheid:Holwerd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Holwerd"@nl .
+
+overheid:Amsterdam_AD a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AD"@nl .
+
+overheid:Geervliet a overheid:KadastraleGemeente ;
+	skos:prefLabel "Geervliet"@nl .
+
+overheid:Hindeloopen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hindeloopen"@nl .
+
+overheid:Oudenbosch a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oudenbosch"@nl .
+
+overheid:Amsterdam_N a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam N"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Middelburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Middelburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oss_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oss"@nl .
+
+overheid:Amsterdam_AC a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AC"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Brielle_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Brielle"@nl .
+
+overheid:Amsterdam_O a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam O"@nl .
+
+overheid:Amsterdam_AF a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AF"@nl .
+
+overheid:Putte a overheid:KadastraleGemeente ;
+	skos:prefLabel "Putte"@nl .
+
+overheid:Baardwijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Baardwijk"@nl .
+
+overheid:Lemmer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lemmer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vlieland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vlieland"@nl .
+
+overheid:Amsterdam_P a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam P"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zutphen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zutphen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/IJsselmuiden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "IJsselmuiden"@nl .
+
+overheid:Otterlo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Otterlo"@nl .
+
+overheid:Ulestraten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ulestraten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leiden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leiden"@nl .
+
+overheid:Amsterdam_Q a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam Q"@nl .
+
+overheid:Middelstum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Middelstum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bussum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bussum"@nl .
+
+overheid:Batenburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Batenburg"@nl .
+
+overheid:Amsterdam_AH a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AH"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hillegom_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hillegom"@nl .
+
+overheid:Mesch a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mesch"@nl .
+
+overheid:Amsterdam_R a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam R"@nl .
+
+overheid:Ouderkerk_aan_den_IJssel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ouderkerk aan den IJssel"@nl .
+
+overheid:Nunhem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nunhem"@nl .
+
+overheid:Amsterdam_AG a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AG"@nl .
+
+overheid:Nieuwendam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwendam"@nl .
+
+overheid:Leeuwen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leeuwen"@nl .
+
+overheid:Westerhoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westerhoven"@nl .
+
+overheid:Dinteloord a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dinteloord"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Velsen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Velsen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ede_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ede"@nl .
+
+overheid:Middenschouwen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Middenschouwen"@nl .
+
+overheid:Amsterdam_S a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam S"@nl .
+
+overheid:Waspik a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waspik"@nl .
+
+overheid:Amsterdam_U a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam U"@nl .
+
+overheid:Teteringen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Teteringen"@nl .
+
+overheid:Hummelo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hummelo"@nl .
+
+overheid:Finsterwolde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Finsterwolde"@nl .
+
+overheid:Netwerken_Amsterdam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Amsterdam"@nl .
+
+overheid:Raamsdonk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Raamsdonk"@nl .
+
+overheid:Amsterdam_T a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam T"@nl .
+
+overheid:Amsterdam_V a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam V"@nl .
+
+overheid:Burum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Burum"@nl .
+
+overheid:Stad-Hardenberg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stad-Hardenberg"@nl .
+
+overheid:Amsterdam_AI a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AI"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dodewaard_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dodewaard"@nl .
+
+overheid:Buurmalsen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Buurmalsen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Boxtel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Boxtel"@nl .
+
+overheid:Monnickendam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Monnickendam"@nl .
+
+overheid:Amsterdam_G a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam G"@nl .
+
+overheid:Wanneperveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wanneperveen"@nl .
+
+overheid:Broek_in_Waterland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Broek in Waterland"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Emmen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Emmen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Assen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Assen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oegstgeest_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oegstgeest"@nl .
+
+overheid:Egmond-Binnen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Egmond-Binnen"@nl .
+
+overheid:Amsterdam_F a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam F"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Grubbenvorst_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grubbenvorst"@nl .
+
+overheid:Vries a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vries"@nl .
+
+overheid:Amsterdam_I a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam I"@nl .
+
+overheid:Vlodrop a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vlodrop"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Noordoostpolder_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordoostpolder"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_14e_afd._sectie_BBBC> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 14e afd. (sectie BB,BC)"@nl .
+
+overheid:Pernis a overheid:KadastraleGemeente ;
+	skos:prefLabel "Pernis"@nl .
+
+overheid:Voorthuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Voorthuizen"@nl .
+
+overheid:Sint_Jansteen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Jansteen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Duiven_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Duiven"@nl .
+
+overheid:Apeldoorn_AD a overheid:KadastraleGemeente ;
+	skos:prefLabel "Apeldoorn AD"@nl .
+
+overheid:Staveren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Staveren"@nl .
+
+overheid:Amsterdam_K a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam K"@nl .
+
+overheid:Papekop a overheid:KadastraleGemeente ;
+	skos:prefLabel "Papekop"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Borne_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Borne"@nl .
+
+overheid:Sint_Pancras a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Pancras"@nl .
+
+overheid:Apeldoorn_AC a overheid:KadastraleGemeente ;
+	skos:prefLabel "Apeldoorn AC"@nl .
+
+overheid:Amsterdam_M a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam M"@nl .
+
+overheid:Warder a overheid:KadastraleGemeente ;
+	skos:prefLabel "Warder"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Elst_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Elst"@nl .
+
+overheid:Amsterdam_L a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam L"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_5e_afd._sectie_PQV> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 5e afd. (sectie P,Q,V)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_7e_afd._sectie_RW> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 7e afd. (sectie R,W)"@nl .
+
+overheid:Wommels a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wommels"@nl .
+
+overheid:Amsterdam_AB a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam AB"@nl .
+
+overheid:Poortvliet a overheid:KadastraleGemeente ;
+	skos:prefLabel "Poortvliet"@nl .
+
+overheid:Huizum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Huizum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Breda_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Breda"@nl .
+
+overheid:Smilde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Smilde"@nl .
+
+overheid:Appeltern a overheid:KadastraleGemeente ;
+	skos:prefLabel "Appeltern"@nl .
+
+overheid:Veldhuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veldhuizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wehl_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wehl"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schinnen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schinnen"@nl .
+
+overheid:Berkenwoude a overheid:KadastraleGemeente ;
+	skos:prefLabel "Berkenwoude"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Mook_en_Middelaar_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mook en Middelaar"@nl .
+
+overheid:Waddenzee_I a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waddenzee I"@nl .
+
+overheid:Amsterdam_A a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam A"@nl .
+
+overheid:Ochten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ochten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Waalwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Waalwijk"@nl .
+
+overheid:Vlierden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vlierden"@nl .
+
+overheid:Apeldoorn_AF a overheid:KadastraleGemeente ;
+	skos:prefLabel "Apeldoorn AF"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stein_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stein"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bergen_N.H.> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bergen (N.H.)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leiderdorp_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leiderdorp"@nl .
+
+overheid:Bleskensgraaf a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bleskensgraaf"@nl .
+
+overheid:Kedichem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kedichem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Losser_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Losser"@nl .
+
+overheid:Kortgene a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kortgene"@nl .
+
+overheid:Capelle a overheid:KadastraleGemeente ;
+	skos:prefLabel "Capelle"@nl .
+
+overheid:Haps a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haps"@nl .
+
+overheid:Wanssum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wanssum"@nl .
+
+overheid:Oud-Zevenaar a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oud-Zevenaar"@nl .
+
+overheid:Krommenie a overheid:KadastraleGemeente ;
+	skos:prefLabel "Krommenie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Didam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Didam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Mierlo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mierlo"@nl .
+
+overheid:Leerbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leerbroek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vianen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vianen"@nl .
+
+overheid:Angeren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Angeren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Veenendaal_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veenendaal"@nl .
+
+overheid:Oijen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oijen"@nl .
+
+overheid:Garderen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Garderen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Stede_Broec_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stede Broec"@nl .
+
+overheid:Amsterdam_E a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amsterdam E"@nl .
+
+overheid:Dubbeldam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dubbeldam"@nl .
+
+overheid:Hoornaar a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoornaar"@nl .
+
+overheid:Hulsberg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hulsberg"@nl .
+
+overheid:Varsseveld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Varsseveld"@nl .
+
+overheid:Birdaard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Birdaard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Borculo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Borculo"@nl .
+
+overheid:Bahr_en_Lathum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bahr en Lathum"@nl .
+
+overheid:Vaassen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vaassen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Dalfsen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dalfsen"@nl .
+
+overheid:Sappemeer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sappemeer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Goedereede_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Goedereede"@nl .
+
+overheid:Arkel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arkel"@nl .
+
+overheid:de_Rijp a overheid:KadastraleGemeente ;
+	skos:prefLabel "de Rijp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Noorder-Koggenland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noorder-Koggenland"@nl .
+
+overheid:Schiebroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schiebroek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_F> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage F"@nl .
+
+overheid:Ommeren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ommeren"@nl .
+
+overheid:Westbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westbroek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Simpelveld_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Simpelveld"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bathmen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bathmen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_C> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage C"@nl .
+
+overheid:Meerlo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Meerlo"@nl .
+
+overheid:IJsselmeer a overheid:KadastraleGemeente ;
+	skos:prefLabel "IJsselmeer"@nl .
+
+overheid:Halsteren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Halsteren"@nl .
+
+overheid:Wessem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wessem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Arcen_en_Velden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arcen en Velden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_D> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage D"@nl .
+
+overheid:Wirdum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wirdum"@nl .
+
+overheid:Megen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Megen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_I> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage I"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hulst_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hulst"@nl .
+
+overheid:Berlicum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Berlicum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_K> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage K"@nl .
+
+overheid:Oldeberkoop a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oldeberkoop"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rijnsburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rijnsburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oldebroek_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oldebroek"@nl .
+
+overheid:Beekbergen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beekbergen"@nl .
+
+overheid:Catharijne a overheid:KadastraleGemeente ;
+	skos:prefLabel "Catharijne"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rhenen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rhenen"@nl .
+
+overheid:Hoogland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoogland"@nl .
+
+overheid:Wolphaartsdijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wolphaartsdijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/IJsselham_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "IJsselham"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_G> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage G"@nl .
+
+overheid:Westergeest a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westergeest"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tholen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tholen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hunsel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hunsel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Haaren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haaren"@nl .
+
+overheid:Haarlemmerliede_en_Spaar a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haarlemmerliede en Spaar"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lelystad_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lelystad"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Horst_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Horst"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schijndel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schijndel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_H> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage H"@nl .
+
+overheid:Ittervoort a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ittervoort"@nl .
+
+overheid:Vierpolders a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vierpolders"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/de_Lier_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "de Lier"@nl .
+
+overheid:Adorp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Adorp"@nl .
+
+overheid:Nuenen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nuenen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_N> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage N"@nl .
+
+overheid:Gemert a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gemert"@nl .
+
+overheid:Netwerken_Lelystad a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Lelystad"@nl .
+
+overheid:Netwerken_Zoetermeer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Zoetermeer"@nl .
+
+overheid:Nijehaske a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nijehaske"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_O> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage O"@nl .
+
+overheid:Wijlre a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wijlre"@nl .
+
+overheid:Wemeldinge a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wemeldinge"@nl .
+
+overheid:Uithuizermeeden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Uithuizermeeden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kesteren_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kesteren"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_L> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage L"@nl .
+
+overheid:Sint_Anna_Parochie a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Anna Parochie"@nl .
+
+overheid:Liempde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Liempde"@nl .
+
+overheid:Zetten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zetten"@nl .
+
+overheid:Sint_Jacobi_Parochie a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Jacobi Parochie"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_8e_afd._sectie_XAD> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 8e afd. (sectie X,AD)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schiedam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schiedam"@nl .
+
+overheid:Ouddorp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ouddorp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_R> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage R"@nl .
+
+overheid:Diessen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Diessen"@nl .
+
+overheid:Schimmert a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schimmert"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Axel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Axel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tegelen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tegelen"@nl .
+
+overheid:Beetsterzwaag a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beetsterzwaag"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Gravenhage_P> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage P"@nl .
+
+overheid:Zaandijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zaandijk"@nl .
+
+overheid:Merkelbeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Merkelbeek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Harmelen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Harmelen"@nl .
+
+overheid:Havelte a overheid:KadastraleGemeente ;
+	skos:prefLabel "Havelte"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Drechterland_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Drechterland"@nl .
+
+overheid:Nibbixwoud a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nibbixwoud"@nl .
+
+overheid:Obbicht_en_Papenhoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Obbicht en Papenhoven"@nl .
+
+overheid:Beets a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beets"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rijswijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rijswijk"@nl .
+
+overheid:Kortenhoef a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kortenhoef"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Ambt_Delden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ambt Delden"@nl .
+
+overheid:Stratum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stratum"@nl .
+
+overheid:Netwerken_Eindhoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Eindhoven"@nl .
+
+overheid:Ankeveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ankeveen"@nl .
+
+overheid:Nieuwe_Pekela a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwe Pekela"@nl .
+
+overheid:Warrega a overheid:KadastraleGemeente ;
+	skos:prefLabel "Warrega"@nl .
+
+overheid:Minnertsga a overheid:KadastraleGemeente ;
+	skos:prefLabel "Minnertsga"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zijpe_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zijpe"@nl .
+
+overheid:Oudenhoorn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oudenhoorn"@nl .
+
+overheid:Rijsbergen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rijsbergen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Venray_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Venray"@nl .
+
+overheid:Vrijhoeve-Capelle a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vrijhoeve-Capelle"@nl .
+
+overheid:Tongelre a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tongelre"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sevenum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sevenum"@nl .
+
+overheid:Krabbendijke a overheid:KadastraleGemeente ;
+	skos:prefLabel "Krabbendijke"@nl .
+
+overheid:Hengelo_O a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hengelo (O)"@nl .
+
+overheid:Standdaarbuiten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Standdaarbuiten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zoeterwoude_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zoeterwoude"@nl .
+
+overheid:Grootebroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Grootebroek"@nl .
+
+overheid:Ezinge a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ezinge"@nl .
+
+overheid:Zegwaard a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zegwaard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bunschoten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bunschoten"@nl .
+
+overheid:Noordzee_III a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordzee III"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Belfeld_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Belfeld"@nl .
+
+overheid:Ammerzoden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ammerzoden"@nl .
+
+overheid:Zuidlaren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuidlaren"@nl .
+
+overheid:Numansdorp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Numansdorp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Best_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Best"@nl .
+
+overheid:Rauwerd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rauwerd"@nl .
+
+overheid:Lexmond a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lexmond"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hilvarenbeek_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hilvarenbeek"@nl .
+
+overheid:Akkerwoude a overheid:KadastraleGemeente ;
+	skos:prefLabel "Akkerwoude"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Oostflakkee_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oostflakkee"@nl .
+
+overheid:Vessem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vessem"@nl .
+
+overheid:Wittem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wittem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Groenlo_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Groenlo"@nl .
+
+overheid:Almen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Almen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Veldhoven_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veldhoven"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gouda_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gouda"@nl .
+
+overheid:Leuth a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leuth"@nl .
+
+overheid:Bakel_en_Milheeze a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bakel en Milheeze"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Tiel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tiel"@nl .
+
+overheid:Arnhem_AA a overheid:KadastraleGemeente ;
+	skos:prefLabel "Arnhem AA"@nl .
+
+overheid:Graauw a overheid:KadastraleGemeente ;
+	skos:prefLabel "Graauw"@nl .
+
+overheid:Wormer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wormer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Montfoort_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Montfoort"@nl .
+
+overheid:Poederoijen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Poederoijen"@nl .
+
+overheid:Bocholtz a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bocholtz"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maastricht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maastricht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Steenwijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Steenwijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leusden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leusden"@nl .
+
+overheid:Bath a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bath"@nl .
+
+overheid:Heenvliet a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heenvliet"@nl .
+
+overheid:Piershil a overheid:KadastraleGemeente ;
+	skos:prefLabel "Piershil"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_12e_afd._sectie_AKALAMAN> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 12e afd. (sectie AK,AL,AM,AN)"@nl .
+
+overheid:Callantsoog a overheid:KadastraleGemeente ;
+	skos:prefLabel "Callantsoog"@nl .
+
+overheid:Zevenhoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zevenhoven"@nl .
+
+overheid:Kralingen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kralingen"@nl .
+
+overheid:Zevenbergen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zevenbergen"@nl .
+
+overheid:Noordzee_I a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordzee I"@nl .
+
+overheid:Mariekerke a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mariekerke"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Weert_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Weert"@nl .
+
+overheid:Tzummarum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Tzummarum"@nl .
+
+overheid:Mheer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mheer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bennebroek_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bennebroek"@nl .
+
+overheid:Laag_Nieuwkoop a overheid:KadastraleGemeente ;
+	skos:prefLabel "Laag Nieuwkoop"@nl .
+
+overheid:Kattendijke a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kattendijke"@nl .
+
+overheid:Zaamslag a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zaamslag"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Harlingen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Harlingen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Woerden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Woerden"@nl .
+
+overheid:Gouderak a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gouderak"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sluis_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sluis"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heerenveen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heerenveen"@nl .
+
+overheid:Ambt-Hardenberg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ambt-Hardenberg"@nl .
+
+overheid:Maarsseveen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maarsseveen"@nl .
+
+overheid:Oldeboorn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oldeboorn"@nl .
+
+overheid:Ambt-Ommen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ambt-Ommen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sloten_N.H.> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sloten (N.H.)"@nl .
+
+overheid:Dwingeloo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dwingeloo"@nl .
+
+overheid:Oosterwierum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oosterwierum"@nl .
+
+overheid:Nieuw-Beijerland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuw-Beijerland"@nl .
+
+overheid:Schin_op_Geul a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schin op Geul"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Loppersum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Loppersum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rozendaal_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rozendaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Renkum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Renkum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Nieuwkoop_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwkoop"@nl .
+
+overheid:Klundert a overheid:KadastraleGemeente ;
+	skos:prefLabel "Klundert"@nl .
+
+overheid:Lippenhuizen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lippenhuizen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Gendringen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gendringen"@nl .
+
+overheid:Katwoude a overheid:KadastraleGemeente ;
+	skos:prefLabel "Katwoude"@nl .
+
+overheid:Surhuizum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Surhuizum"@nl .
+
+overheid:Montfort a overheid:KadastraleGemeente ;
+	skos:prefLabel "Montfort"@nl .
+
+overheid:Buggenum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Buggenum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Spijkenisse_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Spijkenisse"@nl .
+
+overheid:Hatert a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hatert"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wervershoof_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wervershoof"@nl .
+
+overheid:Hien a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hien"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Maasdriel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maasdriel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schermer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schermer"@nl .
+
+overheid:Sint_Annaland a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Annaland"@nl .
+
+overheid:Ubach_over_Worms a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ubach over Worms"@nl .
+
+overheid:Kockengen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kockengen"@nl .
+
+overheid:Dokkum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Dokkum"@nl .
+
+overheid:Gieten a overheid:KadastraleGemeente ;
+	skos:prefLabel "Gieten"@nl .
+
+overheid:Maasbommel a overheid:KadastraleGemeente ;
+	skos:prefLabel "Maasbommel"@nl .
+
+overheid:Abstede a overheid:KadastraleGemeente ;
+	skos:prefLabel "Abstede"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Papendrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Papendrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Swalmen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Swalment"@nl .
+
+overheid:Neer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Neer"@nl .
+
+overheid:Vreeswijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vreeswijk"@nl .
+
+overheid:Ruinerwold a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ruinerwold"@nl .
+
+overheid:Vollenhove a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vollenhove"@nl .
+
+overheid:IJlst a overheid:KadastraleGemeente ;
+	skos:prefLabel "IJlst"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Barendrecht_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Barendrecht"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rotterdam_9e_afd._sectie_Y> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rotterdam 9e afd. (sectie Y)"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Baarle-Nassau_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Baarle-Nassau"@nl .
+
+overheid:Oud-Vroenhoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oud-Vroenhoven"@nl .
+
+overheid:Cadier_en_Keer a overheid:KadastraleGemeente ;
+	skos:prefLabel "Cadier en Keer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Lopik_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Lopik"@nl .
+
+overheid:s-Gravenhage_E a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Gravenhage E"@nl .
+
+overheid:Sint_Geertruid a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Geertruid"@nl .
+
+overheid:Langbroek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Langbroek"@nl .
+
+overheid:Strijp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Strijp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Loon_op_Zand_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Loon op Zand"@nl .
+
+overheid:Molenaarsgraaf a overheid:KadastraleGemeente ;
+	skos:prefLabel "Molenaarsgraaf"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Olst_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Olst"@nl .
+
+overheid:Melick_en_Herkenbosch a overheid:KadastraleGemeente ;
+	skos:prefLabel "Melick en Herkenbosch"@nl .
+
+overheid:Netwerken_Rotterdam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Rotterdam"@nl .
+
+overheid:Giessenburg a overheid:KadastraleGemeente ;
+	skos:prefLabel "Giessenburg"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Schipluiden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Schipluiden"@nl .
+
+overheid:Oude_Pekela a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oude Pekela"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/'s-Heer_Hendrikskinderen> a overheid:KadastraleGemeente ;
+	skos:prefLabel "'s-Heer Hendrikskinderen"@nl .
+
+overheid:Wedde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wedde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Winsum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Winsum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Beuningen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beuningen"@nl .
+
+overheid:Bingelrade a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bingelrade"@nl .
+
+overheid:Melissant a overheid:KadastraleGemeente ;
+	skos:prefLabel "Melissant"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Sittard_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sittard"@nl .
+
+overheid:Netwerken_Arnhem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Arnhem"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Etten-Leur_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Etten-Leur"@nl .
+
+overheid:Zweeloo a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zweeloo"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/IJsselstein_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "IJsselstein"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Boekel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Boekel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Leersum_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Leersum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rheden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rheden"@nl .
+
+overheid:Jorwerd a overheid:KadastraleGemeente ;
+	skos:prefLabel "Jorwerd"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Heerjansdam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Heerjansdam"@nl .
+
+overheid:Noordzee_V a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordzee V"@nl .
+
+overheid:Sint_Maartensdijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Maartensdijk"@nl .
+
+overheid:Sint_Pieter a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sint Pieter"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rijssen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rijssen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Voorschoten_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Voorschoten"@nl .
+
+overheid:Poortugaal a overheid:KadastraleGemeente ;
+	skos:prefLabel "Poortugaal"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vriezenveen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vriezenveen"@nl .
+
+overheid:Vuren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vuren"@nl .
+
+overheid:Zwammerdam a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zwammerdam"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Genemuiden_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Genemuiden"@nl .
+
+overheid:Beerta a overheid:KadastraleGemeente ;
+	skos:prefLabel "Beerta"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Cuijk_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Cuijk"@nl .
+
+overheid:Sommelsdijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Sommelsdijk"@nl .
+
+overheid:Stedum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Stedum"@nl .
+
+overheid:Zierikzee a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zierikzee"@nl .
+
+overheid:Amstenrade a overheid:KadastraleGemeente ;
+	skos:prefLabel "Amstenrade"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wijhe_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wijhe"@nl .
+
+overheid:Slijk-Ewijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Slijk-Ewijk"@nl .
+
+overheid:Bredevoort a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bredevoort"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Hengelo_Gld.> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hengelo (Gld)."@nl .
+
+overheid:Hallum a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hallum"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Boxmeer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Boxmeer"@nl .
+
+overheid:Onstwedde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Onstwedde"@nl .
+
+overheid:Blankenham a overheid:KadastraleGemeente ;
+	skos:prefLabel "Blankenham"@nl .
+
+overheid:Haaften a overheid:KadastraleGemeente ;
+	skos:prefLabel "Haaften"@nl .
+
+overheid:Netwerken_Roermond a overheid:KadastraleGemeente ;
+	skos:prefLabel "Netwerken Roermond"@nl .
+
+overheid:Bunde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bunde"@nl .
+
+overheid:Noordzee_VI a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noordzee VI"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Deventer_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Deventer"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Kapelle_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kapelle"@nl .
+
+overheid:Roden a overheid:KadastraleGemeente ;
+	skos:prefLabel "Roden"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Graft-de_Rijp_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Graft-de Rijp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Doesburg_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Doesburg"@nl .
+
+overheid:Koudekerk_aan_den_Rijn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Koudekerk aan den Rijn"@nl .
+
+overheid:Koog_aan_de_Zaan a overheid:KadastraleGemeente ;
+	skos:prefLabel "Koog aan de Zaan"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Bolsward_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bolsward"@nl .
+
+overheid:Jaarsveld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Jaarsveld"@nl .
+
+overheid:Zuilichem a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zuilichem"@nl .
+
+overheid:Westkapelle a overheid:KadastraleGemeente ;
+	skos:prefLabel "Westkapelle"@nl .
+
+overheid:Oudshoorn a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oudshoorn"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Helmond_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Helmond"@nl .
+
+overheid:Velp_Gld a overheid:KadastraleGemeente ;
+	skos:prefLabel "Velp (Gld)"@nl .
+
+overheid:Fijnaart a overheid:KadastraleGemeente ;
+	skos:prefLabel "Fijnaart"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Meerssen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Meerssen"@nl .
+
+overheid:Esch a overheid:KadastraleGemeente ;
+	skos:prefLabel "Esch"@nl .
+
+overheid:Bellingwolde a overheid:KadastraleGemeente ;
+	skos:prefLabel "Bellingwolde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Veendam_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Veendam"@nl .
+
+overheid:Mill a overheid:KadastraleGemeente ;
+	skos:prefLabel "Mill"@nl .
+
+overheid:Hoogezand a overheid:KadastraleGemeente ;
+	skos:prefLabel "Hoogezand"@nl .
+
+overheid:Nieuwerkerk_aan_den_IJss a overheid:KadastraleGemeente ;
+	skos:prefLabel "Nieuwerkerk aan den IJss"@nl .
+
+overheid:Ingen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Ingen"@nl .
+
+overheid:Weurt a overheid:KadastraleGemeente ;
+	skos:prefLabel "Weurt"@nl .
+
+overheid:Cothen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Cothen"@nl .
+
+overheid:Krimpen_aan_de_Lek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Krimpen aan de Lek"@nl .
+
+overheid:Vierlingsbeek a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vierlingsbeek"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zeewolde_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zeewolde"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Vaals_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Vaals"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Rucphen_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Rucphen"@nl .
+
+overheid:Eygelshoven a overheid:KadastraleGemeente ;
+	skos:prefLabel "Eygelshoven"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Capelle_aan_den_IJssel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Capelle aan den IJssel"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Valkenswaard_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Valkenswaard"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Landgraaf_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Landgraaf"@nl .
+
+overheid:Geesteren a overheid:KadastraleGemeente ;
+	skos:prefLabel "Geesteren"@nl .
+
+overheid:Noorddijk a overheid:KadastraleGemeente ;
+	skos:prefLabel "Noorddijk"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Thorn_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Thorn"@nl .
+
+overheid:Kruiningen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Kruiningen"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Wassenaar_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Wassenaar"@nl .
+
+overheid:Oudorp a overheid:KadastraleGemeente ;
+	skos:prefLabel "Oudorp"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Zaltbommel_(kadastrale_gemeente)> a overheid:KadastraleGemeente ;
+	skos:prefLabel "Zaltbommel"@nl .
+
+overheid:Herwijnen a overheid:KadastraleGemeente ;
+	skos:prefLabel "Herwijnen"@nl .

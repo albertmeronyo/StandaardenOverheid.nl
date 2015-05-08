@@ -1,0 +1,129 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:Veiligheidsregio a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/Veiligheidsregio.rdf> , <http://standaarden.overheid.nl/owms/terms/Veiligheidsregio.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/Veiligheidsregio.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/Veiligheidsregio.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:Veiligheidsregio rdfs:label "Veiligheidsregio"@nl ;
+	rdfs:subClassOf overheid:RegionaalSamenwerkingsorgaan ;
+	skos:prefLabel "Veiligheidsregio"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Overheidsorganisatie , overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:Veiligheidsregio .
+
+overheid:Veiligheidsregio_Rotterdam-Rijnmond a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Rotterdam-Rijnmond"@nl ;
+	overheid:startDate "2006-03-27"^^xsd:date .
+
+overheid:Veiligheidsregio_Flevoland a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Flevoland"@nl .
+
+overheid:vregnhn a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Noord-Holland Noord"@nl ;
+	overheid:startDate "2004-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Amsterdam-Amstelland a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Amsterdam-Amstelland"@nl .
+
+overheid:Veiligheidsregio_Fryslan a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Fryslân"@nl ;
+	overheid:startDate "2007-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Limburg-Noord a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Limburg-Noord"@nl ;
+	overheid:startDate "2002-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Zuid-Limburg a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Zuid-Limburg"@nl ;
+	overheid:startDate "2012-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Hollands_Midden a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Hollands Midden"@nl .
+
+overheid:Veiligheidsregio_Groningen a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Groningen"@nl ;
+	overheid:startDate "2013-11-15"^^xsd:date .
+
+overheid:Veiligheidsregio_Noord-_en_Oost-Gelderland a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Noord- en Oost-Gelderland"@nl .
+
+overheid:Veiligheidsregio_Brabant-Noord a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Brabant-Noord"@nl ;
+	overheid:startDate "2006-07-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Gelderland-Zuid a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Gelderland-Zuid"@nl .
+
+overheid:Veiligheidsregio_Gooi_en_Vechtstreek a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Gooi en Vechtstreek"@nl .
+
+overheid:vregfl a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Flevoland 2008"@nl ;
+	overheid:startDate "2008-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Midden-_en_West-Brabant a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Midden- en West-Brabant"@nl ;
+	overheid:startDate "2005-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Drenthe a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Drenthe"@nl .
+
+overheid:Veiligheidsregio_Zaanstreek-Waterland a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Zaanstreek-Waterland"@nl ;
+	overheid:startDate "2008-01-01"^^xsd:date .
+
+overheid:Veiligheidsregio_Twente a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Twente"@nl .
+
+overheid:Veiligheidsregio_Haaglanden a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Haaglanden"@nl .
+
+overheid:Veiligheidsregio_Utrecht a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Utrecht"@nl .
+
+overheid:Veiligheidsregio_Zeeland a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Zeeland"@nl .
+
+overheid:Veiligheidsregio_IJsselland a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio IJsselland"@nl .
+
+overheid:Veiligheidsregio_Brabant-Zuidoost a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Brabant-Zuidoost"@nl .
+
+overheid:Veiligheidsregio_Kennemerland a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Kennemerland"@nl .
+
+overheid:Veiligheidsregio_Zuid-Holland-Zuid a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Zuid-Holland-Zuid"@nl .
+
+overheid:vregzhz a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Zuid-Holland Zuid"@nl .
+
+overheid:Veiligheidsregio_Noord-Holland-Noord a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheidsregio Noord-Holland-Noord"@nl .
+
+overheid:Veiligheidsregio_Gelderland-Midden a overheid:Veiligheidsregio ;
+	skos:prefLabel "Veiligheids- en Gezondheidsregio Gelderland-Midden"@nl ;
+	overheid:startDate "2011-01-01"^^xsd:date .

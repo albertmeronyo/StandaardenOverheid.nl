@@ -1,0 +1,136 @@
+@prefix overheidbuza: <http://standaarden.overheid.nl/buza/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rijksoverheid: <http://standaarden.overheid.nl/rijksoverheid/terms/> .
+@prefix inspectieloket: <http://standaarden.overheid.nl/inspectieloket/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix overheidbm: <http://standaarden.overheid.nl/bm/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix overheidvg: <http://standaarden.overheid.nl/vergunningen/terms/> .
+@prefix overheidproduct: <http://standaarden.overheid.nl/product/terms/> .
+@prefix overheidrg: <http://standaarden.overheid.nl/cvdr/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix overheid: <http://standaarden.overheid.nl/owms/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix overheidvac: <http://standaarden.overheid.nl/vac/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix overheidop: <http://standaarden.overheid.nl/op/terms/> .
+
+overheid:OpenbaarLichaam a owl:Class ;
+	rdfs:isDefinedBy <http://standaarden.overheid.nl/owms/terms/OpenbaarLichaam.rdf> , <http://standaarden.overheid.nl/owms/terms/OpenbaarLichaam.n3> ;
+	foaf:page <http://standaarden.overheid.nl/owms/terms/OpenbaarLichaam.html> ;
+	dcterms:isPartOf overheid:OWMSdataset .
+
+<http://standaarden.overheid.nl/owms/terms/OpenbaarLichaam.n3> dcterms:publisher overheid:ICTU ;
+	dcterms:rights <http://en.wikipedia.org/wiki/WP:GFDL> .
+
+overheid:OpenbaarLichaam rdfs:label "Openbaar Lichaam"@nl ;
+	rdfs:subClassOf overheid:Overheidsorganisatie ;
+	skos:prefLabel "Openbaar Lichaam"@nl ;
+	a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf overheid:Organisatie , overheid:Agent , dcterms:Agent , owl:Thing , rdfs:Resource , overheid:OpenbaarLichaam .
+
+overheid:Saba a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Saba"@nl .
+
+overheid:Bonaire a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Bonaire"@nl .
+
+overheid:Sint_Eustatius a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Sint Eustatius"@nl .
+
+overheid:Sociaal_Economische_Raad a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Sociaal Economische Raad"@nl .
+
+overheid:Orde_van_Octrooigemachtigden a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Orde van Octrooigemachtigden"@nl .
+
+overheid:Productschap_Wijn a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschap Wijn"@nl .
+
+overheid:Bosschap a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Bosschap"@nl .
+
+overheid:Koninklijke_Beroepsorganisatie_van_Gerechtsdeurwaarders a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Koninklijke Beroepsorganisatie van Gerechtsdeurwaarders"@nl .
+
+overheid:Productschap_Vis a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschap Vis"@nl .
+
+overheid:Koninklijk_Nederlands_Instituut_van_Registeraccountants a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Koninklijk Nederlands Instituut van Registeraccountants"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+overheid:Bedrijfschap_Natuursteenbedrijf a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Bedrijfschap Natuursteenbedrijf"@nl .
+
+overheid:Bedrijfschap_voor_het_Slagersbedrijf a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Bedrijfschap voor het Slagersbedrijf"@nl .
+
+overheid:Koninklijke_Notariele_Beroepsorganisatie a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Koninklijke Notariële Beroepsorganisatie"@nl .
+
+overheid:NBA a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Nederlandse Beroepsorganisatie van Accountants"@nl ;
+	overheid:startDate "2013-01-01"^^xsd:date .
+
+overheid:Bedrijfschap_Horeca_en_Catering a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Bedrijfschap Horeca en Catering"@nl .
+
+overheid:Hoofdbedrijfschap_Ambachten a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Hoofdbedrijfschap Ambachten"@nl .
+
+overheid:Nederlandse_Loodsencorporatie a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Nederlandse Loodsencorporatie"@nl .
+
+overheid:Bedrijfschap_Afbouw a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Bedrijfschap Afbouw"@nl .
+
+overheid:Hoofdproductschap_Akkerbouw a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Hoofdproductschap Akkerbouw"@nl .
+
+overheid:Raad_voor_het_Zelfstandig_Ondernemerschap a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Raad voor het Zelfstandig Ondernemerschap"@nl .
+
+overheid:Productschap_Tuinbouw a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschap Tuinbouw"@nl .
+
+overheid:Hoofdbedrijfschap_Agrarische_Groothandel a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Hoofdbedrijfschap Agrarische Groothandel"@nl .
+
+overheid:Hoofdbedrijfschap_Afbouw_en_Onderhoud a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Hoofdbedrijfschap Afbouw en Onderhoud"@nl .
+
+overheid:Nederlandse_Orde_van_Advocaten a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Nederlandse Orde van Advocaten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Productschappen_Vee,_Vlees_en_Eieren> a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschappen Vee, Vlees en Eieren"@nl .
+
+overheid:Productschap_Dranken a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschap Dranken"@nl .
+
+overheid:Productschap_Diervoeder a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschap Diervoeder"@nl .
+
+overheid:norea a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Nederlandse Orde van Register EDP-Auditors"@nl .
+
+overheid:Hoofdbedrijfschap_Detailhandel a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Hoofdbedrijfschap Detailhandel"@nl .
+
+overheid:Nederlandse_Orde_van_Accountants-Administratieconsulenten a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Nederlandse Orde van Accountants-Administratieconsulenten"@nl ;
+	overheid:endDate "2012-12-31"^^xsd:date .
+
+<http://standaarden.overheid.nl/owms/terms/Productschap_Granen,_Zaden_en_Peulvruchten> a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschap Granen, Zaden en Peulvruchten"@nl .
+
+<http://standaarden.overheid.nl/owms/terms/Productschap_Margarine,_Vetten_en_Olien> a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschap Margarine, Vetten en Oliën"@nl .
+
+overheid:Productschap_Zuivel a overheid:OpenbaarLichaam ;
+	skos:prefLabel "Productschap Zuivel"@nl .
